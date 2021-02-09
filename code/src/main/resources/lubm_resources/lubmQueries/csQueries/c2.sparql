@@ -1,0 +1,11 @@
+SELECT  ?X ?Z ?Y ?U
+WHERE
+  {
+      { { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#undergraduateDegreeFrom>  ?U .
+          { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>  ?X .}
+        }
+        { ?Z  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  ?U .
+          { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>  ?Z .}
+        }
+      }
+  }

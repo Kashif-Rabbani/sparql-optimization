@@ -1,0 +1,13 @@
+SELECT  *
+WHERE
+  {
+      { { { { ?v3  <http://schema.org/containsPlace>  ?v0 .
+              { ?v3  <http://schema.org/url>  ?v4 .}
+            }
+            { ?v3  <http://schema.org/alternateName>  ?v5 .}
+          }
+          { ?v3  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://schema.org/Corporation> .}
+        }
+        { ?v0  <http://schema.org/location>  ?f .}
+      }
+  }

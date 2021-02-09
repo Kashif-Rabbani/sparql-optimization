@@ -1,0 +1,8 @@
+SELECT  *
+WHERE
+  { ?v0  <http://schema.org/hasOccupation>  ?v1 ;
+         <http://schema.org/nationality>  ?f ;
+         <http://schema.org/birthDate>  ?v3 ;
+         a                     <http://schema.org/Person>
+  }
+

@@ -1,0 +1,7 @@
+SELECT  ?v0 ?v9 ?v3
+WHERE
+  { ?v0  <http://schema.org/startDate>  ?v3 ;
+         a                     <http://schema.org/Event> ;
+         <http://schema.org/competitor>  ?v9
+  }
+

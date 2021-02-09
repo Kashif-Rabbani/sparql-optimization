@@ -1,0 +1,12 @@
+SELECT  ?v7 ?v8 ?v0 ?v4 ?v5 ?v2 ?v1 ?v3 ?v6
+WHERE
+  { ?v0  <http://schema.org/caption>  ?v1 ;
+         <http://schema.org/contentRating>  ?v3 ;
+         <http://schema.org/text>  ?v2 ;
+         <http://purl.org/stuff/rev#hasReview>  ?v4 .
+    ?v4  <http://purl.org/stuff/rev#title>  ?v5 ;
+         <http://purl.org/stuff/rev#reviewer>  ?v6 .
+    ?v7  <http://schema.org/actor>  ?v6 ;
+         <http://schema.org/language>  ?v8
+  }
+

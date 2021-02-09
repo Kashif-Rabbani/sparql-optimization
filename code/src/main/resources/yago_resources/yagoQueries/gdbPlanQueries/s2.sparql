@@ -1,0 +1,9 @@
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+?v0 <http://schema.org/hasOccupation> ?v1 .
+?v0 <http://schema.org/nationality> ?f .
+?v0 <http://schema.org/birthDate> ?v3 .
+?v0 rdf:type <http://schema.org/Person> .
+}

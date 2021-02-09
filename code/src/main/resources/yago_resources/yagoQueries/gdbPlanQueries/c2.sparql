@@ -1,0 +1,14 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+?v2 <http://schema.org/location> <http://yago-knowledge.org/resource/Moscow> .
+?v2 <http://schema.org/subOrganization> ?v3 .
+?v3 <http://schema.org/parentOrganization> ?v8 .
+?v8 <http://schema.org/foundingDate> ?v9 .
+?v7 <http://schema.org/subOrganization> ?v3 .
+?v4 <http://schema.org/parentOrganization> ?v7 .
+?v4 <http://schema.org/url> ?v6 .
+?v4 <http://schema.org/logo> ?v5 .
+?v0 <http://schema.org/memberOf> ?v2 .
+?v0 <http://schema.org/givenName> ?v1 .
+}

@@ -1,0 +1,14 @@
+SELECT  ?v2 ?v4 ?v6 ?v0 ?v1 ?v8 ?v9 ?v7 ?v3 ?v5
+WHERE
+  { ?v0  <http://schema.org/legalName>  ?v1 ;
+         <http://purl.org/goodrelations/offers>  ?v2 .
+    ?v2  <http://schema.org/eligibleRegion>  <http://db.uwaterloo.ca/~galuc/wsdbm/Country5> ;
+         <http://purl.org/goodrelations/includes>  ?v3 .
+    ?v3  <http://purl.org/stuff/rev#hasReview>  ?v8 .
+    ?v8  <http://purl.org/stuff/rev#totalVotes>  ?v9 .
+    ?v7  <http://db.uwaterloo.ca/~galuc/wsdbm/purchaseFor>  ?v3 .
+    ?v4  <http://db.uwaterloo.ca/~galuc/wsdbm/makesPurchase>  ?v7 ;
+         <http://schema.org/jobTitle>  ?v5 ;
+         <http://xmlns.com/foaf/homepage>  ?v6
+  }
+

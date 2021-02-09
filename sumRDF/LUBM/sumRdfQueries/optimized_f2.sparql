@@ -1,0 +1,14 @@
+SELECT  *
+WHERE
+  { ?D   <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  <http://www.University0.edu> .
+    ?A   <http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf>  ?D ;
+         <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C .
+    ?C   a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+    ?S   <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>  ?A ;
+         <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf>  ?C1 .
+    ?C1  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+    ?X   <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C ;
+         a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> ;
+         <http://swat.cse.lehigh.edu/onto/univ-bench.owl#name>  ?name
+  }
+

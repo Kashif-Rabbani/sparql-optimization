@@ -1,0 +1,13 @@
+SELECT  *
+WHERE
+  { ?v0  a                     <http://yago-knowledge.org/resource/Billionaire> ;
+         <http://schema.org/knowsLanguage>  ?v7 ;
+         <http://schema.org/givenName>  ?v5 ;
+         <http://schema.org/nationality>  ?v8 ;
+         <http://schema.org/alumniOf>  ?v6 ;
+         <http://schema.org/alumniOf>  ?v9 ;
+         <http://schema.org/birthDate>  ?v4 ;
+         <http://schema.org/hasOccupation>  ?v3 ;
+         <http://schema.org/alternateName>  ?v1
+  }
+

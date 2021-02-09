@@ -1,0 +1,350 @@
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX sim-methods: <http://dbtune.org/sim-methods/resource/>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX mbz: <http://dbtune.org/musicbrainz/resource/vocab/>
+PREFIX event: <http://dbtune.org/classical/resource/event/>
+PREFIX property: <http://dbtune.org/classical/resource/vocab/>
+PREFIX cmno: <http://purl.org/ontology/classicalmusicnav#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX composer: <http://dbtune.org/classical/resource/composer/>
+PREFIX style: <http://dbtune.org/classical/resource/style/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX sim: <http://purl.org/ontology/similarity/>
+PREFIX cmn: <http://dbtune.org/cmn/resource/>
+PREFIX geo: <http://sws.geonames.org/>
+PREFIX mo: <http://purl.org/ontology/mo/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX type: <http://dbtune.org/classical/resource/type/>
+PREFIX bio: <http://purl.org/vocab/bio/0.1/>
+PREFIX wikipedia: <http://en.wikipedia.org/wiki/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <http://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX shape: <http://dbTunes.shacl.io/>
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a type:Pianist. }
+shape:PianistShape a sh:NodeShape;
+  sh:property shape:namePianistShapeProperty;
+  sh:targetClass type:Pianist .
+
+shape:namePianistShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path foaf:name .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a type:Conductor. }
+
+
+shape:ConductorShape a sh:NodeShape;
+  sh:property shape:nameConductorShapeProperty, shape:sameAsConductorShapeProperty;
+  sh:targetClass type:Conductor .
+
+shape:nameConductorShapeProperty sh:datatype xsd:string;
+  sh:minCount 1;
+  sh:path foaf:name .
+
+shape:sameAsConductorShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 1;
+  sh:path owl:sameAs .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a sim:Similarity. }
+
+
+shape:SimilarityShape a sh:NodeShape;
+  sh:property shape:methodSimilarityShapeProperty, shape:objectSimilarityShapeProperty,
+    shape:subjectSimilarityShapeProperty;
+  sh:targetClass sim:Similarity .
+
+shape:methodSimilarityShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path sim:method .
+
+shape:objectSimilarityShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path sim:object .
+
+shape:subjectSimilarityShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path sim:subject .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a cmno:StylePeriod. }
+
+
+shape:StylePeriodShape a sh:NodeShape;
+  sh:property shape:titleStylePeriodShapeProperty;
+  sh:targetClass cmno:StylePeriod .
+
+shape:titleStylePeriodShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path dc:title .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a type:Composer. }
+
+
+shape:ComposerShape a sh:NodeShape;
+  sh:property shape:aliasComposerShapeProperty, shape:based_nearComposerShapeProperty,
+    shape:birthComposerShapeProperty, shape:deathComposerShapeProperty, shape:from_style_periodComposerShapeProperty,
+    shape:genderComposerShapeProperty, shape:hasInfluencedComposerShapeProperty, shape:influencedByComposerShapeProperty,
+    shape:nameComposerShapeProperty, shape:nationalityComposerShapeProperty, shape:pageComposerShapeProperty,
+    shape:periodComposerShapeProperty, shape:remarksComposerShapeProperty, shape:sameAsComposerShapeProperty,
+    shape:wikipediaComposerShapeProperty;
+  sh:targetClass type:Composer .
+
+shape:aliasComposerShapeProperty sh:datatype xsd:string;
+  sh:minCount 0;
+  sh:path mbz:alias .
+
+shape:based_nearComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path foaf:based_near .
+
+shape:birthComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:birth .
+
+shape:deathComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:death .
+
+shape:from_style_periodComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path cmno:from_style_period .
+
+shape:genderComposerShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:gender .
+
+shape:hasInfluencedComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path cmno:hasInfluenced .
+
+shape:influencedByComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path cmno:influencedBy .
+
+shape:nameComposerShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path foaf:name .
+
+shape:nationalityComposerShapeProperty sh:datatype xsd:string;
+  sh:minCount 0;
+  sh:path property:nationality .
+
+shape:pageComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path foaf:page .
+
+shape:periodComposerShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:period .
+
+shape:remarksComposerShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:remarks .
+
+shape:sameAsComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path owl:sameAs .
+
+shape:wikipediaComposerShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path mo:wikipedia .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a mo:Composition. }
+
+
+shape:CompositionShape a sh:NodeShape;
+  sh:property shape:composerCompositionShapeProperty, 
+  shape:dateCompositionShapeProperty,
+  shape:placeCompositionShapeProperty, 
+  shape:produced_workCompositionShapeProperty;
+  sh:targetClass mo:Composition .
+
+shape:composerCompositionShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:node shape:ComposerShape;
+  sh:path mo:composer .
+
+shape:dateCompositionShapeProperty sh:datatype xsd:integer;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path bio:date .
+
+shape:placeCompositionShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path bio:place .
+
+shape:produced_workCompositionShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:node shape:MusicalWorkShape;
+  sh:path mo:produced_work .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a foaf:Document. }
+
+
+shape:DocumentShape a sh:NodeShape;
+  sh:property shape:primaryTopicDocumentShapeProperty, shape:siteNameDocumentShapeProperty;
+  sh:targetClass foaf:Document .
+
+shape:primaryTopicDocumentShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path foaf:primaryTopic .
+
+shape:siteNameDocumentShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path property:siteName .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a bio:Death. }
+
+
+shape:DeathShape a sh:NodeShape;
+  sh:property shape:approximateDeathShapeProperty, shape:dateDeathShapeProperty;
+  sh:targetClass bio:Death .
+
+shape:approximateDeathShapeProperty sh:datatype xsd:boolean;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:approximate .
+
+shape:dateDeathShapeProperty sh:datatype xsd:integer;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path bio:date .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a owl:ObjectProperty. }
+
+
+shape:ObjectPropertyShape a sh:NodeShape;
+  sh:property shape:subPropertyOfObjectPropertyShapeProperty;
+  sh:targetClass owl:ObjectProperty .
+
+shape:subPropertyOfObjectPropertyShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path rdfs:subPropertyOf .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a owl:Class. }
+
+
+shape:ClassShape a sh:NodeShape;
+  sh:property shape:subClassOfClassShapeProperty;
+  sh:targetClass owl:Class .
+
+shape:subClassOfClassShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path rdfs:subClassOf .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a mo:MusicalWork. }
+
+
+shape:MusicalWorkShape a sh:NodeShape;
+  sh:property shape:aliasMusicalWorkShapeProperty, shape:catalogueMusicalWorkShapeProperty,
+    shape:composed_inMusicalWorkShapeProperty, shape:formMusicalWorkShapeProperty, shape:hasPartMusicalWorkShapeProperty,
+    shape:isPartOfMusicalWorkShapeProperty, shape:keyMusicalWorkShapeProperty, shape:numberMusicalWorkShapeProperty,
+    shape:opusMusicalWorkShapeProperty, shape:pageMusicalWorkShapeProperty, shape:remarksMusicalWorkShapeProperty,
+    shape:titleMusicalWorkShapeProperty;
+  sh:targetClass mo:MusicalWork .
+
+shape:aliasMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:minCount 0;
+  sh:path mbz:alias .
+
+shape:catalogueMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path mo:catalogue .
+
+shape:composed_inMusicalWorkShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path mo:composed_in .
+
+shape:formMusicalWorkShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:form .
+
+shape:hasPartMusicalWorkShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path dc:hasPart .
+
+shape:isPartOfMusicalWorkShapeProperty sh:NodeKind sh:IRI;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path dc:isPartOf .
+
+shape:keyMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path mo:key .
+
+shape:numberMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path mo:number .
+
+shape:opusMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path mo:opus .
+
+shape:pageMusicalWorkShapeProperty sh:NodeKind sh:IRI;
+  sh:minCount 0;
+  sh:path foaf:page .
+
+shape:remarksMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:remarks .
+
+shape:titleMusicalWorkShapeProperty sh:datatype xsd:string;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path dc:title .
+
+
+# Result for pattern {a [__] ; ~ __} and query SELECT ?x WHERE {?x a bio:Birth. }
+
+
+shape:BirthShape a sh:NodeShape;
+  sh:property shape:approximateBirthShapeProperty, shape:dateBirthShapeProperty;
+  sh:targetClass bio:Birth .
+
+shape:approximateBirthShapeProperty sh:datatype xsd:boolean;
+  sh:maxCount 1;
+  sh:minCount 0;
+  sh:path property:approximate .
+
+shape:dateBirthShapeProperty sh:datatype xsd:integer;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:path bio:date .
+
+

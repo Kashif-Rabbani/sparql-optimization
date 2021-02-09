@@ -1,0 +1,8 @@
+SELECT  ?v3 ?v0 ?v2 ?f
+WHERE
+  { ?v0  <http://schema.org/nationality>  <http://yago-knowledge.org/resource/United_States> .
+    ?v3  <http://schema.org/actor>  ?v0 .
+    ?v0  <http://schema.org/givenName>  ?v2 ;
+         <http://schema.org/hasOccupation>  ?f
+  }
+

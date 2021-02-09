@@ -1,0 +1,8 @@
+SELECT * WHERE {
+?v3 <http://schema.org/trailer> ?v4 .
+?v3 <http://schema.org/keywords> ?v5 .
+?v3 rdf:type <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+?v0 <http://ogp.me/ns#tag> ?f .
+}
+

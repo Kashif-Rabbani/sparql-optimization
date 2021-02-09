@@ -1,0 +1,11 @@
+SELECT  ?v0 ?v5 ?v2 ?f ?v1 ?v6 ?v7 ?v4
+WHERE
+  { ?v0  <http://schema.org/about>  ?v5 ;
+         <http://schema.org/duration>  ?v2 ;
+         <http://schema.org/musicBy>  ?v4 ;
+         <http://schema.org/genre>  ?f ;
+         <http://schema.org/actor>  ?v1 .
+    ?v1  <http://schema.org/memberOf>  ?v7 ;
+         <http://schema.org/alternateName>  ?v6
+  }
+

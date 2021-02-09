@@ -1,0 +1,9 @@
+SELECT  *
+WHERE
+  {
+      { { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>  ?Y .
+          { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom>  ?Z .}
+        }
+        { ?X  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Faculty> .}
+      }
+  }

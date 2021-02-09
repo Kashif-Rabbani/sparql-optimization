@@ -1,0 +1,1774 @@
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix shape:  <http://watDiv.shacl.io/> .
+@prefix mo:     <http://purl.org/ontology/mo/> .
+@prefix wd:     <http://db.uwaterloo.ca/~galuc/wsdbm/> .
+@prefix foaf:   <http://xmlns.com/foaf/> .
+@prefix ogp:    <http://ogp.me/ns#> .
+@prefix rev:    <http://purl.org/stuff/rev#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix stat:   <http://watDiv.shacl.stat.io/> .
+
+shape:Genre0Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre0ShapeProperty ;
+    sh:targetClass wd:Genre0 .
+
+shape:Genre10Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre10ShapeProperty ;
+    sh:targetClass wd:Genre10 .
+
+shape:Genre11Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre11ShapeProperty ;
+    sh:targetClass wd:Genre11 .
+
+shape:Genre12Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre12ShapeProperty ;
+    sh:targetClass wd:Genre12 .
+
+shape:Genre13Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre13ShapeProperty ;
+    sh:targetClass wd:Genre13 .
+
+shape:Genre14Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre14ShapeProperty ;
+    sh:targetClass wd:Genre14 .
+
+shape:Genre15Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre15ShapeProperty ;
+    sh:targetClass wd:Genre15 .
+
+shape:Genre16Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre16ShapeProperty ;
+    sh:targetClass wd:Genre16 .
+
+shape:Genre17Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre17ShapeProperty ;
+    sh:targetClass wd:Genre17 .
+
+shape:Genre18Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre18ShapeProperty ;
+    sh:targetClass wd:Genre18 .
+
+shape:Genre19Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre19ShapeProperty ;
+    sh:targetClass wd:Genre19 .
+
+shape:Genre1Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre1ShapeProperty ;
+    sh:targetClass wd:Genre1 .
+
+shape:Genre20Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre20ShapeProperty ;
+    sh:targetClass wd:Genre20 .
+
+shape:Genre2Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre2ShapeProperty ;
+    sh:targetClass wd:Genre2 .
+
+shape:Genre3Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre3ShapeProperty ;
+    sh:targetClass wd:Genre3 .
+
+shape:Genre4Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre4ShapeProperty ;
+    sh:targetClass wd:Genre4 .
+
+shape:Genre5Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre5ShapeProperty ;
+    sh:targetClass wd:Genre5 .
+
+shape:Genre6Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre6ShapeProperty ;
+    sh:targetClass wd:Genre6 .
+
+shape:Genre7Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre7ShapeProperty ;
+    sh:targetClass wd:Genre7 .
+
+shape:Genre8Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre8ShapeProperty ;
+    sh:targetClass wd:Genre8 .
+
+shape:Genre9Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:tagGenre9ShapeProperty ;
+    sh:targetClass wd:Genre9 .
+
+shape:ProductCategory0Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory0ShapeProperty, shape:composerProductCategory0ShapeProperty,
+                   shape:conductorProductCategory0ShapeProperty, shape:contentRatingProductCategory0ShapeProperty,
+                   shape:contentSizeProductCategory0ShapeProperty, shape:descriptionProductCategory0ShapeProperty,
+                   shape:expiresProductCategory0ShapeProperty, shape:hasGenreProductCategory0ShapeProperty,
+                   shape:hasReviewProductCategory0ShapeProperty, shape:homepageProductCategory0ShapeProperty,
+                   shape:keywordsProductCategory0ShapeProperty, shape:movementProductCategory0ShapeProperty,
+                   shape:opusProductCategory0ShapeProperty, shape:performed_inProductCategory0ShapeProperty,
+                   shape:performerProductCategory0ShapeProperty, shape:tagProductCategory0ShapeProperty,
+                   shape:textProductCategory0ShapeProperty, shape:titleProductCategory0ShapeProperty ;
+    sh:targetClass wd:ProductCategory0 .
+
+shape:ProductCategory10Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory10ShapeProperty, shape:contentRatingProductCategory10ShapeProperty,
+                   shape:contentSizeProductCategory10ShapeProperty, shape:descriptionProductCategory10ShapeProperty,
+                   shape:expiresProductCategory10ShapeProperty, shape:hasGenreProductCategory10ShapeProperty,
+                   shape:hasReviewProductCategory10ShapeProperty, shape:homepageProductCategory10ShapeProperty,
+                   shape:keywordsProductCategory10ShapeProperty, shape:tagProductCategory10ShapeProperty,
+                   shape:textProductCategory10ShapeProperty, shape:titleProductCategory10ShapeProperty ;
+    sh:targetClass wd:ProductCategory10 .
+
+shape:ProductCategory11Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory11ShapeProperty, shape:contentRatingProductCategory11ShapeProperty,
+                   shape:contentSizeProductCategory11ShapeProperty, shape:descriptionProductCategory11ShapeProperty,
+                   shape:expiresProductCategory11ShapeProperty, shape:hasGenreProductCategory11ShapeProperty,
+                   shape:hasReviewProductCategory11ShapeProperty, shape:homepageProductCategory11ShapeProperty,
+                   shape:keywordsProductCategory11ShapeProperty, shape:tagProductCategory11ShapeProperty,
+                   shape:textProductCategory11ShapeProperty, shape:titleProductCategory11ShapeProperty ;
+    sh:targetClass wd:ProductCategory11 .
+
+shape:ProductCategory12Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory12ShapeProperty, shape:contentRatingProductCategory12ShapeProperty,
+                   shape:contentSizeProductCategory12ShapeProperty, shape:descriptionProductCategory12ShapeProperty,
+                   shape:expiresProductCategory12ShapeProperty, shape:hasGenreProductCategory12ShapeProperty,
+                   shape:hasReviewProductCategory12ShapeProperty, shape:homepageProductCategory12ShapeProperty,
+                   shape:keywordsProductCategory12ShapeProperty, shape:tagProductCategory12ShapeProperty,
+                   shape:textProductCategory12ShapeProperty, shape:titleProductCategory12ShapeProperty ;
+    sh:targetClass wd:ProductCategory12 .
+
+shape:ProductCategory13Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory13ShapeProperty, shape:contentRatingProductCategory13ShapeProperty,
+                   shape:contentSizeProductCategory13ShapeProperty, shape:descriptionProductCategory13ShapeProperty,
+                   shape:expiresProductCategory13ShapeProperty, shape:hasGenreProductCategory13ShapeProperty,
+                   shape:hasReviewProductCategory13ShapeProperty, shape:homepageProductCategory13ShapeProperty,
+                   shape:keywordsProductCategory13ShapeProperty, shape:tagProductCategory13ShapeProperty,
+                   shape:textProductCategory13ShapeProperty, shape:titleProductCategory13ShapeProperty ;
+    sh:targetClass wd:ProductCategory13 .
+
+shape:ProductCategory14Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory14ShapeProperty, shape:contentRatingProductCategory14ShapeProperty,
+                   shape:contentSizeProductCategory14ShapeProperty, shape:descriptionProductCategory14ShapeProperty,
+                   shape:expiresProductCategory14ShapeProperty, shape:hasGenreProductCategory14ShapeProperty,
+                   shape:hasReviewProductCategory14ShapeProperty, shape:homepageProductCategory14ShapeProperty,
+                   shape:keywordsProductCategory14ShapeProperty, shape:tagProductCategory14ShapeProperty,
+                   shape:textProductCategory14ShapeProperty, shape:titleProductCategory14ShapeProperty ;
+    sh:targetClass wd:ProductCategory14 .
+
+shape:ProductCategory1Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:artistProductCategory1ShapeProperty, shape:captionProductCategory1ShapeProperty,
+                   shape:contentRatingProductCategory1ShapeProperty, shape:contentSizeProductCategory1ShapeProperty,
+                   shape:descriptionProductCategory1ShapeProperty, shape:expiresProductCategory1ShapeProperty,
+                   shape:hasGenreProductCategory1ShapeProperty, shape:hasReviewProductCategory1ShapeProperty,
+                   shape:homepageProductCategory1ShapeProperty, shape:keywordsProductCategory1ShapeProperty,
+                   shape:producerProductCategory1ShapeProperty, shape:record_numberProductCategory1ShapeProperty,
+                   shape:releaseProductCategory1ShapeProperty, shape:tagProductCategory1ShapeProperty,
+                   shape:textProductCategory1ShapeProperty, shape:titleProductCategory1ShapeProperty ;
+    sh:targetClass wd:ProductCategory1 .
+
+shape:ProductCategory2Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:actorProductCategory2ShapeProperty, shape:awardProductCategory2ShapeProperty,
+                   shape:captionProductCategory2ShapeProperty, shape:contentRatingProductCategory2ShapeProperty,
+                   shape:contentSizeProductCategory2ShapeProperty, shape:descriptionProductCategory2ShapeProperty,
+                   shape:directorProductCategory2ShapeProperty, shape:durationProductCategory2ShapeProperty,
+                   shape:expiresProductCategory2ShapeProperty, shape:hasGenreProductCategory2ShapeProperty,
+                   shape:hasReviewProductCategory2ShapeProperty, shape:homepageProductCategory2ShapeProperty,
+                   shape:keywordsProductCategory2ShapeProperty, shape:languageProductCategory2ShapeProperty,
+                   shape:producerProductCategory2ShapeProperty, shape:tagProductCategory2ShapeProperty,
+                   shape:textProductCategory2ShapeProperty, shape:titleProductCategory2ShapeProperty,
+                   shape:trailerProductCategory2ShapeProperty ;
+    sh:targetClass wd:ProductCategory2 .
+
+shape:ProductCategory3Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:authorProductCategory3ShapeProperty, shape:bookEditionProductCategory3ShapeProperty,
+                   shape:captionProductCategory3ShapeProperty, shape:contentRatingProductCategory3ShapeProperty,
+                   shape:contentSizeProductCategory3ShapeProperty, shape:descriptionProductCategory3ShapeProperty,
+                   shape:editorProductCategory3ShapeProperty, shape:expiresProductCategory3ShapeProperty,
+                   shape:hasGenreProductCategory3ShapeProperty, shape:hasReviewProductCategory3ShapeProperty,
+                   shape:homepageProductCategory3ShapeProperty, shape:isbnProductCategory3ShapeProperty,
+                   shape:keywordsProductCategory3ShapeProperty, shape:languageProductCategory3ShapeProperty,
+                   shape:numberOfPagesProductCategory3ShapeProperty, shape:tagProductCategory3ShapeProperty,
+                   shape:textProductCategory3ShapeProperty, shape:titleProductCategory3ShapeProperty ;
+    sh:targetClass wd:ProductCategory3 .
+
+shape:ProductCategory4Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:authorProductCategory4ShapeProperty, shape:captionProductCategory4ShapeProperty,
+                   shape:contentRatingProductCategory4ShapeProperty, shape:contentSizeProductCategory4ShapeProperty,
+                   shape:datePublishedProductCategory4ShapeProperty, shape:descriptionProductCategory4ShapeProperty,
+                   shape:editorProductCategory4ShapeProperty, shape:expiresProductCategory4ShapeProperty,
+                   shape:hasGenreProductCategory4ShapeProperty, shape:hasReviewProductCategory4ShapeProperty,
+                   shape:homepageProductCategory4ShapeProperty, shape:keywordsProductCategory4ShapeProperty,
+                   shape:printColumnProductCategory4ShapeProperty, shape:printEditionProductCategory4ShapeProperty,
+                   shape:printPageProductCategory4ShapeProperty, shape:printSectionProductCategory4ShapeProperty,
+                   shape:publisherProductCategory4ShapeProperty, shape:tagProductCategory4ShapeProperty,
+                   shape:textProductCategory4ShapeProperty, shape:titleProductCategory4ShapeProperty,
+                   shape:wordCountProductCategory4ShapeProperty ;
+    sh:targetClass wd:ProductCategory4 .
+
+shape:ProductCategory5Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory5ShapeProperty, shape:contentRatingProductCategory5ShapeProperty,
+                   shape:contentSizeProductCategory5ShapeProperty, shape:descriptionProductCategory5ShapeProperty,
+                   shape:expiresProductCategory5ShapeProperty, shape:hasGenreProductCategory5ShapeProperty,
+                   shape:hasReviewProductCategory5ShapeProperty, shape:homepageProductCategory5ShapeProperty,
+                   shape:keywordsProductCategory5ShapeProperty, shape:tagProductCategory5ShapeProperty,
+                   shape:textProductCategory5ShapeProperty, shape:titleProductCategory5ShapeProperty ;
+    sh:targetClass wd:ProductCategory5 .
+
+shape:ProductCategory6Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory6ShapeProperty, shape:contentRatingProductCategory6ShapeProperty,
+                   shape:contentSizeProductCategory6ShapeProperty, shape:descriptionProductCategory6ShapeProperty,
+                   shape:expiresProductCategory6ShapeProperty, shape:hasGenreProductCategory6ShapeProperty,
+                   shape:hasReviewProductCategory6ShapeProperty, shape:homepageProductCategory6ShapeProperty,
+                   shape:keywordsProductCategory6ShapeProperty, shape:tagProductCategory6ShapeProperty,
+                   shape:textProductCategory6ShapeProperty, shape:titleProductCategory6ShapeProperty ;
+    sh:targetClass wd:ProductCategory6 .
+
+shape:ProductCategory7Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory7ShapeProperty, shape:contentRatingProductCategory7ShapeProperty,
+                   shape:contentSizeProductCategory7ShapeProperty, shape:descriptionProductCategory7ShapeProperty,
+                   shape:expiresProductCategory7ShapeProperty, shape:hasGenreProductCategory7ShapeProperty,
+                   shape:hasReviewProductCategory7ShapeProperty, shape:homepageProductCategory7ShapeProperty,
+                   shape:keywordsProductCategory7ShapeProperty, shape:tagProductCategory7ShapeProperty,
+                   shape:textProductCategory7ShapeProperty, shape:titleProductCategory7ShapeProperty ;
+    sh:targetClass wd:ProductCategory7 .
+
+shape:ProductCategory8Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory8ShapeProperty, shape:contentRatingProductCategory8ShapeProperty,
+                   shape:contentSizeProductCategory8ShapeProperty, shape:descriptionProductCategory8ShapeProperty,
+                   shape:expiresProductCategory8ShapeProperty, shape:hasGenreProductCategory8ShapeProperty,
+                   shape:hasReviewProductCategory8ShapeProperty, shape:homepageProductCategory8ShapeProperty,
+                   shape:keywordsProductCategory8ShapeProperty, shape:tagProductCategory8ShapeProperty,
+                   shape:textProductCategory8ShapeProperty, shape:titleProductCategory8ShapeProperty ;
+    sh:targetClass wd:ProductCategory8 .
+
+shape:ProductCategory9Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:captionProductCategory9ShapeProperty, shape:contentRatingProductCategory9ShapeProperty,
+                   shape:contentSizeProductCategory9ShapeProperty, shape:descriptionProductCategory9ShapeProperty,
+                   shape:expiresProductCategory9ShapeProperty, shape:hasGenreProductCategory9ShapeProperty,
+                   shape:hasReviewProductCategory9ShapeProperty, shape:homepageProductCategory9ShapeProperty,
+                   shape:keywordsProductCategory9ShapeProperty, shape:tagProductCategory9ShapeProperty,
+                   shape:textProductCategory9ShapeProperty, shape:titleProductCategory9ShapeProperty ;
+    sh:targetClass wd:ProductCategory9 .
+
+shape:Role0Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:LocationRole0ShapeProperty, shape:ageRole0ShapeProperty, shape:birthDateRole0ShapeProperty,
+                   shape:emailRole0ShapeProperty, shape:familyNameRole0ShapeProperty, shape:followsRole0ShapeProperty,
+                   shape:friendOfRole0ShapeProperty, shape:genderRole0ShapeProperty, shape:givenNameRole0ShapeProperty,
+                   shape:homepageRole0ShapeProperty, shape:jobTitleRole0ShapeProperty, shape:likesRole0ShapeProperty,
+                   shape:makesPurchaseRole0ShapeProperty, shape:nationalityRole0ShapeProperty,
+                   shape:subscribesRole0ShapeProperty, shape:telephoneRole0ShapeProperty,
+                   shape:userIdRole0ShapeProperty ;
+    sh:targetClass wd:Role0 .
+
+shape:Role1Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:LocationRole1ShapeProperty, shape:ageRole1ShapeProperty, shape:birthDateRole1ShapeProperty,
+                   shape:emailRole1ShapeProperty, shape:familyNameRole1ShapeProperty, shape:followsRole1ShapeProperty,
+                   shape:friendOfRole1ShapeProperty, shape:genderRole1ShapeProperty, shape:givenNameRole1ShapeProperty,
+                   shape:homepageRole1ShapeProperty, shape:jobTitleRole1ShapeProperty, shape:likesRole1ShapeProperty,
+                   shape:makesPurchaseRole1ShapeProperty, shape:nationalityRole1ShapeProperty,
+                   shape:subscribesRole1ShapeProperty, shape:telephoneRole1ShapeProperty,
+                   shape:userIdRole1ShapeProperty ;
+    sh:targetClass wd:Role1 .
+
+shape:Role2Shape
+    a              sh:NodeShape ;
+    sh:nodeKind    sh:BlankNodeOrIRI ;
+    sh:property    shape:LocationRole2ShapeProperty, shape:ageRole2ShapeProperty, shape:birthDateRole2ShapeProperty,
+                   shape:emailRole2ShapeProperty, shape:familyNameRole2ShapeProperty, shape:followsRole2ShapeProperty,
+                   shape:friendOfRole2ShapeProperty, shape:genderRole2ShapeProperty, shape:givenNameRole2ShapeProperty,
+                   shape:homepageRole2ShapeProperty, shape:jobTitleRole2ShapeProperty, shape:likesRole2ShapeProperty,
+                   shape:makesPurchaseRole2ShapeProperty, shape:nationalityRole2ShapeProperty,
+                   shape:subscribesRole2ShapeProperty, shape:telephoneRole2ShapeProperty,
+                   shape:userIdRole2ShapeProperty ;
+    sh:targetClass wd:Role2 .
+
+shape:LocationRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     dct:Location .
+
+shape:LocationRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     dct:Location .
+
+shape:LocationRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     dct:Location .
+
+shape:actorProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:actor .
+
+shape:ageRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:age .
+
+shape:ageRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:age .
+
+shape:ageRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:age .
+
+shape:artistProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     mo:artist .
+
+shape:authorProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:author .
+
+shape:authorProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:author .
+
+shape:awardProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:award .
+
+shape:birthDateRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:birthDate .
+
+shape:birthDateRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:birthDate .
+
+shape:birthDateRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:birthDate .
+
+shape:bookEditionProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:bookEdition .
+
+shape:captionProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:captionProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:caption .
+
+shape:composerProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     wd:composer .
+
+shape:conductorProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     mo:conductor .
+
+shape:contentRatingProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentRatingProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentRating .
+
+shape:contentSizeProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:contentSizeProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:contentSize .
+
+shape:datePublishedProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:datePublished .
+
+shape:descriptionProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:descriptionProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:description .
+
+shape:directorProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:director .
+
+shape:durationProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:duration .
+
+shape:editorProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:editor .
+
+shape:editorProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:editor .
+
+shape:emailRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:email .
+
+shape:emailRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:email .
+
+shape:emailRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:email .
+
+shape:expiresProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:expiresProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:expires .
+
+shape:familyNameRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:familyName .
+
+shape:familyNameRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:familyName .
+
+shape:familyNameRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:familyName .
+
+shape:followsRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:follows .
+
+shape:followsRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:follows .
+
+shape:followsRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:follows .
+
+shape:friendOfRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:friendOf .
+
+shape:friendOfRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:friendOf .
+
+shape:friendOfRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:friendOf .
+
+shape:genderRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:gender .
+
+shape:genderRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:gender .
+
+shape:genderRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:gender .
+
+shape:givenNameRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:givenName .
+
+shape:givenNameRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:givenName .
+
+shape:givenNameRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     foaf:givenName .
+
+shape:hasGenreProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasGenreProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:hasGenre .
+
+shape:hasReviewProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:hasReviewProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     rev:hasReview .
+
+shape:homepageProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:homepageRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     foaf:homepage .
+
+shape:isbnProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:isbn .
+
+shape:jobTitleRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:jobTitle .
+
+shape:jobTitleRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:jobTitle .
+
+shape:jobTitleRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:jobTitle .
+
+shape:keywordsProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:keywordsProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:keywords .
+
+shape:languageProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:language .
+
+shape:languageProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:language .
+
+shape:likesRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:likes .
+
+shape:likesRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:likes .
+
+shape:likesRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:likes .
+
+shape:makesPurchaseRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:makesPurchase .
+
+shape:makesPurchaseRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:makesPurchase .
+
+shape:makesPurchaseRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:makesPurchase .
+
+shape:movementProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:movement .
+
+shape:nationalityRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:nationality .
+
+shape:nationalityRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:nationality .
+
+shape:nationalityRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:nationality .
+
+shape:numberOfPagesProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:numberOfPages .
+
+shape:opusProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:opus .
+
+shape:performed_inProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     mo:performed_in .
+
+shape:performerProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:performer .
+
+shape:printColumnProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:printColumn .
+
+shape:printEditionProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:printEdition .
+
+shape:printPageProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:printPage .
+
+shape:printSectionProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:printSection .
+
+shape:producerProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:producer .
+
+shape:producerProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:producer .
+
+shape:publisherProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:publisher .
+
+shape:record_numberProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:record_number .
+
+shape:releaseProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     mo:release .
+
+shape:subscribesRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:subscribes .
+
+shape:subscribesRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:subscribes .
+
+shape:subscribesRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     wd:subscribes .
+
+shape:tagGenre0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre15ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre16ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre17ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre18ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre19ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre20ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagGenre9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:tagProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     ogp:tag .
+
+shape:telephoneRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:telephone .
+
+shape:telephoneRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:telephone .
+
+shape:telephoneRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:telephone .
+
+shape:textProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:textProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:text .
+
+shape:titleProductCategory0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory10ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory11ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory12ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory13ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory14ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory3ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory5ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory6ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory7ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory8ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:titleProductCategory9ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     ogp:title .
+
+shape:trailerProductCategory2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:IRI ;
+    sh:path     schema:trailer .
+
+shape:userIdRole0ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     wd:userId .
+
+shape:userIdRole1ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     wd:userId .
+
+shape:userIdRole2ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     wd:userId .
+
+shape:wordCountProductCategory4ShapeProperty
+    a           sh:PropertyShape ;
+    sh:nodeKind sh:Literal ;
+    sh:path     schema:wordCount .

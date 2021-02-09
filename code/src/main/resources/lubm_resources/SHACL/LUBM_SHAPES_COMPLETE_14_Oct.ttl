@@ -1,0 +1,1953 @@
+@prefix stat:  <http://lubm.shacl.stat.io/> .
+@prefix shape: <http://lubm.shacl.io/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ub:    <http://swat.cse.lehigh.edu/onto/univ-bench.owl#> .
+shape:PersonShape
+        a                  sh:NodeShape ;
+        stat:count         5580609 ;
+        stat:distinctCount 5580609 ;
+        sh:nodeKind        sh:BlankNodeOrIRI ;
+        sh:property        shape:advisorPersonShapeProperty, shape:degreeFromPersonShapeProperty,
+                           shape:doctoralDegreeFromPersonShapeProperty, shape:emailAddressPersonShapeProperty,
+                           shape:headOfPersonShapeProperty, shape:mastersDegreeFromPersonShapeProperty,
+                           shape:memberOfPersonShapeProperty, shape:namePersonShapeProperty,
+                           shape:researchInterestPersonShapeProperty, shape:takesCoursePersonShapeProperty,
+                           shape:teacherOfPersonShapeProperty, shape:teachingAssistantOfPersonShapeProperty,
+                           shape:telephonePersonShapeProperty, shape:undergraduateDegreeFromPersonShapeProperty,
+                           shape:worksForPersonShapeProperty ;
+        sh:targetClass     ub:Person .
+
+
+
+shape:advisorPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2052228 ;
+    stat:distinctCount 299177 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:degreeFromPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2337985 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 5580609 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:headOfPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:mastersDegreeFromPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:namePersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 792 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:takesCoursePersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         14405077 ;
+    stat:distinctCount 1074409 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:teacherOfPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:teachingAssistantOfPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teachingAssistantOf .
+
+shape:telephonePersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1619476 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForPersonShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:FullProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         85006 ;
+    stat:distinctCount 85006 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:degreeFromFullProfessorShapeProperty, shape:doctoralDegreeFromFullProfessorShapeProperty,
+                       shape:emailAddressFullProfessorShapeProperty, shape:headOfFullProfessorShapeProperty,
+                       shape:mastersDegreeFromFullProfessorShapeProperty, shape:memberOfFullProfessorShapeProperty,
+                       shape:nameFullProfessorShapeProperty, shape:researchInterestFullProfessorShapeProperty,
+                       shape:teacherOfFullProfessorShapeProperty, shape:telephoneFullProfessorShapeProperty,
+                       shape:undergraduateDegreeFromFullProfessorShapeProperty,
+                       shape:worksForFullProfessorShapeProperty ;
+    sh:targetClass     ub:FullProfessor .
+
+shape:degreeFromFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         254771 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 85006 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:headOfFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:mastersDegreeFromFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 10 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         255148 ;
+    stat:distinctCount 255148 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForFullProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85006 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:DepartmentShape
+    a                  sh:NodeShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:memberDepartmentShapeProperty, shape:nameDepartmentShapeProperty,
+                       shape:subOrganizationOfDepartmentShapeProperty ;
+    sh:targetClass     ub:Department .
+
+shape:memberDepartmentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 5580609 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:member .
+
+shape:nameDepartmentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 25 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:subOrganizationOfDepartmentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 500 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:subOrganizationOf .
+
+shape:EmployeeShape
+    a                  sh:NodeShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:degreeFromEmployeeShapeProperty, shape:doctoralDegreeFromEmployeeShapeProperty,
+                       shape:emailAddressEmployeeShapeProperty, shape:mastersDegreeFromEmployeeShapeProperty,
+                       shape:memberOfEmployeeShapeProperty, shape:nameEmployeeShapeProperty,
+                       shape:teacherOfEmployeeShapeProperty, shape:telephoneEmployeeShapeProperty,
+                       shape:undergraduateDegreeFromEmployeeShapeProperty, shape:worksForEmployeeShapeProperty,
+                       shape:headOfEmployeeShapeProperty, shape:researchInterestEmployeeShapeProperty ;
+    sh:targetClass     ub:Employee .
+
+shape:degreeFromEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1078304 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:mastersDegreeFromEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 42 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:teacherOfEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:UndergraduateStudentShape
+    a                  sh:NodeShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 3961133 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:advisorUndergraduateStudentShapeProperty,
+                       shape:emailAddressUndergraduateStudentShapeProperty,
+                       shape:memberOfUndergraduateStudentShapeProperty, shape:nameUndergraduateStudentShapeProperty,
+                       shape:takesCourseUndergraduateStudentShapeProperty,
+                       shape:telephoneUndergraduateStudentShapeProperty ;
+    sh:targetClass     ub:UndergraduateStudent .
+
+shape:advisorUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         792547 ;
+    stat:distinctCount 274516 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:emailAddressUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 3961133 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:memberOfUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 582 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:takesCourseUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         11884366 ;
+    stat:distinctCount 540113 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:telephoneUndergraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:WorkShape
+    a                  sh:NodeShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:nameWorkShapeProperty ;
+    sh:targetClass     ub:Work .
+
+shape:nameWorkShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 143 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:FacultyShape
+    a                  sh:NodeShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:degreeFromFacultyShapeProperty, shape:doctoralDegreeFromFacultyShapeProperty,
+                       shape:emailAddressFacultyShapeProperty, shape:mastersDegreeFromFacultyShapeProperty,
+                       shape:memberOfFacultyShapeProperty, shape:nameFacultyShapeProperty,
+                       shape:researchInterestFacultyShapeProperty, shape:teacherOfFacultyShapeProperty,
+                       shape:telephoneFacultyShapeProperty, shape:undergraduateDegreeFromFacultyShapeProperty,
+                       shape:worksForFacultyShapeProperty, shape:headOfFacultyShapeProperty ;
+    sh:targetClass     ub:Faculty .
+
+shape:degreeFromFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1078304 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:mastersDegreeFromFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 42 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359795 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:UniversityShape
+    a                  sh:NodeShape ;
+    stat:count         1000 ;
+    stat:distinctCount 1000 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:hasAlumnusUniversityShapeProperty, shape:nameUniversityShapeProperty ;
+    sh:targetClass     ub:University .
+
+shape:hasAlumnusUniversityShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2337985 ;
+    stat:distinctCount 1619476 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:hasAlumnus .
+
+shape:nameUniversityShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         500 ;
+    stat:distinctCount 500 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:OntologyShape
+    a                  sh:NodeShape ;
+    stat:count         1 ;
+    stat:distinctCount 1 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:importsOntologyShapeProperty ;
+    sh:targetClass     owl:Ontology .
+
+shape:importsOntologyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            owl:imports .
+
+shape:GraduateStudentShape
+    a                  sh:NodeShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1259681 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:advisorGraduateStudentShapeProperty, shape:emailAddressGraduateStudentShapeProperty,
+                       shape:memberOfGraduateStudentShapeProperty, shape:nameGraduateStudentShapeProperty,
+                       shape:takesCourseGraduateStudentShapeProperty,
+                       shape:teachingAssistantOfGraduateStudentShapeProperty,
+                       shape:telephoneGraduateStudentShapeProperty,
+                       shape:undergraduateDegreeFromGraduateStudentShapeProperty,
+                       shape:degreeFromGraduateStudentShapeProperty ;
+    sh:targetClass     ub:GraduateStudent .
+
+shape:advisorGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 294120 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:emailAddressGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1259681 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:memberOfGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 168 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:takesCourseGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2520711 ;
+    stat:distinctCount 534296 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:teachingAssistantOfGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teachingAssistantOf .
+
+shape:telephoneGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:LecturerShape
+    a                  sh:NodeShape ;
+    stat:count         59978 ;
+    stat:distinctCount 59978 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:doctoralDegreeFromLecturerShapeProperty, shape:emailAddressLecturerShapeProperty,
+                       shape:mastersDegreeFromLecturerShapeProperty, shape:nameLecturerShapeProperty,
+                       shape:teacherOfLecturerShapeProperty, shape:telephoneLecturerShapeProperty,
+                       shape:undergraduateDegreeFromLecturerShapeProperty, shape:worksForLecturerShapeProperty,
+                       shape:degreeFromLecturerShapeProperty, shape:memberOfLecturerShapeProperty ;
+    sh:targetClass     ub:Lecturer .
+
+shape:doctoralDegreeFromLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 59978 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:mastersDegreeFromLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:nameLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 7 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:teacherOfLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         179828 ;
+    stat:distinctCount 179828 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:ResearchGroupShape
+    a                  sh:NodeShape ;
+    stat:count         150142 ;
+    stat:distinctCount 150142 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:subOrganizationOfResearchGroupShapeProperty ;
+    sh:targetClass     ub:ResearchGroup .
+
+shape:subOrganizationOfResearchGroupShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         300284 ;
+    stat:distinctCount 10498 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:subOrganizationOf .
+
+shape:PublicationShape
+    a                  sh:NodeShape ;
+    stat:count         4025854 ;
+    stat:distinctCount 4025854 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:namePublicationShapeProperty, shape:publicationAuthorPublicationShapeProperty ;
+    sh:targetClass     ub:Publication .
+
+shape:namePublicationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4025854 ;
+    stat:distinctCount 20 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:publicationAuthorPublicationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7176871 ;
+    stat:distinctCount 1399646 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:publicationAuthor .
+
+shape:GraduateCourseShape
+    a                  sh:NodeShape ;
+    stat:count         539467 ;
+    stat:distinctCount 539467 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:nameGraduateCourseShapeProperty ;
+    sh:targetClass     ub:GraduateCourse .
+
+shape:nameGraduateCourseShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         539467 ;
+    stat:distinctCount 73 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:AssistantProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         94869 ;
+    stat:distinctCount 94869 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:doctoralDegreeFromAssistantProfessorShapeProperty,
+                       shape:emailAddressAssistantProfessorShapeProperty,
+                       shape:mastersDegreeFromAssistantProfessorShapeProperty,
+                       shape:nameAssistantProfessorShapeProperty, shape:researchInterestAssistantProfessorShapeProperty,
+                       shape:teacherOfAssistantProfessorShapeProperty, shape:telephoneAssistantProfessorShapeProperty,
+                       shape:undergraduateDegreeFromAssistantProfessorShapeProperty,
+                       shape:worksForAssistantProfessorShapeProperty, shape:degreeFromAssistantProfessorShapeProperty,
+                       shape:memberOfAssistantProfessorShapeProperty ;
+    sh:targetClass     ub:AssistantProfessor .
+
+shape:doctoralDegreeFromAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 94869 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:mastersDegreeFromAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:nameAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 11 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         284801 ;
+    stat:distinctCount 284801 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:CourseShape
+    a                  sh:NodeShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:nameCourseShapeProperty ;
+    sh:targetClass     ub:Course .
+
+shape:nameCourseShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 143 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:AssociateProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         119942 ;
+    stat:distinctCount 119942 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:doctoralDegreeFromAssociateProfessorShapeProperty,
+                       shape:emailAddressAssociateProfessorShapeProperty,
+                       shape:mastersDegreeFromAssociateProfessorShapeProperty,
+                       shape:nameAssociateProfessorShapeProperty, shape:researchInterestAssociateProfessorShapeProperty,
+                       shape:teacherOfAssociateProfessorShapeProperty, shape:telephoneAssociateProfessorShapeProperty,
+                       shape:undergraduateDegreeFromAssociateProfessorShapeProperty,
+                       shape:worksForAssociateProfessorShapeProperty, shape:degreeFromAssociateProfessorShapeProperty,
+                       shape:memberOfAssociateProfessorShapeProperty ;
+    sh:targetClass     ub:AssociateProfessor .
+
+shape:doctoralDegreeFromAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 119942 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:mastersDegreeFromAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:nameAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 14 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359803 ;
+    stat:distinctCount 359803 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:degreeFromAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         284316 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:memberOfAssistantProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         94869 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:degreeFromAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         359463 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:memberOfAssociateProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         119942 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:ChairShape
+    a                  sh:NodeShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:degreeFromChairShapeProperty, shape:doctoralDegreeFromChairShapeProperty,
+                       shape:emailAddressChairShapeProperty, shape:headOfChairShapeProperty,
+                       shape:mastersDegreeFromChairShapeProperty, shape:memberOfChairShapeProperty,
+                       shape:nameChairShapeProperty, shape:researchInterestChairShapeProperty,
+                       shape:teacherOfChairShapeProperty, shape:telephoneChairShapeProperty,
+                       shape:undergraduateDegreeFromChairShapeProperty, shape:worksForChairShapeProperty ;
+    sh:targetClass     ub:Chair .
+
+shape:degreeFromChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         29969 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:headOfChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:mastersDegreeFromChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 10 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         30138 ;
+    stat:distinctCount 30138 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForChairShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:headOfEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:researchInterestEmployeeShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:headOfFacultyShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:degreeFromGraduateStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:degreeFromLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         179754 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:memberOfLecturerShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         59978 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:OrganizationShape
+    a                  sh:NodeShape ;
+    stat:count         161140 ;
+    stat:distinctCount 161140 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:hasAlumnusOrganizationShapeProperty, shape:memberOrganizationShapeProperty,
+                       shape:nameOrganizationShapeProperty, shape:subOrganizationOfOrganizationShapeProperty ;
+    sh:targetClass     ub:Organization .
+
+shape:hasAlumnusOrganizationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2337985 ;
+    stat:distinctCount 1619476 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:hasAlumnus .
+
+shape:memberOrganizationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 5580609 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:member .
+
+shape:nameOrganizationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10498 ;
+    stat:distinctCount 525 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:subOrganizationOfOrganizationShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         310282 ;
+    stat:distinctCount 10498 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:subOrganizationOf .
+
+shape:ProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         299817 ;
+    stat:distinctCount 299817 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:degreeFromProfessorShapeProperty, shape:doctoralDegreeFromProfessorShapeProperty,
+                       shape:emailAddressProfessorShapeProperty, shape:headOfProfessorShapeProperty,
+                       shape:mastersDegreeFromProfessorShapeProperty, shape:memberOfProfessorShapeProperty,
+                       shape:nameProfessorShapeProperty, shape:researchInterestProfessorShapeProperty,
+                       shape:teacherOfProfessorShapeProperty, shape:telephoneProfessorShapeProperty,
+                       shape:undergraduateDegreeFromProfessorShapeProperty, shape:worksForProfessorShapeProperty ;
+    sh:targetClass     ub:Professor .
+
+shape:degreeFromProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         898550 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:doctoralDegreeFromProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:doctoralDegreeFrom .
+
+shape:emailAddressProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 299817 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:headOfProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:headOf .
+
+shape:mastersDegreeFromProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:mastersDegreeFrom .
+
+shape:memberOfProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 35 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:researchInterestProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:researchInterest .
+
+shape:teacherOfProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         899752 ;
+    stat:distinctCount 899752 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teacherOf .
+
+shape:telephoneProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:worksForProfessorShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         299817 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:worksFor .
+
+shape:ResearchAssistantShape
+    a                  sh:NodeShape ;
+    stat:count         363890 ;
+    stat:distinctCount 363890 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:advisorResearchAssistantShapeProperty, shape:degreeFromResearchAssistantShapeProperty,
+                       shape:emailAddressResearchAssistantShapeProperty, shape:memberOfResearchAssistantShapeProperty,
+                       shape:nameResearchAssistantShapeProperty, shape:takesCourseResearchAssistantShapeProperty,
+                       shape:telephoneResearchAssistantShapeProperty,
+                       shape:undergraduateDegreeFromResearchAssistantShapeProperty ;
+    sh:targetClass     ub:ResearchAssistant .
+
+shape:advisorResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 209396 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:degreeFromResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:emailAddressResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 363890 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:memberOfResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 166 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:takesCourseResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         728380 ;
+    stat:distinctCount 400812 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:telephoneResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromResearchAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         363890 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:StudentShape
+    a                  sh:NodeShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 5220814 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:advisorStudentShapeProperty, shape:degreeFromStudentShapeProperty,
+                       shape:emailAddressStudentShapeProperty, shape:memberOfStudentShapeProperty,
+                       shape:nameStudentShapeProperty, shape:takesCourseStudentShapeProperty,
+                       shape:teachingAssistantOfStudentShapeProperty, shape:telephoneStudentShapeProperty,
+                       shape:undergraduateDegreeFromStudentShapeProperty ;
+    sh:targetClass     ub:Student .
+
+shape:advisorStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2052228 ;
+    stat:distinctCount 299177 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:degreeFromStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:emailAddressStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 5220814 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:memberOfStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 750 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:takesCourseStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         14405077 ;
+    stat:distinctCount 1074409 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:teachingAssistantOfStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teachingAssistantOf .
+
+shape:telephoneStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromStudentShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:TeachingAssistantShape
+    a                  sh:NodeShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:advisorTeachingAssistantShapeProperty, shape:degreeFromTeachingAssistantShapeProperty,
+                       shape:emailAddressTeachingAssistantShapeProperty, shape:memberOfTeachingAssistantShapeProperty,
+                       shape:nameTeachingAssistantShapeProperty, shape:takesCourseTeachingAssistantShapeProperty,
+                       shape:teachingAssistantOfTeachingAssistantShapeProperty,
+                       shape:telephoneTeachingAssistantShapeProperty,
+                       shape:undergraduateDegreeFromTeachingAssistantShapeProperty ;
+    sh:targetClass     ub:TeachingAssistant .
+
+shape:advisorTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 181379 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:advisor .
+
+shape:degreeFromTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:degreeFrom .
+
+shape:emailAddressTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:emailAddress .
+
+shape:memberOfTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 9998 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:memberOf .
+
+shape:nameTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 166 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:name .
+
+shape:takesCourseTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         558967 ;
+    stat:distinctCount 350299 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:takesCourse .
+
+shape:teachingAssistantOfTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:teachingAssistantOf .
+
+shape:telephoneTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 1 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ub:telephone .
+
+shape:undergraduateDegreeFromTeachingAssistantShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279491 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1 ;
+    stat:minCount      1 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ub:undergraduateDegreeFrom .
+
+shape:RDFGraphShape
+    a           sh:NodeShape ;
+    sh:property <http://lubm.shacl.io/univ-bench.owl#_name>, <http://lubm.shacl.io/univ-bench.owl#_telephone>,
+                <http://lubm.shacl.io/owl#_imports>, <http://lubm.shacl.io/univ-bench.owl#_degreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_worksFor>,
+                <http://lubm.shacl.io/univ-bench.owl#_teachingAssistantOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_hasAlumnus>,
+                <http://lubm.shacl.io/univ-bench.owl#_undergraduateDegreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_mastersDegreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_researchInterest>,
+                <http://lubm.shacl.io/univ-bench.owl#_memberOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_doctoralDegreeFrom>,
+                <http://lubm.shacl.io/22-rdf-syntax-ns#_type>, <http://lubm.shacl.io/univ-bench.owl#_emailAddress>,
+                <http://lubm.shacl.io/univ-bench.owl#_teacherOf>, <http://lubm.shacl.io/univ-bench.owl#_takesCourse>,
+                <http://lubm.shacl.io/univ-bench.owl#_publicationAuthor>, <http://lubm.shacl.io/univ-bench.owl#_headOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_subOrganizationOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_advisor>, <http://lubm.shacl.io/univ-bench.owl#_member> .
+
+<http://lubm.shacl.io/univ-bench.owl#_name>
+    a                         sh:PropertyShape ;
+    stat:count                10696541 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1480 ;
+    stat:distinctSubjectCount 10696541 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:name .
+
+<http://lubm.shacl.io/univ-bench.owl#_telephone>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:telephone .
+
+<http://lubm.shacl.io/owl#_imports>
+    a                         sh:PropertyShape ;
+    stat:count                1 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1 ;
+    stat:distinctSubjectCount 1 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   owl:imports .
+
+<http://lubm.shacl.io/univ-bench.owl#_degreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                2337985 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 1619476 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:degreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_worksFor>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:worksFor .
+
+<http://lubm.shacl.io/univ-bench.owl#_teachingAssistantOf>
+    a                         sh:PropertyShape ;
+    stat:count                279491 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  279491 ;
+    stat:distinctSubjectCount 279491 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:teachingAssistantOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_hasAlumnus>
+    a                         sh:PropertyShape ;
+    stat:count                2337985 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1619476 ;
+    stat:distinctSubjectCount 1000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:hasAlumnus .
+
+<http://lubm.shacl.io/univ-bench.owl#_undergraduateDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                1619476 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 1619476 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:undergraduateDegreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_mastersDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:mastersDegreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_researchInterest>
+    a                         sh:PropertyShape ;
+    stat:count                299817 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  30 ;
+    stat:distinctSubjectCount 299817 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:researchInterest .
+
+<http://lubm.shacl.io/univ-bench.owl#_memberOf>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:memberOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_doctoralDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:doctoralDegreeFrom .
+
+<http://lubm.shacl.io/22-rdf-syntax-ns#_type>
+    a                         sh:PropertyShape ;
+    stat:count                25101580 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  23 ;
+    stat:distinctSubjectCount 10847184 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rdf:type .
+
+<http://lubm.shacl.io/univ-bench.owl#_emailAddress>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  5580609 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:emailAddress .
+
+<http://lubm.shacl.io/univ-bench.owl#_teacherOf>
+    a                         sh:PropertyShape ;
+    stat:count                1079580 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1079580 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:teacherOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_takesCourse>
+    a                         sh:PropertyShape ;
+    stat:count                14405077 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1074409 ;
+    stat:distinctSubjectCount 5220814 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:takesCourse .
+
+<http://lubm.shacl.io/univ-bench.owl#_publicationAuthor>
+    a                         sh:PropertyShape ;
+    stat:count                7176871 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1399646 ;
+    stat:distinctSubjectCount 4025854 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:publicationAuthor .
+
+<http://lubm.shacl.io/univ-bench.owl#_headOf>
+    a                         sh:PropertyShape ;
+    stat:count                9998 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 9998 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:headOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_subOrganizationOf>
+    a                         sh:PropertyShape ;
+    stat:count                310282 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10498 ;
+    stat:distinctSubjectCount 160140 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:subOrganizationOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_advisor>
+    a                         sh:PropertyShape ;
+    stat:count                2052228 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  299177 ;
+    stat:distinctSubjectCount 2052228 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:advisor .
+
+<http://lubm.shacl.io/univ-bench.owl#_member>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  5580609 ;
+    stat:distinctSubjectCount 9998 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:member .

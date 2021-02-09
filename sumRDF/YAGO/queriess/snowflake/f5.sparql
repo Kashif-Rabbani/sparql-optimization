@@ -1,0 +1,8 @@
+PREFIX schema: <http://schema.org/>
+select * where {
+?v0 schema:isPartOf ?v1 .
+?v0 schema:actor ?v3 .
+?v0 schema:productionCompany ?v4 .
+?v1 schema:alternateName ?v5 .
+?f schema:hasPart ?v0.
+}

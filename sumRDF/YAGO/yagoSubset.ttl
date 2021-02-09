@@ -1,0 +1,1945 @@
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://schema.org/SoftwareApplication> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-SoftwareApplication-schema-operatingSystem>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/operatingSystem> a owl:ObjectProperty .
+
+<http://schema.org/Episode> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/productionCompany> a owl:ObjectProperty .
+
+<http://schema.org/Organization> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-director> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/director> a owl:ObjectProperty .
+
+<http://schema.org/Person> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/musicBy> a owl:ObjectProperty .
+
+<http://schema.org/MusicGroup> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-partOfSeries> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/partOfSeries> a owl:ObjectProperty .
+
+<http://schema.org/CreativeWorkSeries> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/actor> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Episode-schema-partOfSeason> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/partOfSeason> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://schema.org/CreativeWorkSeason> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://schema.org/SportsEvent> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-SportsEvent-schema-sport> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/sport> a owl:ObjectProperty .
+
+<http://schema.org/Thing> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-SportsEvent-schema-competitor>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/competitor> a owl:ObjectProperty .
+
+<http://schema.org/SportsTeam> a owl:Class .
+
+<http://schema.org/TVSeries> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-numberOfSeasons>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/numberOfSeasons> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-countryOfOrigin>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/countryOfOrigin> a owl:ObjectProperty .
+
+<http://schema.org/Country> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-numberOfEpisodes>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/numberOfEpisodes> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-director> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeries-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-brand> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/brand> a owl:ObjectProperty .
+
+<http://schema.org/Brand> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-sponsor> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/sponsor> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-duns> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/duns> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-logo> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/logo> a owl:ObjectProperty .
+
+<http://schema.org/ImageObject> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-parentOrganization>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/parentOrganization> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-faxNumber>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/faxNumber> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-telephone>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/telephone> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-subOrganization>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/subOrganization> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-knowsLanguage>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/knowsLanguage> a owl:ObjectProperty .
+
+<http://schema.org/Language> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-memberOf> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/memberOf> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-award> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/award> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-location> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/location> a owl:ObjectProperty .
+
+<http://schema.org/Place> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-foundingDate>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/foundingDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-founder> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/founder> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-dissolutionDate>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/dissolutionDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-leiCode> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/leiCode> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-foundingLocation>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/foundingLocation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Organization-schema-numberOfEmployees>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/numberOfEmployees> a owl:ObjectProperty .
+
+<http://schema.org/QuantitativeValue> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://schema.org/BroadcastChannel> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-BroadcastChannel-schema-broadcastChannelId>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/broadcastChannelId> a owl:DatatypeProperty .
+
+<http://schema.org/MusicComposition> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicComposition-schema-composer>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/composer> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicComposition-schema-iswcCode>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/iswcCode> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicComposition-schema-lyricist>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/lyricist> a owl:ObjectProperty .
+
+<http://schema.org/MedicalCondition> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalCondition-schema-possibleTreatment>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/possibleTreatment> a owl:ObjectProperty .
+
+<http://schema.org/MedicalTherapy> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalCondition-schema-signOrSymptom>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/signOrSymptom> a owl:ObjectProperty .
+
+<http://schema.org/MedicalSignOrSymptom> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalCondition-schema-riskFactor>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/riskFactor> a owl:ObjectProperty .
+
+<http://schema.org/PublicationVolume> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-PublicationVolume-schema-pagination>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/pagination> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-PublicationVolume-schema-volumeNumber>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/volumeNumber> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicGroup-schema-genre> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/genre> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWorkSeries-schema-issn>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/issn> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://schema.org/BroadcastService> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-BroadcastService-schema-callSign>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/callSign> a owl:DatatypeProperty .
+
+<http://schema.org/GeoCoordinates> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-GeoCoordinates-schema-latitude>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/latitude> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-GeoCoordinates-schema-longitude>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/longitude> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://schema.org/RadioSeries> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-numberOfEpisodes>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-numberOfSeasons>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-RadioSeries-schema-director> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/Gene> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-Gene-bioschema-encodesBioChemEntity>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/encodesBioChemEntity> a owl:ObjectProperty .
+
+<http://bioschemas.org/BioChemEntity> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-Gene-bioschema-expressedIn>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/expressedIn> a owl:ObjectProperty .
+
+<http://schema.org/MovieSeries> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MovieSeries-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MovieSeries-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MovieSeries-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MovieSeries-schema-director> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWorkSeason-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWorkSeason-schema-numberOfEpisodes>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWorkSeason-schema-actor>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWorkSeason-schema-partOfSeries>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/Taxon> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-Taxon-bioschema-parentTaxon>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/parentTaxon> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-Taxon-bioschema-taxonRank> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/taxonRank> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-containsPlace> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/containsPlace> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-geo> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/geo> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-telephone> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-containedInPlace>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/containedInPlace> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-faxNumber> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-elevation> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/elevation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Place-schema-logo> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/SportsOrganization> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-SportsOrganization-schema-sport>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/Event> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-translator> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/translator> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-sponsor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-superEvent> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/superEvent> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-about> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/about> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-endDate> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/endDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-contributor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/contributor> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-startDate> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/startDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-organizer> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/organizer> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-duration> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/duration> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-composer> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-subEvent> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/subEvent> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Event-schema-location> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/TVEpisode> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVEpisode-schema-countryOfOrigin>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/CreativeWork> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-copyrightHolder>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/copyrightHolder> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-material> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/material> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-editor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/editor> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-license> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/license> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-isPartOf> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/isPartOf> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-contentRating>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/contentRating> a owl:ObjectProperty .
+
+<http://schema.org/Rating> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-position> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/position> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-inLanguage>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/inLanguage> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-exampleOfWork>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/exampleOfWork> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-workExample>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/workExample> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-award> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-contributor>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-contentLocation>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/contentLocation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-genre> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-hasPart> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/hasPart> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-encodingFormat>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/encodingFormat> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-locationCreated>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/locationCreated> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-author> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/author> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-about> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-creator> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/creator> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-publisher>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/publisher> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-producer> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/producer> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-translator>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-datePublished>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/datePublished> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-dateCreated>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/dateCreated> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-isBasedOn>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/isBasedOn> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-character>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/character> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-sponsor> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-provider> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/provider> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-CreativeWork-schema-citation> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/citation> a owl:ObjectProperty .
+
+<http://schema.org/MedicalEntity> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalEntity-schema-legalStatus>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/legalStatus> a owl:ObjectProperty .
+
+<http://schema.org/DrugLegalStatus> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalEntity-schema-relevantSpecialty>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/relevantSpecialty> a owl:ObjectProperty .
+
+<http://schema.org/MedicalSpecialty> a owl:Class .
+
+<http://schema.org/Vehicle> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Vehicle-schema-callSign> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/Airport> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Airport-schema-icaoCode> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/icaoCode> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Airport-schema-iataCode> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/iataCode> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-QuantitativeValue-schema-minValue>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/minValue> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-QuantitativeValue-schema-unitCode>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/unitCode> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-QuantitativeValue-schema-value>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/value> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-QuantitativeValue-schema-maxValue>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/maxValue> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://schema.org/TVSeason> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-TVSeason-schema-countryOfOrigin>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/Movie> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-countryOfOrigin> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-director> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-duration> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Movie-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Brand-schema-logo> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/VisualArtwork> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VisualArtwork-schema-depth> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/depth> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VisualArtwork-schema-width> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/width> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VisualArtwork-schema-height> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/height> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VisualArtwork-schema-colorist>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/colorist> a owl:ObjectProperty .
+
+<http://schema.org/MusicAlbum> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicAlbum-schema-byArtist> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/byArtist> a owl:ObjectProperty .
+
+<http://schema.org/AnatomicalStructure> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-AnatomicalStructure-schema-connectedTo>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/connectedTo> a owl:ObjectProperty .
+
+<http://schema.org/ComicStory> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-ComicStory-schema-colorist> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/Airline> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Airline-schema-icaoCode> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Airline-schema-iataCode> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/VideoGameSeries> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGameSeries-schema-numberOfSeasons>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGameSeries-schema-productionCompany>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGameSeries-schema-numberOfEpisodes>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGameSeries-schema-musicBy>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGameSeries-schema-director>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/PublicationIssue> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-PublicationIssue-schema-issueNumber>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/issueNumber> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-PublicationIssue-schema-pagination>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/City> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-City-schema-iataCode> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-award> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-alumniOf> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/alumniOf> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-worksFor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/worksFor> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-spouse> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/spouse> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-callSign> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-deathDate> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/deathDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-nationality> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/nationality> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-height> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-affiliation> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/affiliation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-parent> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/parent> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-familyName> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/familyName> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-brand> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-givenName> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/givenName> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-homeLocation> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/homeLocation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-birthPlace> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/birthPlace> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-netWorth> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/netWorth> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-hasOccupation> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/hasOccupation> a owl:ObjectProperty .
+
+<http://schema.org/Occupation> a owl:Class .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-honorificPrefix>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/honorificPrefix> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-memberOf> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-weight> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/weight> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-birthDate> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/birthDate> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-gender> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/gender> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-children> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/children> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-faxNumber> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-owns> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/owns> a owl:ObjectProperty .
+
+<http://schema.org/Product> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-deathPlace> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/deathPlace> a owl:FunctionalProperty, owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-knowsLanguage> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Person-schema-telephone> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-rdfs-label> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-schema-image> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/image> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-schema-sameAs> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/sameAs> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-rdfs-comment> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-schema-url> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/url> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-schema-alternateName> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/alternateName> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Thing-owl-sameAs> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MedicalSignOrSymptom-schema-possibleTreatment>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/Article> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Article-schema-pagination> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/MolecularEntity> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-MolecularEntity-bioschema-inChIKey>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/inChIKey> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-MolecularEntity-bioschema-smiles>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/smiles> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-MolecularEntity-bioschema-molecularFormula>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/molecularFormula> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-MolecularEntity-bioschema-inChI>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/inChI> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://schema.org/Book> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Book-schema-numberOfPages> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/numberOfPages> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Book-schema-isbn> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/isbn> a owl:DatatypeProperty, owl:FunctionalProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Book-schema-illustrator> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/illustrator> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-gtin> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/gtin> a owl:DatatypeProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-logo> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-width> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-weight> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-height> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-brand> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-depth> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-material> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-Product-schema-award> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/VideoGame> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGame-schema-director> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGame-schema-actor> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-VideoGame-schema-musicBy> a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/MusicRelease> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicRelease-schema-musicReleaseFormat>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/musicReleaseFormat> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicRelease-schema-recordLabel>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/recordLabel> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicRelease-schema-duration> a
+    <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-MusicRelease-schema-releaseOf>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/releaseOf> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-BioChemEntity-bioschema-isInvolvedInBiologicalProcess>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/isInvolvedInBiologicalProcess> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-BioChemEntity-bioschema-isEncodedByBioChemEntity>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/isEncodedByBioChemEntity> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-BioChemEntity-bioschema-isLocatedInSubcellularLocation>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/isLocatedInSubcellularLocation> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-BioChemEntity-bioschema-hasMolecularFunction>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/hasMolecularFunction> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/value/shape-prop-bioschema-BioChemEntity-bioschema-bioChemInteraction>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://bioschemas.org/bioChemInteraction> a owl:ObjectProperty .
+
+<http://schema.org/FoodEstablishment> a owl:Class, <http://www.w3.org/ns/shacl#NodeShape> .
+
+<http://yago-knowledge.org/value/shape-prop-schema-FoodEstablishment-schema-servesCuisine>
+  a <http://www.w3.org/ns/shacl#PropertyShape> .
+
+<http://schema.org/servesCuisine> a owl:ObjectProperty .
+
+<http://yago-knowledge.org/resource/Stage_station> a owl:Class .
+
+<http://schema.org/Restaurant> a owl:Class .
+
+<http://yago-knowledge.org/resource/Chinese_restaurant> a owl:Class .
+
+<http://yago-knowledge.org/resource/Refectory> a owl:Class .
+
+<http://yago-knowledge.org/resource/Inn> a owl:Class .
+
+<http://yago-knowledge.org/resource/Brasserie> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cafeteria> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gasthaus> a owl:Class .
+
+<http://yago-knowledge.org/resource/Roadhouse_(facility)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Fast_food_restaurant> a owl:Class .
+
+<http://yago-knowledge.org/resource/Teahouse> a owl:Class .
+
+<http://yago-knowledge.org/resource/Coaching_inn> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diner> a owl:Class .
+
+<http://yago-knowledge.org/resource/Steakhouse> a owl:Class .
+
+<http://yago-knowledge.org/resource/Floating_restaurant> a owl:Class .
+
+<http://yago-knowledge.org/resource/Parador> a owl:Class .
+
+<http://schema.org/FireStation> a owl:Class .
+
+<http://schema.org/CivicStructure> a owl:Class .
+
+<http://schema.org/Cemetery> a owl:Class .
+
+<http://schema.org/Playground> a owl:Class .
+
+<http://schema.org/ParkingFacility> a owl:Class .
+
+<http://schema.org/MovieTheater> a owl:Class .
+
+<http://schema.org/Zoo> a owl:Class .
+
+<http://schema.org/PlaceOfWorship> a owl:Class .
+
+<http://schema.org/Campground> a owl:Class .
+
+<http://schema.org/BusStop> a owl:Class .
+
+<http://schema.org/StadiumOrArena> a owl:Class .
+
+<http://schema.org/SubwayStation> a owl:Class .
+
+<http://schema.org/GovernmentBuilding> a owl:Class .
+
+<http://schema.org/BusStation> a owl:Class .
+
+<http://schema.org/PerformingArtsTheater> a owl:Class .
+
+<http://schema.org/TrainStation> a owl:Class .
+
+<http://schema.org/EventVenue> a owl:Class .
+
+<http://schema.org/Crematorium> a owl:Class .
+
+<http://schema.org/Aquarium> a owl:Class .
+
+<http://schema.org/PoliceStation> a owl:Class .
+
+<http://schema.org/Hospital> a owl:Class .
+
+<http://schema.org/Museum> a owl:Class .
+
+<http://schema.org/Park> a owl:Class .
+
+<http://schema.org/Bridge> a owl:Class .
+
+<http://schema.org/MusicVenue> a owl:Class .
+
+<http://schema.org/PublicToilet> a owl:Class .
+
+<http://schema.org/Beach> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bakehouse_(building)> a owl:Class .
+
+<http://schema.org/Bakery> a owl:Class .
+
+<http://yago-knowledge.org/resource/Case_report> a owl:Class .
+
+<http://schema.org/ScholarlyArticle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Systematic_review> a owl:Class .
+
+<http://yago-knowledge.org/resource/Retractions_in_academic_publishing> a owl:Class .
+
+<http://yago-knowledge.org/resource/Volksschule> a owl:Class .
+
+<http://schema.org/School> a owl:Class .
+
+<http://yago-knowledge.org/resource/General_education_liceum> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bible_college> a owl:Class .
+
+<http://yago-knowledge.org/resource/Zawiya_(institution)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Catholic_higher_education> a owl:Class .
+
+<http://yago-knowledge.org/resource/Liceo_scientifico> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pharmacy_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Day_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Studio_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Lyceum> a owl:Class .
+
+<http://yago-knowledge.org/resource/Medical_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Jawahar_Navodaya_Vidyalaya> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cooking_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Laboratory_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Christian_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gymnasium_(Germany)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ulpana> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ikastola> a owl:Class .
+
+<http://yago-knowledge.org/resource/Yeshiva> a owl:Class .
+
+<http://yago-knowledge.org/resource/University_technical_college> a owl:Class .
+
+<http://yago-knowledge.org/resource/Voluntary_controlled_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Naval_academy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sainik_School> a owl:Class .
+
+<http://yago-knowledge.org/resource/Academy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Kollel> a owl:Class .
+
+<http://yago-knowledge.org/resource/National_academy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Medical_college_in_India> a owl:Class .
+
+<http://yago-knowledge.org/resource/Youth_village> a owl:Class .
+
+<http://yago-knowledge.org/resource/Nursing_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pontifical_university> a owl:Class .
+
+<http://yago-knowledge.org/resource/Private_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Elementary_school_(United_States)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Military_academy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Minor_seminary> a owl:Class .
+
+<http://yago-knowledge.org/resource/Drama_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/State-integrated_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Junior_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Grandes_écoles> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gymnasium_(school)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Residential_child_care_community> a owl:Class .
+
+<http://yago-knowledge.org/resource/Driver's_education> a owl:Class .
+
+<http://yago-knowledge.org/resource/Dual_education_system> a owl:Class .
+
+<http://yago-knowledge.org/resource/Realschule> a owl:Class .
+
+<http://yago-knowledge.org/resource/Public_policy_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Comprehensive_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sports_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Primary_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Preparatory_school_(United_Kingdom)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Foundation_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Elementary_schools_in_Japan> a owl:Class .
+
+<http://yago-knowledge.org/resource/Latin_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Charter_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sixth_form_college> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hesder> a owl:Class .
+
+<http://yago-knowledge.org/resource/Staff_college> a owl:Class .
+
+<http://yago-knowledge.org/resource/International_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Graduate_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Art_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Female_seminary> a owl:Class .
+
+<http://yago-knowledge.org/resource/Public_school_(United_Kingdom)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Schools_for_the_deaf> a owl:Class .
+
+<http://yago-knowledge.org/resource/Liceo_linguistico> a owl:Class .
+
+<http://yago-knowledge.org/resource/List_of_Jesuit_educational_institutions> a owl:Class .
+
+<http://yago-knowledge.org/resource/Academy_(English_school)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Grammar_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rosenwald_School> a owl:Class .
+
+<http://yago-knowledge.org/resource/Academy_of_sciences> a owl:Class .
+
+<http://yago-knowledge.org/resource/Language_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/University_Institutes_of_Technology> a owl:Class .
+
+<http://yago-knowledge.org/resource/Secondary_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Film_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Kindergarten> a owl:Class .
+
+<http://yago-knowledge.org/resource/Women's_college> a owl:Class .
+
+<http://yago-knowledge.org/resource/Religious_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Liceo_artistico> a owl:Class .
+
+<http://yago-knowledge.org/resource/Voluntary_aided_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Independent_school_(United_Kingdom)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Community_school_(England_and_Wales)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Boarding_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Community_school_(Ireland)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Catholic_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Vocational_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cadet_Corps> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sunday_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Free_school_(England)> a owl:Class .
+
+<http://yago-knowledge.org/resource/One-room_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Liceo_classico> a owl:Class .
+
+<http://yago-knowledge.org/resource/Independent_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Höhere_Technische_Lehranstalt> a owl:Class .
+
+<http://yago-knowledge.org/resource/Business_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Efterskole> a owl:Class .
+
+<http://yago-knowledge.org/resource/Magnet_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/State_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Normal_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Folk_high_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/École_nationale_supérieure> a owl:Class .
+
+<http://yago-knowledge.org/resource/High_school_(North_America)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Orphanage> a owl:Class .
+
+<http://yago-knowledge.org/resource/Jewish_day_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/College-preparatory_school> a owl:Class .
+
+<http://yago-knowledge.org/resource/Eye_chart> a owl:Class .
+
+<http://schema.org/DiagnosticProcedure> a owl:Class .
+
+<http://yago-knowledge.org/resource/Digital_audio_workstation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Discography> a owl:Class .
+
+<http://yago-knowledge.org/resource/Evening_gown> a owl:Class .
+
+<http://yago-knowledge.org/resource/Piano> a owl:Class .
+
+<http://yago-knowledge.org/resource/Board_wargame> a owl:Class .
+
+<http://yago-knowledge.org/resource/Portico> a owl:Class .
+
+<http://yago-knowledge.org/resource/Coat> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tjasker> a owl:Class .
+
+<http://yago-knowledge.org/resource/Radar> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cartel_clock> a owl:Class .
+
+<http://yago-knowledge.org/resource/Perfume> a owl:Class .
+
+<http://yago-knowledge.org/resource/Programming_tool> a owl:Class .
+
+<http://yago-knowledge.org/resource/Draft_document> a owl:Class .
+
+<http://yago-knowledge.org/resource/Resident_registration> a owl:Class .
+
+<http://yago-knowledge.org/resource/Boundary_delimitation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Jacket> a owl:Class .
+
+<http://yago-knowledge.org/resource/Oven> a owl:Class .
+
+<http://yago-knowledge.org/resource/Turbofan> a owl:Class .
+
+<http://yago-knowledge.org/resource/Disability_sport_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pin> a owl:Class .
+
+<http://yago-knowledge.org/resource/Graph_database> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gold_lunula> a owl:Class .
+
+<http://yago-knowledge.org/resource/Newsletter> a owl:Class .
+
+<http://yago-knowledge.org/resource/Fiber> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diamonds_(suit)> a owl:Class .
+
+<http://yago-knowledge.org/resource/List_of_IBA_official_cocktails> a owl:Class .
+
+<http://yago-knowledge.org/resource/Para-cycling_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sniper_rifle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mainframe_computer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Spear> a owl:Class .
+
+<http://yago-knowledge.org/resource/Kiln> a owl:Class .
+
+<http://yago-knowledge.org/resource/New_Testament_apocrypha> a owl:Class .
+
+<http://yago-knowledge.org/resource/Apel-stones> a owl:Class .
+
+<http://yago-knowledge.org/resource/Belt_(clothing)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Drum> a owl:Class .
+
+<http://yago-knowledge.org/resource/Weapon> a owl:Class .
+
+<http://yago-knowledge.org/resource/Basket> a owl:Class .
+
+<http://yago-knowledge.org/resource/Grenade> a owl:Class .
+
+<http://yago-knowledge.org/resource/Computer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Reflecting_telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Couch> a owl:Class .
+
+<http://yago-knowledge.org/resource/Integrated_circuit> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pendulum_clock> a owl:Class .
+
+<http://yago-knowledge.org/resource/Music_magazine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Supercomputer_operating_systems> a owl:Class .
+
+<http://yago-knowledge.org/resource/Buckle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Computer_chess> a owl:Class .
+
+<http://yago-knowledge.org/resource/Online_music_store> a owl:Class .
+
+<http://yago-knowledge.org/resource/Woven_fabric> a owl:Class .
+
+<http://yago-knowledge.org/resource/Duck_decoy_(structure)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Measuring_instrument> a owl:Class .
+
+<http://yago-knowledge.org/resource/Martian_meteorite> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hardcover> a owl:Class .
+
+<http://yago-knowledge.org/resource/Declaration_of_war> a owl:Class .
+
+<http://yago-knowledge.org/resource/Medium_machine_gun> a owl:Class .
+
+<http://yago-knowledge.org/resource/Online_database> a owl:Class .
+
+<http://yago-knowledge.org/resource/LP_record> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rifled_musket> a owl:Class .
+
+<http://yago-knowledge.org/resource/News_website> a owl:Class .
+
+<http://yago-knowledge.org/resource/Church_bell> a owl:Class .
+
+<http://yago-knowledge.org/resource/Lampas> a owl:Class .
+
+<http://yago-knowledge.org/resource/Video_game_accessory> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rocket_artillery> a owl:Class .
+
+<http://yago-knowledge.org/resource/Crock_(dishware)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rampart_(fortification)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Code_of_conduct> a owl:Class .
+
+<http://yago-knowledge.org/resource/Necklace> a owl:Class .
+
+<http://yago-knowledge.org/resource/Online_encyclopedia> a owl:Class .
+
+<http://yago-knowledge.org/resource/Medical_journal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pirate_radio> a owl:Class .
+
+<http://yago-knowledge.org/resource/Humanoid_robot> a owl:Class .
+
+<http://yago-knowledge.org/resource/Facade> a owl:Class .
+
+<http://yago-knowledge.org/resource/Para-Nordic_skiing_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Wiki_hosting_service> a owl:Class .
+
+<http://yago-knowledge.org/resource/Astronomical_survey> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gazetteer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Para-alpine_skiing_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Password_manager> a owl:Class .
+
+<http://yago-knowledge.org/resource/Solar_telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Manufacturing> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ferris_wheel> a owl:Class .
+
+<http://yago-knowledge.org/resource/Watergate_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pinnacle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Defensive_wall> a owl:Class .
+
+<http://yago-knowledge.org/resource/Identity_document> a owl:Class .
+
+<http://yago-knowledge.org/resource/Smart_speaker> a owl:Class .
+
+<http://yago-knowledge.org/resource/Telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Column> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bibliographic_database> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bell> a owl:Class .
+
+<http://yago-knowledge.org/resource/Lime_kiln> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hacking_tool> a owl:Class .
+
+<http://yago-knowledge.org/resource/Stone> a owl:Class .
+
+<http://yago-knowledge.org/resource/Directory_(computing)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Long_gallery> a owl:Class .
+
+<http://yago-knowledge.org/resource/Parquetry> a owl:Class .
+
+<http://yago-knowledge.org/resource/Unicode_block> a owl:Class .
+
+<http://yago-knowledge.org/resource/Video_codec> a owl:Class .
+
+<http://yago-knowledge.org/resource/Stile> a owl:Class .
+
+<http://yago-knowledge.org/resource/Wall> a owl:Class .
+
+<http://yago-knowledge.org/resource/License> a owl:Class .
+
+<http://yago-knowledge.org/resource/Collection_catalog> a owl:Class .
+
+<http://yago-knowledge.org/resource/Window_manager> a owl:Class .
+
+<http://yago-knowledge.org/resource/Chatbot> a owl:Class .
+
+<http://yago-knowledge.org/resource/Predella> a owl:Class .
+
+<http://yago-knowledge.org/resource/Windpump> a owl:Class .
+
+<http://yago-knowledge.org/resource/Digital_camera> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sausage> a owl:Class .
+
+<http://yago-knowledge.org/resource/Submarine_power_cable> a owl:Class .
+
+<http://yago-knowledge.org/resource/Telephone_numbering_plan> a owl:Class .
+
+<http://yago-knowledge.org/resource/Machine_gun> a owl:Class .
+
+<http://yago-knowledge.org/resource/Material> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gate_tower> a owl:Class .
+
+<http://yago-knowledge.org/resource/Robot> a owl:Class .
+
+<http://yago-knowledge.org/resource/Carousel> a owl:Class .
+
+<http://yago-knowledge.org/resource/Halberd> a owl:Class .
+
+<http://yago-knowledge.org/resource/Addendum> a owl:Class .
+
+<http://yago-knowledge.org/resource/Incunable> a owl:Class .
+
+<http://yago-knowledge.org/resource/Computer_magazine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Field_gun> a owl:Class .
+
+<http://yago-knowledge.org/resource/Web_framework> a owl:Class .
+
+<http://yago-knowledge.org/resource/Dictionary> a owl:Class .
+
+<http://yago-knowledge.org/resource/Crown_jewels> a owl:Class .
+
+<http://yago-knowledge.org/resource/Fabergé_egg> a owl:Class .
+
+<http://yago-knowledge.org/resource/Presidential_proclamation_(United_States)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sports_equipment> a owl:Class .
+
+<http://yago-knowledge.org/resource/Parish_register> a owl:Class .
+
+<http://yago-knowledge.org/resource/Choir_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tabletop_role-playing_game> a owl:Class .
+
+<http://yago-knowledge.org/resource/Headgear> a owl:Class .
+
+<http://yago-knowledge.org/resource/Japanese_sword> a owl:Class .
+
+<http://yago-knowledge.org/resource/Compendium> a owl:Class .
+
+<http://yago-knowledge.org/resource/Thurible> a owl:Class .
+
+<http://yago-knowledge.org/resource/Free_software> a owl:Class .
+
+<http://yago-knowledge.org/resource/Azulejo> a owl:Class .
+
+<http://yago-knowledge.org/resource/Software_license> a owl:Class .
+
+<http://yago-knowledge.org/resource/Foghorn> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diplomatic_correspondence> a owl:Class .
+
+<http://yago-knowledge.org/resource/Accounting_software> a owl:Class .
+
+<http://yago-knowledge.org/resource/Letter_(message)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cider_apple> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diamond> a owl:Class .
+
+<http://yago-knowledge.org/resource/String_instrument> a owl:Class .
+
+<http://yago-knowledge.org/resource/Knife> a owl:Class .
+
+<http://yago-knowledge.org/resource/Taekwondo_weight_classes> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ha-ha> a owl:Class .
+
+<http://yago-knowledge.org/resource/Email_client> a owl:Class .
+
+<http://yago-knowledge.org/resource/Fauteuil> a owl:Class .
+
+<http://yago-knowledge.org/resource/Negotiation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Vase> a owl:Class .
+
+<http://yago-knowledge.org/resource/Library_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tabletop_game> a owl:Class .
+
+<http://yago-knowledge.org/resource/Data_type> a owl:Class .
+
+<http://yago-knowledge.org/resource/Amphora> a owl:Class .
+
+<http://yago-knowledge.org/resource/Workstation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Central_processing_unit> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tower_mill> a owl:Class .
+
+<http://yago-knowledge.org/resource/Wayside_shrine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Time_capsule> a owl:Class .
+
+<http://yago-knowledge.org/resource/Liqueur> a owl:Class .
+
+<http://yago-knowledge.org/resource/Multiple_rocket_launcher> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tunic> a owl:Class .
+
+<http://yago-knowledge.org/resource/Vacuum_tube_computer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Signage> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hand_tool> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mountain_gun> a owl:Class .
+
+<http://yago-knowledge.org/resource/Nuclear_reactor> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rich_Text_Format> a owl:Class .
+
+<http://yago-knowledge.org/resource/Artillery> a owl:Class .
+
+<http://yago-knowledge.org/resource/Nightstand> a owl:Class .
+
+<http://yago-knowledge.org/resource/Folk_costume> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tablet_computer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Kitchenware> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sex_toy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Stained_glass> a owl:Class .
+
+<http://yago-knowledge.org/resource/Home_computer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Software_as_a_service> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sgraffito> a owl:Class .
+
+<http://yago-knowledge.org/resource/Configuration_file> a owl:Class .
+
+<http://yago-knowledge.org/resource/Siege_engine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Game_controller> a owl:Class .
+
+<http://yago-knowledge.org/resource/Optical_telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pottery> a owl:Class .
+
+<http://yago-knowledge.org/resource/Screen_reader> a owl:Class .
+
+<http://yago-knowledge.org/resource/Software_development_kit> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cocktail> a owl:Class .
+
+<http://yago-knowledge.org/resource/Guided_bomb> a owl:Class .
+
+<http://yago-knowledge.org/resource/Authoring_system> a owl:Class .
+
+<http://yago-knowledge.org/resource/Wikipedia:Gadget> a owl:Class .
+
+<http://yago-knowledge.org/resource/Flag> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pediment> a owl:Class .
+
+<http://yago-knowledge.org/resource/Shirt> a owl:Class .
+
+<http://yago-knowledge.org/resource/System_software> a owl:Class .
+
+<http://yago-knowledge.org/resource/Weather_vane> a owl:Class .
+
+<http://yago-knowledge.org/resource/Graphics> a owl:Class .
+
+<http://yago-knowledge.org/resource/Box> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tile> a owl:Class .
+
+<http://yago-knowledge.org/resource/Debugger> a owl:Class .
+
+<http://yago-knowledge.org/resource/Para-swimming_classification> a owl:Class .
+
+<http://yago-knowledge.org/resource/Shoe> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rifle_cartridge> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cadastre> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ammunition> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cabinet_(furniture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Etching> a owl:Class .
+
+<http://yago-knowledge.org/resource/Post_(structural)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mobile_browser> a owl:Class .
+
+<http://yago-knowledge.org/resource/Crag_and_tail> a owl:Class .
+
+<http://yago-knowledge.org/resource/Windowing_system> a owl:Class .
+
+<http://yago-knowledge.org/resource/Beacon> a owl:Class .
+
+<http://yago-knowledge.org/resource/Political_statement> a owl:Class .
+
+<http://yago-knowledge.org/resource/Voice_banking> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tableware> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hypervisor> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ontology_(information_science)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Software_engine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Meteorite> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pulp_magazine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Go_software> a owl:Class .
+
+<http://yago-knowledge.org/resource/Analog_synthesizer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Violin> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sensor> a owl:Class .
+
+<http://yago-knowledge.org/resource/Climate_change_mitigation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Graphics_library> a owl:Class .
+
+<http://yago-knowledge.org/resource/Log_flume_(ride)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ciborium_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rhyton> a owl:Class .
+
+<http://yago-knowledge.org/resource/Sandal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Operating_system> a owl:Class .
+
+<http://yago-knowledge.org/resource/File_folder> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diploma> a owl:Class .
+
+<http://yago-knowledge.org/resource/Electronic_health_record> a owl:Class .
+
+<http://yago-knowledge.org/resource/Budget_of_the_United_Kingdom> a owl:Class .
+
+<http://yago-knowledge.org/resource/FIFA_World_Cup_Official_Match_Ball> a owl:Class .
+
+<http://yago-knowledge.org/resource/Microscope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Nuragic_holy_well> a owl:Class .
+
+<http://yago-knowledge.org/resource/Footwear> a owl:Class .
+
+<http://yago-knowledge.org/resource/Candidate_(degree)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Field_guide> a owl:Class .
+
+<http://yago-knowledge.org/resource/Reave> a owl:Class .
+
+<http://yago-knowledge.org/resource/Personal_information_manager> a owl:Class .
+
+<http://yago-knowledge.org/resource/Office_supplies> a owl:Class .
+
+<http://yago-knowledge.org/resource/Scroll> a owl:Class .
+
+<http://yago-knowledge.org/resource/Balloon-borne_telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Robotic_telescope> a owl:Class .
+
+<http://yago-knowledge.org/resource/Breakfast_cereal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Water_tank> a owl:Class .
+
+<http://yago-knowledge.org/resource/Geographic_information_system> a owl:Class .
+
+<http://yago-knowledge.org/resource/Household_silver> a owl:Class .
+
+<http://yago-knowledge.org/resource/Petition> a owl:Class .
+
+<http://yago-knowledge.org/resource/Online_magazine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Biblical_apocrypha> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pillar_box> a owl:Class .
+
+<http://yago-knowledge.org/resource/Hindu_texts> a owl:Class .
+
+<http://yago-knowledge.org/resource/Puranas> a owl:Class .
+
+<http://yago-knowledge.org/resource/Lager> a owl:Class .
+
+<http://yago-knowledge.org/resource/File_manager> a owl:Class .
+
+<http://yago-knowledge.org/resource/Anti-tank_mine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Activity_tracker> a owl:Class .
+
+<http://yago-knowledge.org/resource/Travel_visa> a owl:Class .
+
+<http://yago-knowledge.org/resource/Kernel_(operating_system)> a owl:Class .
+
+<http://yago-knowledge.org/resource/City_gate> a owl:Class .
+
+<http://yago-knowledge.org/resource/Android_(robot)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bread> a owl:Class .
+
+<http://yago-knowledge.org/resource/Marmite_(cooking_dish)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tapestry> a owl:Class .
+
+<http://yago-knowledge.org/resource/Jar> a owl:Class .
+
+<http://yago-knowledge.org/resource/Socle_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Andiron> a owl:Class .
+
+<http://yago-knowledge.org/resource/Finial> a owl:Class .
+
+<http://yago-knowledge.org/resource/Creative_Commons_license> a owl:Class .
+
+<http://yago-knowledge.org/resource/Carillon> a owl:Class .
+
+<http://yago-knowledge.org/resource/Urinal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Straight_engine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bottle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Smeltmill> a owl:Class .
+
+<http://yago-knowledge.org/resource/Tea> a owl:Class .
+
+<http://yago-knowledge.org/resource/Firearm> a owl:Class .
+
+<http://yago-knowledge.org/resource/Research_reactor> a owl:Class .
+
+<http://yago-knowledge.org/resource/Binoculars> a owl:Class .
+
+<http://yago-knowledge.org/resource/Authority_control> a owl:Class .
+
+<http://yago-knowledge.org/resource/Microcomputer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Memorandum> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mirrorless_interchangeable-lens_camera> a owl:Class .
+
+<http://yago-knowledge.org/resource/History_journal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Church_tabernacle> a owl:Class .
+
+<http://yago-knowledge.org/resource/Television_set> a owl:Class .
+
+<http://yago-knowledge.org/resource/Media_(communication)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Diplomacy> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mortar_(weapon)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Rocket-propelled_grenade> a owl:Class .
+
+<http://yago-knowledge.org/resource/Water_tunnel_(physical_infrastructure)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Abandonware> a owl:Class .
+
+<http://yago-knowledge.org/resource/Stamp_catalog> a owl:Class .
+
+<http://yago-knowledge.org/resource/Speech-generating_device> a owl:Class .
+
+<http://yago-knowledge.org/resource/Barometer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Build_automation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Disk_image> a owl:Class .
+
+<http://yago-knowledge.org/resource/White_paper> a owl:Class .
+
+<http://yago-knowledge.org/resource/Download_manager> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pathfinder_(library_science)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Thermometer> a owl:Class .
+
+<http://yago-knowledge.org/resource/Fanzine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Powder_mill> a owl:Class .
+
+<http://yago-knowledge.org/resource/List_(abstract_data_type)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Backup_software> a owl:Class .
+
+<http://yago-knowledge.org/resource/Missal> a owl:Class .
+
+<http://yago-knowledge.org/resource/Astronomical_rings> a owl:Class .
+
+<http://yago-knowledge.org/resource/Computer_program> a owl:Class .
+
+<http://yago-knowledge.org/resource/Beam_(structure)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Wheel_arrangement> a owl:Class .
+
+<http://yago-knowledge.org/resource/Public_transport_timetable> a owl:Class .
+
+<http://yago-knowledge.org/resource/Altar_cloth> a owl:Class .
+
+<http://yago-knowledge.org/resource/Modillion> a owl:Class .
+
+<http://yago-knowledge.org/resource/JavaScript_library> a owl:Class .
+
+<http://yago-knowledge.org/resource/Carafe> a owl:Class .
+
+<http://yago-knowledge.org/resource/Campaign_(role-playing_games)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bilateral_treaty> a owl:Class .
+
+<http://yago-knowledge.org/resource/Microprocessor> a owl:Class .
+
+<http://yago-knowledge.org/resource/Highway_location_marker> a owl:Class .
+
+<http://yago-knowledge.org/resource/Remix> a owl:Class .
+
+<http://yago-knowledge.org/resource/Stacker> a owl:Class .
+
+<http://yago-knowledge.org/resource/Cauldron> a owl:Class .
+
+<http://yago-knowledge.org/resource/Family_tree> a owl:Class .
+
+<http://yago-knowledge.org/resource/Bible_translations> a owl:Class .
+
+<http://yago-knowledge.org/resource/HVDC_converter_station> a owl:Class .
+
+<http://yago-knowledge.org/resource/Ransomware> a owl:Class .
+
+<http://yago-knowledge.org/resource/Pavement_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Gristmill> a owl:Class .
+
+<http://yago-knowledge.org/resource/Organ_(music)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Harpsichord> a owl:Class .
+
+<http://yago-knowledge.org/resource/Seat> a owl:Class .
+
+<http://yago-knowledge.org/resource/Computer_worm> a owl:Class .
+
+<http://yago-knowledge.org/resource/Trumeau_(architecture)> a owl:Class .
+
+<http://yago-knowledge.org/resource/Proclamation> a owl:Class .
+
+<http://yago-knowledge.org/resource/Game_engine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Data_storage> a owl:Class .
+
+<http://yago-knowledge.org/resource/Steam_engine> a owl:Class .
+
+<http://yago-knowledge.org/resource/Adhesive> a owl:Class .
+
+<http://yago-knowledge.org/resource/Oil_mill> a owl:Class .
+
+<http://yago-knowledge.org/resource/Soft_drink> a owl:Class .
+
+<http://yago-knowledge.org/resource/Mineral_water> a owl:Class .
+
+<http://yago-knowledge.org/resource/Medical_equipment> a owl:Class .
+
+<http://yago-knowledge.org/resource/Trick-taking_game> a owl:Class .

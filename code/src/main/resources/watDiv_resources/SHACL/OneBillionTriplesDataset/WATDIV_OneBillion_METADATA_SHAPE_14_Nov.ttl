@@ -1,0 +1,814 @@
+@prefix schema: <http://schema.org/> .
+@prefix wgs:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mo:     <http://purl.org/ontology/mo/> .
+@prefix rev:    <http://purl.org/stuff/rev#> .
+@prefix stat:   <http://watDiv.shacl.stat.io/> .
+@prefix shape:  <http://watDiv.shacl.io/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix gn:     <http://www.geonames.org/ontology#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gr:     <http://purl.org/goodrelations/> .
+@prefix wd:     <http://db.uwaterloo.ca/~galuc/wsdbm/> .
+@prefix wsdbm:  <http://db.uwaterloo.ca/~galuc/wsdbm/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix og:     <http://ogp.me/ns#> .
+@prefix ogp:    <http://ogp.me/ns#> .
+@prefix foaf:   <http://xmlns.com/foaf/> .
+@prefix dc:     <http://purl.org/dc/terms/> .
+
+shape:RDFGraphShape
+    a           sh:NodeShape ;
+    sh:property shape:schema_description, shape:schema_printColumn, shape:schema_keywords, shape:schema_director,
+                shape:mo_producer, shape:rev_title, shape:schema_priceValidUntil, shape:gn_parentCountry,
+                shape:schema_author, shape:schema_employee, shape:gr_description, shape:schema_telephone,
+                shape:schema_producer, shape:schema_aggregateRating, shape:mo_release, shape:gr_validFrom,
+                shape:wsdbm_subscribes, shape:schema_bookEdition, shape:schema_url, shape:schema_jobTitle,
+                shape:schema_printEdition, shape:schema_editor, shape:schema_expires, shape:wsdbm_likes,
+                shape:schema_language, shape:schema_text, shape:rev_totalVotes, shape:schema_nationality,
+                shape:mo_conductor, shape:schema_trailer, shape:wsdbm_hits, shape:schema_publisher, shape:wsdbm_gender,
+                shape:rev_text, shape:schema_eligibleQuantity, shape:schema_datePublished, shape:schema_actor,
+                shape:schema_email, shape:mo_record_number, shape:mo_performer, shape:foaf_age, shape:wsdbm_purchaseFor,
+                shape:mo_artist, shape:schema_contactPoint, shape:gr_serialNumber, shape:gr_offers,
+                shape:schema_openingHours, shape:schema_duration, shape:wsdbm_friendOf, shape:mo_opus,
+                shape:schema_printPage, shape:schema_eligibleRegion, shape:rev_hasReview, shape:mo_performed_in,
+                shape:wsdbm_follows, shape:rev_rating, shape:mo_movement, shape:foaf_givenName,
+                shape:schema_printSection, shape:schema_birthDate, shape:schema_isbn, shape:wsdbm_userId,
+                shape:gr_price, shape:gr_validThrough, shape:foaf_homepage, shape:schema_award, shape:wsdbm_composer,
+                shape:schema_paymentAccepted, shape:foaf_familyName, shape:rdf_type, shape:wsdbm_hasGenre,
+                shape:schema_wordCount, shape:rev_reviewer, shape:schema_numberOfPages, shape:wsdbm_makesPurchase,
+                shape:gr_includes, shape:gr_name, shape:schema_legalName, shape:schema_contentSize, shape:dc_Location,
+                shape:schema_contentRating, shape:schema_caption, shape:wsdbm_purchaseDate, shape:schema_faxNumber,
+                shape:description, shape:printColumn, shape:keywords, shape:director, shape:producer, shape:title,
+                shape:priceValidUntil, shape:parentCountry, shape:author, shape:employee, shape:telephone,
+                shape:aggregateRating, shape:release, shape:validFrom, shape:subscribes, shape:bookEdition, shape:url,
+                shape:jobTitle, shape:printEdition, shape:editor, shape:expires, shape:tag, shape:likes, shape:language,
+                shape:text, shape:totalVotes, shape:nationality, shape:conductor, shape:trailer, shape:hits,
+                shape:publisher, shape:gender, shape:eligibleQuantity, shape:datePublished, shape:actor, shape:email,
+                shape:record_number, shape:performer, shape:age, shape:purchaseFor, shape:artist, shape:contactPoint,
+                shape:serialNumber, shape:offers, shape:openingHours, shape:duration, shape:friendOf, shape:opus,
+                shape:printPage, shape:eligibleRegion, shape:hasReview, shape:performed_in, shape:follows, shape:rating,
+                shape:movement, shape:givenName, shape:printSection, shape:birthDate, shape:isbn, shape:userId,
+                shape:price, shape:validThrough, shape:homepage, shape:award, shape:composer, shape:paymentAccepted,
+                shape:familyName, shape:type, shape:hasGenre, shape:wordCount, shape:reviewer, shape:numberOfPages,
+                shape:makesPurchase, shape:includes, shape:name, shape:legalName, shape:contentSize, shape:Location,
+                shape:contentRating, shape:caption, shape:purchaseDate, shape:faxNumber, shape:ogp_title,
+                shape: .
+
+shape:schema_description
+    a                         sh:PropertyShape ;
+    stat:count                1502774 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1488016 ;
+    stat:distinctSubjectCount 1502774 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:description .
+
+shape:schema_printColumn
+    a                         sh:PropertyShape ;
+    stat:count                33307 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  44 ;
+    stat:distinctSubjectCount 33307 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:printColumn .
+
+shape:schema_keywords
+    a                         sh:PropertyShape ;
+    stat:count                749497 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  745451 ;
+    stat:distinctSubjectCount 749497 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:keywords .
+
+shape:schema_director
+    a                         sh:PropertyShape ;
+    stat:count                133018 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  52012 ;
+    stat:distinctSubjectCount 133018 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:director .
+
+shape:mo_producer
+    a                         sh:PropertyShape ;
+    stat:count                83800 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  83752 ;
+    stat:distinctSubjectCount 83800 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:producer .
+
+shape:rev_title
+    a                         sh:PropertyShape ;
+    stat:count                4500260 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  4402686 ;
+    stat:distinctSubjectCount 4500260 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:title .
+
+shape:schema_priceValidUntil
+    a                         sh:PropertyShape ;
+    stat:count                1799977 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  70 ;
+    stat:distinctSubjectCount 1799977 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:priceValidUntil .
+
+shape:gn_parentCountry
+    a                         sh:PropertyShape ;
+    stat:count                240 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  25 ;
+    stat:distinctSubjectCount 240 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gn:parentCountry .
+
+shape:schema_author
+    a                         sh:PropertyShape ;
+    stat:count                399964 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  379773 ;
+    stat:distinctSubjectCount 264931 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:author .
+
+shape:schema_employee
+    a                         sh:PropertyShape ;
+    stat:count                118702 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  118702 ;
+    stat:distinctSubjectCount 22589 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:employee .
+
+shape:gr_description
+    a                         sh:PropertyShape ;
+    stat:count                120000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  119881 ;
+    stat:distinctSubjectCount 120000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:description .
+
+shape:schema_telephone
+    a                         sh:PropertyShape ;
+    stat:count                584590 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  565814 ;
+    stat:distinctSubjectCount 584590 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:telephone .
+
+shape:schema_producer
+    a                         sh:PropertyShape ;
+    stat:count                82993 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  82950 ;
+    stat:distinctSubjectCount 82993 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:producer .
+
+shape:schema_aggregateRating
+    a                         sh:PropertyShape ;
+    stat:count                48215 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10 ;
+    stat:distinctSubjectCount 48215 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:aggregateRating .
+
+shape:mo_release
+    a                         sh:PropertyShape ;
+    stat:count                83847 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  16309 ;
+    stat:distinctSubjectCount 83847 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:release .
+
+shape:gr_validFrom
+    a                         sh:PropertyShape ;
+    stat:count                3595028 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  171 ;
+    stat:distinctSubjectCount 3595028 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:validFrom .
+
+shape:wsdbm_subscribes
+    a                         sh:PropertyShape ;
+    stat:count                14998724 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  500000 ;
+    stat:distinctSubjectCount 1994204 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:subscribes .
+
+shape:schema_bookEdition
+    a                         sh:PropertyShape ;
+    stat:count                83084 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  6 ;
+    stat:distinctSubjectCount 83084 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:bookEdition .
+
+shape:schema_url
+    a                         sh:PropertyShape ;
+    stat:count                500000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  498137 ;
+    stat:distinctSubjectCount 500000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:url .
+
+shape:schema_jobTitle
+    a                         sh:PropertyShape ;
+    stat:count                500288 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  498404 ;
+    stat:distinctSubjectCount 500288 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:jobTitle .
+
+shape:schema_printEdition
+    a                         sh:PropertyShape ;
+    stat:count                33307 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  36 ;
+    stat:distinctSubjectCount 33307 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:printEdition .
+
+shape:schema_editor
+    a                         sh:PropertyShape ;
+    stat:count                158362 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  153938 ;
+    stat:distinctSubjectCount 82244 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:editor .
+
+shape:schema_expires
+    a                         sh:PropertyShape ;
+    stat:count                124774 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  2190 ;
+    stat:distinctSubjectCount 124774 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:expires .
+
+shape:wsdbm_likes
+    a                         sh:PropertyShape ;
+    stat:count                11233480 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  2363310 ;
+    stat:distinctSubjectCount 2383828 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:likes .
+
+shape:schema_language
+    a                         sh:PropertyShape ;
+    stat:count                625087 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  35 ;
+    stat:distinctSubjectCount 551366 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:language .
+
+shape:schema_text
+    a                         sh:PropertyShape ;
+    stat:count                750930 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  746793 ;
+    stat:distinctSubjectCount 750930 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:text .
+
+shape:rev_totalVotes
+    a                         sh:PropertyShape ;
+    stat:count                745602 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  999 ;
+    stat:distinctSubjectCount 745602 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:totalVotes .
+
+shape:schema_nationality
+    a                         sh:PropertyShape ;
+    stat:count                2000898 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  25 ;
+    stat:distinctSubjectCount 2000898 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:nationality .
+
+shape:mo_conductor
+    a                         sh:PropertyShape ;
+    stat:count                41577 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  41180 ;
+    stat:distinctSubjectCount 41577 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:conductor .
+
+shape:schema_trailer
+    a                         sh:PropertyShape ;
+    stat:count                25064 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  24457 ;
+    stat:distinctSubjectCount 14028 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:trailer .
+
+shape:wsdbm_hits
+    a                         sh:PropertyShape ;
+    stat:count                500000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10001 ;
+    stat:distinctSubjectCount 500000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:hits .
+
+shape:schema_publisher
+    a                         sh:PropertyShape ;
+    stat:count                132584 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  132436 ;
+    stat:distinctSubjectCount 132584 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:publisher .
+
+shape:wsdbm_gender
+    a                         sh:PropertyShape ;
+    stat:count                5999283 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  2 ;
+    stat:distinctSubjectCount 5999283 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:gender .
+
+shape:rev_text
+    a                         sh:PropertyShape ;
+    stat:count                10502492 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10179515 ;
+    stat:distinctSubjectCount 10502492 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:text .
+
+shape:schema_eligibleQuantity
+    a                         sh:PropertyShape ;
+    stat:count                9000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9 ;
+    stat:distinctSubjectCount 9000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:eligibleQuantity .
+
+shape:schema_datePublished
+    a                         sh:PropertyShape ;
+    stat:count                116252 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  16395 ;
+    stat:distinctSubjectCount 116252 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:datePublished .
+
+shape:schema_actor
+    a                         sh:PropertyShape ;
+    stat:count                1662887 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1153819 ;
+    stat:distinctSubjectCount 132619 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:actor .
+
+shape:schema_email
+    a                         sh:PropertyShape ;
+    stat:count                9095455 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  8828536 ;
+    stat:distinctSubjectCount 9095455 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:email .
+
+shape:mo_record_number
+    a                         sh:PropertyShape ;
+    stat:count                83683 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 83683 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:record_number .
+
+shape:mo_performer
+    a                         sh:PropertyShape ;
+    stat:count                41545 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  41535 ;
+    stat:distinctSubjectCount 41545 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:performer .
+
+shape:foaf_age
+    a                         sh:PropertyShape ;
+    stat:count                4998668 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9 ;
+    stat:distinctSubjectCount 4998668 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   foaf:age .
+
+shape:wsdbm_purchaseFor
+    a                         sh:PropertyShape ;
+    stat:count                15000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1513583 ;
+    stat:distinctSubjectCount 15000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:purchaseFor .
+
+shape:mo_artist
+    a                         sh:PropertyShape ;
+    stat:count                133822 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  52061 ;
+    stat:distinctSubjectCount 133822 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:artist .
+
+shape:schema_contactPoint
+    a                         sh:PropertyShape ;
+    stat:count                95941 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  95941 ;
+    stat:distinctSubjectCount 95941 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:contactPoint .
+
+shape:gr_serialNumber
+    a                         sh:PropertyShape ;
+    stat:count                9000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  8559383 ;
+    stat:distinctSubjectCount 9000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:serialNumber .
+
+shape:gr_offers
+    a                         sh:PropertyShape ;
+    stat:count                12860039 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  4168649 ;
+    stat:distinctSubjectCount 119912 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:offers .
+
+shape:schema_openingHours
+    a                         sh:PropertyShape ;
+    stat:count                95898 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  13 ;
+    stat:distinctSubjectCount 95898 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:openingHours .
+
+shape:schema_duration
+    a                         sh:PropertyShape ;
+    stat:count                49948 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  501 ;
+    stat:distinctSubjectCount 49948 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:duration .
+
+shape:wsdbm_friendOf
+    a                         sh:PropertyShape ;
+    stat:count                450363481 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10000000 ;
+    stat:distinctSubjectCount 3996712 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:friendOf .
+
+shape:mo_opus
+    a                         sh:PropertyShape ;
+    stat:count                66513 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 66513 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:opus .
+
+shape:schema_printPage
+    a                         sh:PropertyShape ;
+    stat:count                33194 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  999 ;
+    stat:distinctSubjectCount 33194 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:printPage .
+
+shape:schema_eligibleRegion
+    a                         sh:PropertyShape ;
+    stat:count                18420105 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  25 ;
+    stat:distinctSubjectCount 4504019 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:eligibleRegion .
+
+shape:rev_hasReview
+    a                         sh:PropertyShape ;
+    stat:count                14783197 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  14783197 ;
+    stat:distinctSubjectCount 498573 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:hasReview .
+
+shape:mo_performed_in
+    a                         sh:PropertyShape ;
+    stat:count                41454 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  240 ;
+    stat:distinctSubjectCount 41454 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:performed_in .
+
+shape:wsdbm_follows
+    a                         sh:PropertyShape ;
+    stat:count                327644586 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9008994 ;
+    stat:distinctSubjectCount 7749771 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:follows .
+
+shape:rev_rating
+    a                         sh:PropertyShape ;
+    stat:count                15000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  11 ;
+    stat:distinctSubjectCount 15000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:rating .
+
+shape:mo_movement
+    a                         sh:PropertyShape ;
+    stat:count                66513 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10 ;
+    stat:distinctSubjectCount 66513 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   mo:movement .
+
+shape:foaf_givenName
+    a                         sh:PropertyShape ;
+    stat:count                6997751 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1780 ;
+    stat:distinctSubjectCount 6997751 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   foaf:givenName .
+
+shape:schema_printSection
+    a                         sh:PropertyShape ;
+    stat:count                33194 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9 ;
+    stat:distinctSubjectCount 33194 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:printSection .
+
+shape:schema_birthDate
+    a                         sh:PropertyShape ;
+    stat:count                1999483 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10956 ;
+    stat:distinctSubjectCount 1999483 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:birthDate .
+
+shape:schema_isbn
+    a                         sh:PropertyShape ;
+    stat:count                166623 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  60393 ;
+    stat:distinctSubjectCount 166623 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:isbn .
+
+shape:wsdbm_userId
+    a                         sh:PropertyShape ;
+    stat:count                10000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  6037439 ;
+    stat:distinctSubjectCount 10000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:userId .
+
+shape:gr_price
+    a                         sh:PropertyShape ;
+    stat:count                24000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 24000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:price .
+
+shape:gr_validThrough
+    a                         sh:PropertyShape ;
+    stat:count                3601076 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  121 ;
+    stat:distinctSubjectCount 3601076 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:validThrough .
+
+shape:foaf_homepage
+    a                         sh:PropertyShape ;
+    stat:count                1118422 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  497997 ;
+    stat:distinctSubjectCount 1118422 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   foaf:homepage .
+
+shape:schema_award
+    a                         sh:PropertyShape ;
+    stat:count                50166 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  50148 ;
+    stat:distinctSubjectCount 45246 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:award .
+
+shape:wsdbm_composer
+    a                         sh:PropertyShape ;
+    stat:count                41090 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1780 ;
+    stat:distinctSubjectCount 41090 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:composer .
+
+shape:schema_paymentAccepted
+    a                         sh:PropertyShape ;
+    stat:count                72096 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  72069 ;
+    stat:distinctSubjectCount 72096 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:paymentAccepted .
+
+shape:foaf_familyName
+    a                         sh:PropertyShape ;
+    stat:count                6997751 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1780 ;
+    stat:distinctSubjectCount 6997751 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   foaf:familyName .
+
+shape:rdf_type
+    a                         sh:PropertyShape ;
+    stat:count                13588993 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  39 ;
+    stat:distinctSubjectCount 12500145 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rdf:type .
+
+shape:wsdbm_hasGenre
+    a                         sh:PropertyShape ;
+    stat:count                5877941 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  145 ;
+    stat:distinctSubjectCount 2500000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:hasGenre .
+
+shape:schema_wordCount
+    a                         sh:PropertyShape ;
+    stat:count                33240 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  7240 ;
+    stat:distinctSubjectCount 33240 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:wordCount .
+
+shape:rev_reviewer
+    a                         sh:PropertyShape ;
+    stat:count                15000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  3086632 ;
+    stat:distinctSubjectCount 15000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rev:reviewer .
+
+shape:schema_numberOfPages
+    a                         sh:PropertyShape ;
+    stat:count                41716 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  978 ;
+    stat:distinctSubjectCount 41716 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:numberOfPages .
+
+shape:wsdbm_makesPurchase
+    a                         sh:PropertyShape ;
+    stat:count                14999932 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  14999932 ;
+    stat:distinctSubjectCount 1580424 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:makesPurchase .
+
+shape:gr_includes
+    a                         sh:PropertyShape ;
+    stat:count                9000000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  2431393 ;
+    stat:distinctSubjectCount 9000000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:includes .
+
+shape:gr_name
+    a                         sh:PropertyShape ;
+    stat:count                120000 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  119876 ;
+    stat:distinctSubjectCount 120000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   gr:name .
+
+shape:schema_legalName
+    a                         sh:PropertyShape ;
+    stat:count                12073 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  12071 ;
+    stat:distinctSubjectCount 12073 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:legalName .
+
+shape:schema_contentSize
+    a                         sh:PropertyShape ;
+    stat:count                249351 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10000 ;
+    stat:distinctSubjectCount 249351 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:contentSize .
+
+shape:dc_Location
+    a                         sh:PropertyShape ;
+    stat:count                3997274 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  240 ;
+    stat:distinctSubjectCount 3997274 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   dc:Location .
+
+shape:schema_contentRating
+    a                         sh:PropertyShape ;
+    stat:count                750989 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  13 ;
+    stat:distinctSubjectCount 750989 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:contentRating .
+
+shape:schema_caption
+    a                         sh:PropertyShape ;
+    stat:count                249511 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  249011 ;
+    stat:distinctSubjectCount 249511 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:caption .
+
+shape:wsdbm_purchaseDate
+    a                         sh:PropertyShape ;
+    stat:count                4502990 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  365 ;
+    stat:distinctSubjectCount 4502990 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   wsdbm:purchaseDate .
+
+shape:schema_faxNumber
+    a                         sh:PropertyShape ;
+    stat:count                12131 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  12121 ;
+    stat:distinctSubjectCount 12131 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   schema:faxNumber .

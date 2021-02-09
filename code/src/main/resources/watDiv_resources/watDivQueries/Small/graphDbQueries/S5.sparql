@@ -1,0 +1,7 @@
+SELECT * WHERE {
+ ?v0 <http://schema.org/language> <http://db.uwaterloo.ca/~galuc/wsdbm/Language0> .
+    ?v0 <http://schema.org/description> ?v2 .
+    ?v0 <http://schema.org/keywords> ?v3 .
+    ?v0 rdf:type ?z .
+
+}

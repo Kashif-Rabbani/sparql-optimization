@@ -1,0 +1,11 @@
+SELECT  *
+WHERE
+  {
+      { { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  <http://www.University0.edu> .
+          { ?Y  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> .}
+        }
+        { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>  ?Y .
+          { ?X  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Chair> .}
+        }
+      }
+  }

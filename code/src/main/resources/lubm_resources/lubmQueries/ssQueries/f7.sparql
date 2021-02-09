@@ -1,0 +1,9 @@
+SELECT  ?Y ?x ?X ?Z
+WHERE
+  { ?Y  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  ?x .
+    ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf>  ?Y ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress>  ?Z
+  }
+

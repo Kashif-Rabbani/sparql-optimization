@@ -1,0 +1,8 @@
+PREFIX schema: <http://schema.org/>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+	?v0 a schema:Event .
+	?v0 schema:startDate ?v3 .
+    ?v0 schema:competitor ?v9 .
+
+}

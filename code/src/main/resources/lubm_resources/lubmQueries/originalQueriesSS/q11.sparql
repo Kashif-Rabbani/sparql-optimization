@@ -1,0 +1,6 @@
+SELECT  ?X
+WHERE
+  { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  <http://www.University0.edu> ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#ResearchGroup>
+  }
+

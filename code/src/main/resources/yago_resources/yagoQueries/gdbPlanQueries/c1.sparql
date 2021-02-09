@@ -1,0 +1,13 @@
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+select * where {
+?v0 <http://schema.org/isBasedOn> ?v3 .
+?v0 <http://schema.org/about> ?v1 .
+?v0 <http://schema.org/director> ?v4 .
+?v4 <http://schema.org/givenName> ?v5 .
+?v4 <http://schema.org/spouse> ?v6 .
+?v0 <http://schema.org/alternateName> ?v2 .
+?v7 <http://schema.org/actor> ?v6 .
+?v7 <http://schema.org/inLanguage> ?v8 .
+}

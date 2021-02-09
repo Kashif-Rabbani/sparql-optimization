@@ -1,0 +1,6 @@
+SELECT  ?X
+WHERE
+  { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  <http://www.Department0.University0.edu/GraduateCourse0> ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student>
+  }
+

@@ -1,0 +1,8 @@
+SELECT  *
+WHERE
+  { ?v0  <http://schema.org/nationality>  <http://db.uwaterloo.ca/~galuc/wsdbm/Country1> .
+    ?v3  <http://purl.org/ontology/mo/artist>  ?v0 .
+    ?v0  <http://xmlns.com/foaf/age>  ?age ;
+         <http://xmlns.com/foaf/familyName>  ?v2
+  }
+

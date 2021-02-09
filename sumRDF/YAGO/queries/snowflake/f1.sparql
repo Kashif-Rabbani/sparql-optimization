@@ -1,0 +1,9 @@
+PREFIX schema: <http://schema.org/>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+   ?v0 schema:location ?f .
+    ?v3 schema:containsPlace ?v0 .
+    ?v3 a schema:Corporation.
+    ?v3 schema:url ?v4 .
+    ?v3 schema:alternateName ?v5 .
+}

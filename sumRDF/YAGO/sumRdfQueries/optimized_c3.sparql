@@ -1,0 +1,8 @@
+SELECT  *
+WHERE
+  { ?v0  <http://schema.org/worksFor>  ?v2 ;
+         <http://schema.org/location>  ?v1 ;
+         <http://schema.org/givenName>  ?v4 ;
+         <http://schema.org/birthDate>  ?v3
+  }
+

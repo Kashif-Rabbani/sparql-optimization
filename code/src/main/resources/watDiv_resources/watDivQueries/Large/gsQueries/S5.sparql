@@ -1,0 +1,8 @@
+SELECT  ?v0 ?z ?v3 ?v2
+WHERE
+  { ?v0  <http://schema.org/language>  <http://db.uwaterloo.ca/~galuc/wsdbm/Language0> ;
+         <http://schema.org/keywords>  ?v3 ;
+         <http://schema.org/description>  ?v2 ;
+         a                     ?z
+  }
+

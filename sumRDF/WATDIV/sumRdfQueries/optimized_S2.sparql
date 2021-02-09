@@ -1,0 +1,8 @@
+SELECT  *
+WHERE
+  { ?v0  <http://schema.org/nationality>  ?n ;
+         a                     <http://db.uwaterloo.ca/~galuc/wsdbm/Role2> ;
+         <http://purl.org/dc/terms/Location>  ?v1 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/gender>  ?v3
+  }
+

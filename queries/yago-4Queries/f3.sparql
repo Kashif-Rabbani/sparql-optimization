@@ -1,0 +1,9 @@
+PREFIX schema: <http://schema.org/>
+SELECT * WHERE {
+	  ?v0 schema:genre ?f .
+    ?v0 schema:duration ?v1 .
+    ?v0 schema:actor ?v2 .
+    ?v5 schema:isBasedOn ?v0 .
+    ?v4  schema:partOfSeries ?v5 .
+    ?v5 schema:alternateName ?v6 .
+}

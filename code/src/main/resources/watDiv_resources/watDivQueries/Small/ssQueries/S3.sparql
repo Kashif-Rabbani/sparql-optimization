@@ -1,0 +1,8 @@
+SELECT  ?v0 ?z ?v4 ?v3 ?v2
+WHERE
+  { ?v0  <http://schema.org/publisher>  ?v4 ;
+         <http://schema.org/caption>  ?v2 ;
+         a                     ?z ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre>  ?v3
+  }
+

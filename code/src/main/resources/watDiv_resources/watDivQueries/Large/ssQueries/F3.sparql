@@ -1,0 +1,10 @@
+SELECT  ?v5 ?v6 ?v0 ?f ?v4 ?v2 ?v1
+WHERE
+  { ?v0  <http://schema.org/contentSize>  ?v2 ;
+         <http://schema.org/contentRating>  ?v1 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre>  ?f .
+    ?v5  <http://db.uwaterloo.ca/~galuc/wsdbm/purchaseFor>  ?v0 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/purchaseDate>  ?v6 .
+    ?v4  <http://db.uwaterloo.ca/~galuc/wsdbm/makesPurchase>  ?v5
+  }
+

@@ -1,0 +1,7 @@
+SELECT  ?X
+WHERE
+  { <http://www.University0.edu>
+              <http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus>  ?X .
+    ?X        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Person>
+  }
+

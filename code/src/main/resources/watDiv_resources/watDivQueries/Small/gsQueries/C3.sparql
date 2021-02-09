@@ -1,0 +1,10 @@
+SELECT  ?v0 ?v6 ?v3 ?v5 ?v2 ?v1 ?v4
+WHERE
+  { ?v0  <http://purl.org/dc/terms/Location>  ?v3 ;
+         <http://xmlns.com/foaf/age>  ?v4 ;
+         <http://xmlns.com/foaf/givenName>  ?v6 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/gender>  ?v5 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/likes>  ?v1 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/friendOf>  ?v2
+  }
+

@@ -1,0 +1,13 @@
+SELECT  ?v1 ?v5 ?v6 ?v0 ?f ?v4 ?v7 ?v8 ?v2
+WHERE
+  { ?v1  <http://schema.org/language>  <http://db.uwaterloo.ca/~galuc/wsdbm/Language0> ;
+         <http://schema.org/url>  ?v5 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/hits>  ?v6 .
+    ?v0  <http://xmlns.com/foaf/homepage>  ?v1 ;
+         <http://schema.org/contentSize>  ?v8 ;
+         <http://schema.org/description>  ?v4 .
+    ?v2  <http://purl.org/goodrelations/includes>  ?v0 .
+    ?v7  <http://db.uwaterloo.ca/~galuc/wsdbm/likes>  ?v0 .
+    ?v0  <http://ogp.me/ns#tag>  ?f
+  }
+

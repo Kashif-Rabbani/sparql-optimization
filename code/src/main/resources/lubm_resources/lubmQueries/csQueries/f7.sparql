@@ -1,0 +1,13 @@
+SELECT  *
+WHERE
+  {
+      { { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  ?x .
+          { ?Y  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Department> .}
+        }
+        { { ?X  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> .
+            { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress>  ?Z .}
+          }
+          { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf>  ?Y .}
+        }
+      }
+  }

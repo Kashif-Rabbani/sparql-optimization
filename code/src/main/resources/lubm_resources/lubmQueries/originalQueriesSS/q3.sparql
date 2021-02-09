@@ -1,0 +1,6 @@
+SELECT  ?X
+WHERE
+  { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#publicationAuthor>  <http://www.Department0.University0.edu/AssistantProfessor0> ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Publication>
+  }
+

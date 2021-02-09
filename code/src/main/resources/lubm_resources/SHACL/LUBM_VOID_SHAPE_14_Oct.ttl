@@ -1,0 +1,358 @@
+@prefix stat:  <http://lubm.shacl.stat.io/> .
+@prefix shape: <http://lubm.shacl.io/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ub:    <http://swat.cse.lehigh.edu/onto/univ-bench.owl#> .
+
+
+# Only putting the class shapes, just as an alternative of class entities of VOID statistics
+
+shape:PersonShape
+    a                  sh:NodeShape ;
+    stat:count         5580609 ;
+    stat:distinctCount 5580609 ;
+    sh:targetClass     ub:Person .
+
+shape:FullProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         85006 ;
+    stat:distinctCount 85006 ;
+    sh:targetClass     ub:FullProfessor .
+
+shape:GraduateStudentShape
+    a                  sh:NodeShape ;
+    stat:count         1259681 ;
+    stat:distinctCount 1259681 ;
+    sh:targetClass     ub:GraduateStudent .
+
+shape:GraduateCourseShape
+    a                  sh:NodeShape ;
+    stat:count         539467 ;
+    stat:distinctCount 539467 ;
+    sh:targetClass     ub:GraduateCourse .
+
+shape:EmployeeShape
+    a                  sh:NodeShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    sh:targetClass     ub:Employee .
+
+shape:DepartmentShape
+    a                  sh:NodeShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    sh:targetClass     ub:Department .
+
+shape:UndergraduateStudentShape
+    a                  sh:NodeShape ;
+    stat:count         3961133 ;
+    stat:distinctCount 3961133 ;
+    sh:targetClass     ub:UndergraduateStudent .
+
+shape:WorkShape
+    a                  sh:NodeShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    sh:targetClass     ub:Work .
+
+shape:FacultyShape
+    a                  sh:NodeShape ;
+    stat:count         359795 ;
+    stat:distinctCount 359795 ;
+    sh:targetClass     ub:Faculty .
+
+shape:UniversityShape
+    a                  sh:NodeShape ;
+    stat:count         1000 ;
+    stat:distinctCount 1000 ;
+    sh:targetClass     ub:University .
+
+shape:OntologyShape
+    a                  sh:NodeShape ;
+    stat:count         1 ;
+    stat:distinctCount 1 ;
+    sh:targetClass     owl:Ontology .
+
+shape:LecturerShape
+    a                  sh:NodeShape ;
+    stat:count         59978 ;
+    stat:distinctCount 59978 ;
+    sh:targetClass     ub:Lecturer .
+
+shape:ResearchGroupShape
+    a                  sh:NodeShape ;
+    stat:count         150142 ;
+    stat:distinctCount 150142 ;
+    sh:targetClass     ub:ResearchGroup .
+
+shape:PublicationShape
+    a                  sh:NodeShape ;
+    stat:count         4025854 ;
+    stat:distinctCount 4025854 ;
+    sh:targetClass     ub:Publication .
+
+shape:AssistantProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         94869 ;
+    stat:distinctCount 94869 ;
+    sh:targetClass     ub:AssistantProfessor .
+
+shape:CourseShape
+    a                  sh:NodeShape ;
+    stat:count         1079580 ;
+    stat:distinctCount 1079580 ;
+    sh:targetClass     ub:Course .
+
+shape:AssociateProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         119942 ;
+    stat:distinctCount 119942 ;
+    sh:targetClass     ub:AssociateProfessor .
+
+shape:ChairShape
+    a                  sh:NodeShape ;
+    stat:count         9998 ;
+    stat:distinctCount 9998 ;
+    sh:targetClass     ub:Chair .
+
+shape:OrganizationShape
+    a                  sh:NodeShape ;
+    stat:count         161140 ;
+    stat:distinctCount 161140 ;
+    sh:targetClass     ub:Organization .
+
+shape:ProfessorShape
+    a                  sh:NodeShape ;
+    stat:count         299817 ;
+    stat:distinctCount 299817 ;
+    sh:targetClass     ub:Professor .
+
+shape:ResearchAssistantShape
+    a                  sh:NodeShape ;
+    stat:count         363890 ;
+    stat:distinctCount 363890 ;
+    sh:targetClass     ub:ResearchAssistant .
+
+shape:StudentShape
+    a                  sh:NodeShape ;
+    stat:count         5220814 ;
+    stat:distinctCount 5220814 ;
+    sh:targetClass     ub:Student .
+
+shape:TeachingAssistantShape
+    a                  sh:NodeShape ;
+    stat:count         279491 ;
+    stat:distinctCount 279491 ;
+    sh:targetClass     ub:TeachingAssistant .
+
+shape:RDFGraphShape
+    a           sh:NodeShape ;
+    sh:property <http://lubm.shacl.io/owl#_imports>, <http://lubm.shacl.io/univ-bench.owl#_name>,
+                <http://lubm.shacl.io/univ-bench.owl#_telephone>, <http://lubm.shacl.io/univ-bench.owl#_degreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_worksFor>,
+                <http://lubm.shacl.io/univ-bench.owl#_teachingAssistantOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_hasAlumnus>,
+                <http://lubm.shacl.io/univ-bench.owl#_undergraduateDegreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_mastersDegreeFrom>,
+                <http://lubm.shacl.io/univ-bench.owl#_researchInterest>,
+                <http://lubm.shacl.io/univ-bench.owl#_memberOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_doctoralDegreeFrom>,
+                <http://lubm.shacl.io/22-rdf-syntax-ns#_type>, <http://lubm.shacl.io/univ-bench.owl#_emailAddress>,
+                <http://lubm.shacl.io/univ-bench.owl#_teacherOf>, <http://lubm.shacl.io/univ-bench.owl#_member>,
+                <http://lubm.shacl.io/univ-bench.owl#_takesCourse>,
+                <http://lubm.shacl.io/univ-bench.owl#_publicationAuthor>, <http://lubm.shacl.io/univ-bench.owl#_headOf>,
+                <http://lubm.shacl.io/univ-bench.owl#_advisor>,
+                <http://lubm.shacl.io/univ-bench.owl#_subOrganizationOf> .
+
+<http://lubm.shacl.io/owl#_imports>
+    a                         sh:PropertyShape ;
+    stat:count                1 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1 ;
+    stat:distinctSubjectCount 1 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   owl:imports .
+
+<http://lubm.shacl.io/univ-bench.owl#_name>
+    a                         sh:PropertyShape ;
+    stat:count                10696541 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1480 ;
+    stat:distinctSubjectCount 10696541 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:name .
+
+<http://lubm.shacl.io/univ-bench.owl#_telephone>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:telephone .
+
+<http://lubm.shacl.io/univ-bench.owl#_degreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                2337985 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 1619476 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:degreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_worksFor>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:worksFor .
+
+<http://lubm.shacl.io/univ-bench.owl#_teachingAssistantOf>
+    a                         sh:PropertyShape ;
+    stat:count                279491 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  279491 ;
+    stat:distinctSubjectCount 279491 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:teachingAssistantOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_hasAlumnus>
+    a                         sh:PropertyShape ;
+    stat:count                2337985 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1619476 ;
+    stat:distinctSubjectCount 1000 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:hasAlumnus .
+
+<http://lubm.shacl.io/univ-bench.owl#_undergraduateDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                1619476 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 1619476 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:undergraduateDegreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_mastersDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:mastersDegreeFrom .
+
+<http://lubm.shacl.io/univ-bench.owl#_researchInterest>
+    a                         sh:PropertyShape ;
+    stat:count                299817 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  30 ;
+    stat:distinctSubjectCount 299817 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:researchInterest .
+
+<http://lubm.shacl.io/univ-bench.owl#_memberOf>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:memberOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_doctoralDegreeFrom>
+    a                         sh:PropertyShape ;
+    stat:count                359795 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1000 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:doctoralDegreeFrom .
+
+<http://lubm.shacl.io/22-rdf-syntax-ns#_type>
+    a                         sh:PropertyShape ;
+    stat:count                25101580 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  23 ;
+    stat:distinctSubjectCount 10847184 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   rdf:type .
+
+<http://lubm.shacl.io/univ-bench.owl#_emailAddress>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  5580609 ;
+    stat:distinctSubjectCount 5580609 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:emailAddress .
+
+<http://lubm.shacl.io/univ-bench.owl#_teacherOf>
+    a                         sh:PropertyShape ;
+    stat:count                1079580 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1079580 ;
+    stat:distinctSubjectCount 359795 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:teacherOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_member>
+    a                         sh:PropertyShape ;
+    stat:count                5580609 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  5580609 ;
+    stat:distinctSubjectCount 9998 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:member .
+
+<http://lubm.shacl.io/univ-bench.owl#_takesCourse>
+    a                         sh:PropertyShape ;
+    stat:count                14405077 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1074409 ;
+    stat:distinctSubjectCount 5220814 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:takesCourse .
+
+<http://lubm.shacl.io/univ-bench.owl#_publicationAuthor>
+    a                         sh:PropertyShape ;
+    stat:count                7176871 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  1399646 ;
+    stat:distinctSubjectCount 4025854 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:publicationAuthor .
+
+<http://lubm.shacl.io/univ-bench.owl#_headOf>
+    a                         sh:PropertyShape ;
+    stat:count                9998 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  9998 ;
+    stat:distinctSubjectCount 9998 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:headOf .
+
+<http://lubm.shacl.io/univ-bench.owl#_advisor>
+    a                         sh:PropertyShape ;
+    stat:count                2052228 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  299177 ;
+    stat:distinctSubjectCount 2052228 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:advisor .
+
+<http://lubm.shacl.io/univ-bench.owl#_subOrganizationOf>
+    a                         sh:PropertyShape ;
+    stat:count                310282 ;
+    stat:distinctCount        1 ;
+    stat:distinctObjectCount  10498 ;
+    stat:distinctSubjectCount 160140 ;
+    sh:nodeKind               sh:IRI ;
+    sh:path                   ub:subOrganizationOf .

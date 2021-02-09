@@ -1,0 +1,23 @@
+SELECT  *
+WHERE
+  {
+      { { { ?v0  <http://schema.org/memberOf>  ?v2 .
+            { ?v0  <http://schema.org/givenName>  ?v1 .}
+          }
+          { ?v3  <http://schema.org/parentOrganization>  ?v8 .
+            { ?v8  <http://schema.org/foundingDate>  ?v9 .}
+          }
+        }
+        { { ?v2  <http://schema.org/location>  <http://yago-knowledge.org/resource/Moscow> .
+            { ?v2  <http://schema.org/subOrganization>  ?v3 .}
+          }
+          { { { ?v4  <http://schema.org/parentOrganization>  ?v7 .
+                { ?v4  <http://schema.org/logo>  ?v5 .}
+              }
+              { ?v4  <http://schema.org/url>  ?v6 .}
+            }
+            { ?v7  <http://schema.org/subOrganization>  ?v3 .}
+          }
+        }
+      }
+  }

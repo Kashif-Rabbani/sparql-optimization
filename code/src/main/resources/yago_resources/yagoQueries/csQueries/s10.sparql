@@ -1,0 +1,20 @@
+
+SELECT  *
+WHERE
+  {
+      { { { { { { { ?v0  <http://schema.org/knowsLanguage>  ?v7 .
+                    { ?v0  <http://schema.org/alumniOf>  ?v6 .}
+                  }
+                  { ?v0  <http://schema.org/alternateName>  ?v1 .}
+                }
+                { ?v0  <http://schema.org/givenName>  ?v5 .}
+              }
+              { ?v0  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://yago-knowledge.org/resource/Twin> .}
+            }
+            { ?v0  <http://schema.org/hasOccupation>  ?v3 .}
+          }
+          { ?v0  <http://schema.org/birthDate>  ?v4 .}
+        }
+        { ?v0  <http://schema.org/nationality>  ?v8 .}
+      }
+  }

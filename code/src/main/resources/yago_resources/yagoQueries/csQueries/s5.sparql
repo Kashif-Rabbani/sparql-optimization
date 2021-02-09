@@ -1,0 +1,9 @@
+SELECT  *
+WHERE
+  {
+      { { ?v0  <http://schema.org/competitor>  ?v9 .
+          { ?v0  <http://schema.org/startDate>  ?v3 .}
+        }
+        { ?v0  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://schema.org/Event> .}
+      }
+  }

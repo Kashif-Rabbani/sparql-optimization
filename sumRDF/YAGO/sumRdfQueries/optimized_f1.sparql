@@ -1,0 +1,9 @@
+SELECT  *
+WHERE
+  { ?v3  <http://schema.org/containsPlace>  ?v0 ;
+         a                     <http://schema.org/Corporation> ;
+         <http://schema.org/url>  ?v4 .
+    ?v0  <http://schema.org/location>  ?f .
+    ?v3  <http://schema.org/alternateName>  ?v5
+  }
+

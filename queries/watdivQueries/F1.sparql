@@ -1,0 +1,9 @@
+SELECT * WHERE {
+	?v0 <http://ogp.me/ns#tag> ?f .
+	?v3 <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre> ?v0 .
+	?v3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+	?v3 <http://schema.org/trailer> ?v4 .
+	?v3 <http://schema.org/keywords> ?v5 .
+}
+
+#578552.1279601761

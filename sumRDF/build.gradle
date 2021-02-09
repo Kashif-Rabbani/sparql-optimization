@@ -1,0 +1,80 @@
+//These are dependencies that have to do with just the build. See: https://stackoverflow.com/a/23627293/5432315
+
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "com.github.jengelman.gradle.plugins:shadow:5.2.0"
+    }
+}
+
+plugins {
+    id 'java'
+}
+apply plugin: "com.github.johnrengelman.shadow"
+
+sourceCompatibility = 1.8
+targetCompatibility = '1.8'
+
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/org.apache.jena/jena-fuseki-war
+    // implementation group: 'org.apache.jena', name: 'jena-fuseki-war', version: '3.14.0'
+
+    // https://mvnrepository.com/artifact/org.apache.jena/jena-fuseki-main
+    //implementation group: 'org.apache.jena', name: 'jena-fuseki-main', version: '3.14.0'
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14
+    implementation group: 'org.slf4j', name: 'slf4j-jdk14', version: '2.0.0-alpha1'
+
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+    //compile 'org.slf4j:slf4j-nop:1.7.25'
+    //Added this library to write logs into files...
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
+
+    //https://mvnrepository.com/artifact/org.apache.jena/jena-tdb
+    //compile group: 'org.apache.jena', name: 'jena-tdb', version: '3.14.0'
+
+    //This is for progressbar
+    // https://mvnrepository.com/artifact/me.tongfei/progressbar
+    compile group: 'me.tongfei', name: 'progressbar', version: '0.8.1'
+
+    // These are for RDF4J and GraphDB
+
+    //https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-repository-sparql
+    compile group: 'org.eclipse.rdf4j', name: 'rdf4j-repository-sparql', version: '3.0.0'
+    // https://mvnrepository.com/artifact/com.ontotext.graphdb/graphdb-free-runtime
+    compile group: 'com.ontotext.graphdb', name: 'graphdb-free-runtime', version: '9.3.0'
+
+
+    compile('org.apache.jena:apache-jena-libs:3.15.0')
+
+    //adding jena query builder library
+    // https://mvnrepository.com/artifact/org.apache.jena/jena-querybuilder
+    compile group: 'org.apache.jena', name: 'jena-querybuilder', version: '3.16.0'
+
+
+    // https://mvnrepository.com/artifact/org.decimal4j/decimal4j
+    compile group: 'org.decimal4j', name: 'decimal4j', version: '1.0.3'
+
+
+}
+
+
+shadowJar {
+    mergeServiceFiles()
+    manifest {
+        attributes 'Main-Class': 'uk.ac.ox.krr.cardinality.eval.Evaluator'
+    }
+}

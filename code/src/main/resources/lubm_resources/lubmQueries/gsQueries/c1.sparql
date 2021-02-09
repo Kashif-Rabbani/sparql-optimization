@@ -1,0 +1,13 @@
+SELECT  ?U ?Y ?A ?C ?X
+WHERE
+  { ?A  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C .
+    ?C  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> .
+    ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>  ?A ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom>  ?U .
+    ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> .
+    ?U  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#hasAlumnus>  ?Y
+  }
+

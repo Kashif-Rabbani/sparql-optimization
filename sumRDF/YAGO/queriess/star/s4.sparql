@@ -1,0 +1,8 @@
+PREFIX schema: <http://schema.org/>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+	?v0 schema:hasOccupation ?f .
+	?v0 schema:givenName ?v2 .
+	?v3 schema:actor ?v0 .
+	?v0  schema:nationality  yago:United_States.
+}

@@ -1,0 +1,14 @@
+PREFIX ub: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT * WHERE {
+?D <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf> <http://www.University0.edu> .
+?A <http://swat.cse.lehigh.edu/onto/univ-bench.owl#memberOf> ?D .
+?A <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf> ?C .
+?C rdf:type <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+?S <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor> ?A .
+?S <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf> ?C1 .
+?C1 rdf:type <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse> ?C .
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#name> ?name .
+?X rdf:type <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Student> .
+}

@@ -1,0 +1,10 @@
+PREFIX schema: <http://schema.org/>
+select * where {
+    ?v0 schema:genre ?f .
+    ?v0 schema:actor ?v1 .
+    ?v0 schema:duration ?v2 .
+    ?v0 schema:musicBy ?v4 .
+    ?v0  schema:about ?v5 .
+    ?v1 schema:memberOf ?v7 .
+    ?v1 schema:alternateName ?v6 .
+}

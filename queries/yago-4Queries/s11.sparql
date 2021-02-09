@@ -1,0 +1,13 @@
+PREFIX schema: <http://schema.org/>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+    ?v0	schema:alternateName	?v1 .
+    ?v0	schema:hasOccupation	?v3 .
+    ?v0	schema:birthDate	?v4 .
+    ?v0	schema:givenName	?v5 .
+    ?v0	schema:alumniOf	?v6 .
+    ?v0	schema:knowsLanguage	?v7 .
+    ?v0	schema:nationality	?v8 .
+    ?v0 schema:alumniOf		?v9 .
+    ?v0 a  yago:Billionaire .
+}

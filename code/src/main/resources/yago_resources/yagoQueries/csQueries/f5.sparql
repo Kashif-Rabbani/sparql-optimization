@@ -1,0 +1,13 @@
+SELECT  *
+WHERE
+  {
+      { { { ?v0  <http://schema.org/productionCompany>  ?v4 .
+            { ?v0  <http://schema.org/isPartOf>  ?v1 .}
+          }
+          { ?v0  <http://schema.org/actor>  ?v3 .}
+        }
+        { ?v1  <http://schema.org/alternateName>  ?v5 .
+          { ?f  <http://schema.org/hasPart>  ?v0 .}
+        }
+      }
+  }

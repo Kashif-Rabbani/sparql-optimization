@@ -1,0 +1,19 @@
+SELECT  *
+WHERE
+  {
+      { { { { ?v0  <http://schema.org/isBasedOn>  ?v3 .
+              { ?v0  <http://schema.org/about>  ?v1 .}
+            }
+            { ?v0  <http://schema.org/director>  ?v4 .}
+          }
+          { ?v0  <http://schema.org/alternateName>  ?v2 .}
+        }
+        { { ?v4  <http://schema.org/spouse>  ?v6 .
+            { ?v4  <http://schema.org/givenName>  ?v5 .}
+          }
+          { ?v7  <http://schema.org/actor>  ?v6 .
+            { ?v7  <http://schema.org/inLanguage>  ?v8 .}
+          }
+        }
+      }
+  }

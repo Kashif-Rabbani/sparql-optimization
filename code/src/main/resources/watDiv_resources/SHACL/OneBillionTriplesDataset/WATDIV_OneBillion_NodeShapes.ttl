@@ -1,0 +1,165 @@
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix shape: <http://watDiv.shacl.io/> .
+@prefix stat: <http://watDiv.shacl.stat.io/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+shape:Genre0Shape a sh:NodeShape;
+  stat:count 1;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre0> .
+
+shape:Genre10Shape a sh:NodeShape;
+  stat:count 5;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre10> .
+
+shape:Genre11Shape a sh:NodeShape;
+  stat:count 6;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre11> .
+
+shape:Genre12Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre12> .
+
+shape:Genre13Shape a sh:NodeShape;
+  stat:count 9;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre13> .
+
+shape:Genre14Shape a sh:NodeShape;
+  stat:count 8;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre14> .
+
+shape:Genre15Shape a sh:NodeShape;
+  stat:count 6;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre15> .
+
+shape:Genre16Shape a sh:NodeShape;
+  stat:count 3;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre16> .
+
+shape:Genre17Shape a sh:NodeShape;
+  stat:count 6;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre17> .
+
+shape:Genre18Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre18> .
+
+shape:Genre19Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre19> .
+
+shape:Genre1Shape a sh:NodeShape;
+  stat:count 2;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre1> .
+
+shape:Genre20Shape a sh:NodeShape;
+  stat:count 23;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre20> .
+
+shape:Genre2Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre2> .
+
+shape:Genre3Shape a sh:NodeShape;
+  stat:count 4;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre3> .
+
+shape:Genre4Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre4> .
+
+shape:Genre5Shape a sh:NodeShape;
+  stat:count 11;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre5> .
+
+shape:Genre6Shape a sh:NodeShape;
+  stat:count 4;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre6> .
+
+shape:Genre7Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre7> .
+
+shape:Genre8Shape a sh:NodeShape;
+  stat:count 8;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre8> .
+
+shape:Genre9Shape a sh:NodeShape;
+  stat:count 7;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Genre9> .
+
+shape:ProductCategory0Shape a sh:NodeShape;
+  stat:count 83010;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory0> .
+
+shape:ProductCategory10Shape a sh:NodeShape;
+  stat:count 167046;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory10> .
+
+shape:ProductCategory11Shape a sh:NodeShape;
+  stat:count 166994;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory11> .
+
+shape:ProductCategory12Shape a sh:NodeShape;
+  stat:count 166508;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory12> .
+
+shape:ProductCategory13Shape a sh:NodeShape;
+  stat:count 166788;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory13> .
+
+shape:ProductCategory14Shape a sh:NodeShape;
+  stat:count 249962;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory14> .
+
+shape:ProductCategory1Shape a sh:NodeShape;
+  stat:count 167201;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory1> .
+
+shape:ProductCategory2Shape a sh:NodeShape;
+  stat:count 166183;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory2> .
+
+shape:ProductCategory3Shape a sh:NodeShape;
+  stat:count 166623;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory3> .
+
+shape:ProductCategory4Shape a sh:NodeShape;
+  stat:count 166245;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory4> .
+
+shape:ProductCategory5Shape a sh:NodeShape;
+  stat:count 166246;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory5> .
+
+shape:ProductCategory6Shape a sh:NodeShape;
+  stat:count 166824;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory6> .
+
+shape:ProductCategory7Shape a sh:NodeShape;
+  stat:count 166569;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory7> .
+
+shape:ProductCategory8Shape a sh:NodeShape;
+  stat:count 167239;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory8> .
+
+shape:ProductCategory9Shape a sh:NodeShape;
+  stat:count 166562;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/ProductCategory9> .
+
+shape:Role0Shape a sh:NodeShape;
+  stat:count 5852735;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Role0> .
+
+shape:Role1Shape a sh:NodeShape;
+  stat:count 3111693;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Role1> .
+
+shape:Role2Shape a sh:NodeShape;
+  stat:count 2124420;
+  sh:targetClass <http://db.uwaterloo.ca/~galuc/wsdbm/Role2> .

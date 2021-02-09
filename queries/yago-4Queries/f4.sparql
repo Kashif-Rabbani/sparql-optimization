@@ -1,0 +1,13 @@
+PREFIX schema: <http://schema.org/>
+PREFIX yago: <http://yago-knowledge.org/resource/>
+SELECT * WHERE {
+    ?v0 schema:producer ?f  .
+    ?v0 schema:datePublished ?v4 .
+    ?v0 schema:genre ?v8 .
+    ?v0 schema:actor ?v1 .
+    ?v1 schema:url ?v5 .
+    ?v1 schema:alternateName ?v6 .
+    ?v1 schema:nationality  yago:United_Kingdom.
+    ?v2 schema:partOfSeries ?v0 .
+    ?v7 schema:partOfSeries ?v0 .
+}

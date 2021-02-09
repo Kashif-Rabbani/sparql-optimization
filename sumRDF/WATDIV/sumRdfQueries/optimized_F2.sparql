@@ -1,0 +1,11 @@
+SELECT  *
+WHERE
+  { ?v0  <http://schema.org/caption>  ?v4 ;
+         <http://xmlns.com/foaf/homepage>  ?v1 ;
+         <http://schema.org/description>  ?v5 ;
+         <http://ogp.me/ns#title>  ?v2 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/hasGenre>  ?f .
+    ?v1  <http://schema.org/url>  ?v6 ;
+         <http://db.uwaterloo.ca/~galuc/wsdbm/hits>  ?v7
+  }
+

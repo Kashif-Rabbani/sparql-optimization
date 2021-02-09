@@ -1,0 +1,13 @@
+SELECT  *
+WHERE
+  { ?v1  <http://schema.org/nationality>  <http://yago-knowledge.org/resource/United_Kingdom> ;
+         <http://schema.org/url>  ?v5 .
+    ?v0  <http://schema.org/actor>  ?v1 .
+    ?v7  <http://schema.org/partOfSeries>  ?v0 .
+    ?v0  <http://schema.org/producer>  ?f .
+    ?v2  <http://schema.org/partOfSeries>  ?v0 .
+    ?v0  <http://schema.org/datePublished>  ?v4 ;
+         <http://schema.org/genre>  ?v8 .
+    ?v1  <http://schema.org/alternateName>  ?v6
+  }
+

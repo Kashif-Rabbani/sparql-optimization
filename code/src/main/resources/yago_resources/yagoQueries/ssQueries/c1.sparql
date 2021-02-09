@@ -1,0 +1,12 @@
+SELECT  ?v0 ?v2 ?v4 ?v6 ?v1 ?v7 ?v3 ?v8 ?v5
+WHERE
+  { ?v0  <http://schema.org/isBasedOn>  ?v3 ;
+         <http://schema.org/director>  ?v4 ;
+         <http://schema.org/about>  ?v1 .
+    ?v4  <http://schema.org/givenName>  ?v5 ;
+         <http://schema.org/spouse>  ?v6 .
+    ?v0  <http://schema.org/alternateName>  ?v2 .
+    ?v7  <http://schema.org/actor>  ?v6 ;
+         <http://schema.org/inLanguage>  ?v8
+  }
+

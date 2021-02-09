@@ -1,0 +1,13 @@
+SELECT  ?r ?v0 ?v1 ?v5 ?v9 ?v6 ?v3 ?v7 ?v4 ?v8
+WHERE
+  { ?v0  <http://schema.org/priceValidUntil>  ?v9 ;
+         <http://purl.org/goodrelations/validFrom>  ?v5 ;
+         <http://purl.org/goodrelations/serialNumber>  ?v4 ;
+         <http://purl.org/goodrelations/validThrough>  ?v6 ;
+         <http://purl.org/goodrelations/includes>  ?v1 ;
+         <http://purl.org/goodrelations/price>  ?v3 ;
+         <http://schema.org/eligibleQuantity>  ?v7 .
+    ?r   <http://purl.org/goodrelations/offers>  ?v0 .
+    ?v0  <http://schema.org/eligibleRegion>  ?v8
+  }
+

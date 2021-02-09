@@ -1,0 +1,15 @@
+SELECT  ?X ?Y ?Z
+WHERE
+  {
+      { { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?Z .
+          { ?Y  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> .}
+        }
+        { { { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>  ?Y .
+              { ?X  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#UndergraduateStudent> .}
+            }
+            { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?Z .}
+          }
+          { ?Z  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Course> .}
+        }
+      }
+  }

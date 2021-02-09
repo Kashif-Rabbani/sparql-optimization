@@ -1,0 +1,14 @@
+SELECT  *
+WHERE
+  { ?v2  <http://schema.org/location>  <http://yago-knowledge.org/resource/Moscow> ;
+         <http://schema.org/subOrganization>  ?v3 .
+    ?v0  <http://schema.org/memberOf>  ?v2 .
+    ?v3  <http://schema.org/parentOrganization>  ?v8 .
+    ?v7  <http://schema.org/subOrganization>  ?v3 .
+    ?v4  <http://schema.org/parentOrganization>  ?v7 ;
+         <http://schema.org/logo>  ?v5 ;
+         <http://schema.org/url>  ?v6 .
+    ?v8  <http://schema.org/foundingDate>  ?v9 .
+    ?v0  <http://schema.org/givenName>  ?v1
+  }
+

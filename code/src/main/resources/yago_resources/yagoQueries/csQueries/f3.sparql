@@ -1,0 +1,15 @@
+SELECT  *
+WHERE
+  {
+      { ?v4  <http://schema.org/partOfSeries>  ?v5 .
+        { { ?v5  <http://schema.org/isBasedOn>  ?v0 .
+            { ?v5  <http://schema.org/alternateName>  ?v6 .}
+          }
+          { { ?v0  <http://schema.org/duration>  ?v1 .
+              { ?v0  <http://schema.org/genre>  ?f .}
+            }
+            { ?v0  <http://schema.org/actor>  ?v2 .}
+          }
+        }
+      }
+  }

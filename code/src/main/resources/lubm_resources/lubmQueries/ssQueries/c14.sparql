@@ -1,0 +1,11 @@
+SELECT  ?S1 ?P1 ?S2 ?C1 ?C2 ?C3
+WHERE
+  { ?S2  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teachingAssistantOf>  ?C2 .
+    ?P1  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C2 .
+    ?S2  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C1 .
+    ?P1  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C1 .
+    ?S2  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C3 .
+    ?S1  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C1 ;
+         <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C3
+  }
+

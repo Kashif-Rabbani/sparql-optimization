@@ -1,0 +1,10 @@
+SELECT  ?v0 ?v2 ?v5 ?v6 ?f ?v4 ?v1
+WHERE
+  { ?v5  <http://schema.org/isBasedOn>  ?v0 .
+    ?v0  <http://schema.org/duration>  ?v1 ;
+         <http://schema.org/genre>  ?f .
+    ?v4  <http://schema.org/partOfSeries>  ?v5 .
+    ?v0  <http://schema.org/actor>  ?v2 .
+    ?v5  <http://schema.org/alternateName>  ?v6
+  }
+

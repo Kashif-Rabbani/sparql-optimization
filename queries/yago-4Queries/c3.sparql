@@ -1,0 +1,7 @@
+PREFIX schema: <http://schema.org/>
+select * where {
+    ?v0  schema:location	?v1 .
+    ?v0 schema:worksFor ?v2 .
+    ?v0 schema:birthDate ?v3 .
+    ?v0 schema:givenName ?v4 .
+}

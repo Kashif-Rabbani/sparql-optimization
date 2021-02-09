@@ -1,0 +1,9 @@
+SELECT  ?f ?v0 ?v1 ?v5 ?v3 ?v4
+WHERE
+  { ?v1  <http://ogp.me/ns#title>  ?v5 .
+    ?v0  <http://purl.org/goodrelations/includes>  ?v1 ;
+         <http://purl.org/goodrelations/validThrough>  ?v4 ;
+         <http://purl.org/goodrelations/price>  ?v3 .
+    ?f   <http://purl.org/goodrelations/offers>  ?v0
+  }
+

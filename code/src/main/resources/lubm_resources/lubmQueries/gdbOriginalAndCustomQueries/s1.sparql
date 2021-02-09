@@ -1,0 +1,9 @@
+PREFIX ub: <http://swat.cse.lehigh.edu/onto/univ-bench.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT * WHERE {
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor> <http://www.Department0.University0.edu> .
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#name> ?Y1 .
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress> ?Y2 .
+?X <http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone> ?Y3 .
+?X rdf:type <http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> .
+}

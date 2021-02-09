@@ -1,0 +1,10 @@
+SELECT  ?C ?name ?X ?D ?uni
+WHERE
+  { ?X  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#Professor> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>  ?D .
+    ?D  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#subOrganizationOf>  ?uni .
+    ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C .
+    ?C  a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#name>  ?name
+  }
+

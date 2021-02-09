@@ -1,0 +1,9 @@
+SELECT  ?X ?Y1 ?Y3 ?Y2
+WHERE
+  { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#worksFor>  <http://www.Department0.University0.edu> ;
+        a                     <http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#name>  ?Y1 ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#emailAddress>  ?Y2 ;
+        <http://swat.cse.lehigh.edu/onto/univ-bench.owl#telephone>  ?Y3
+  }
+

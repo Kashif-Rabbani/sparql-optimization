@@ -1,0 +1,3001 @@
+@prefix schema: <http://schema.org/> .
+@prefix wgs:    <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix mo:     <http://purl.org/ontology/mo/> .
+@prefix rev:    <http://purl.org/stuff/rev#> .
+@prefix stat:   <http://watDiv.shacl.stat.io/> .
+@prefix shape:  <http://watDiv.shacl.io/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix gn:     <http://www.geonames.org/ontology#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gr:     <http://purl.org/goodrelations/> .
+@prefix wd:     <http://db.uwaterloo.ca/~galuc/wsdbm/> .
+@prefix wsdbm:  <http://db.uwaterloo.ca/~galuc/wsdbm/> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix og:     <http://ogp.me/ns#> .
+@prefix ogp:    <http://ogp.me/ns#> .
+@prefix foaf:   <http://xmlns.com/foaf/> .
+@prefix dc:     <http://purl.org/dc/terms/> .
+
+shape:Genre0Shape
+    a                  sh:NodeShape ;
+    stat:count         7 ;
+    stat:distinctCount 7 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre0ShapeProperty ;
+    sh:targetClass     wsdbm:Genre0 .
+
+shape:tagGenre0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         20 ;
+    stat:distinctCount 20 ;
+    stat:maxCount      20 ;
+    stat:minCount      20 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre10Shape
+    a                  sh:NodeShape ;
+    stat:count         8 ;
+    stat:distinctCount 8 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre10ShapeProperty ;
+    sh:targetClass     wsdbm:Genre10 .
+
+shape:tagGenre10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         20 ;
+    stat:distinctCount 19 ;
+    stat:maxCount      19 ;
+    stat:minCount      19 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre11Shape
+    a                  sh:NodeShape ;
+    stat:count         10 ;
+    stat:distinctCount 10 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre11ShapeProperty ;
+    sh:targetClass     wsdbm:Genre11 .
+
+shape:tagGenre11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         27 ;
+    stat:distinctCount 26 ;
+    stat:maxCount      26 ;
+    stat:minCount      26 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre12Shape
+    a                  sh:NodeShape ;
+    stat:count         10 ;
+    stat:distinctCount 10 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre12ShapeProperty ;
+    sh:targetClass     wsdbm:Genre12 .
+
+shape:tagGenre12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         33 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      30 ;
+    stat:minCount      30 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre13Shape
+    a                  sh:NodeShape ;
+    stat:count         5 ;
+    stat:distinctCount 5 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre13ShapeProperty ;
+    sh:targetClass     wsdbm:Genre13 .
+
+shape:tagGenre13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         19 ;
+    stat:distinctCount 19 ;
+    stat:maxCount      19 ;
+    stat:minCount      19 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre14Shape
+    a                  sh:NodeShape ;
+    stat:count         9 ;
+    stat:distinctCount 9 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre14ShapeProperty ;
+    sh:targetClass     wsdbm:Genre14 .
+
+shape:tagGenre14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         26 ;
+    stat:distinctCount 26 ;
+    stat:maxCount      26 ;
+    stat:minCount      26 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre15Shape
+    a                  sh:NodeShape ;
+    stat:count         6 ;
+    stat:distinctCount 6 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre15ShapeProperty ;
+    sh:targetClass     wsdbm:Genre15 .
+
+shape:tagGenre15ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         22 ;
+    stat:distinctCount 21 ;
+    stat:maxCount      21 ;
+    stat:minCount      21 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre16Shape
+    a                  sh:NodeShape ;
+    stat:count         3 ;
+    stat:distinctCount 3 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre16ShapeProperty ;
+    sh:targetClass     wsdbm:Genre16 .
+
+shape:tagGenre16ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4 ;
+    stat:distinctCount 4 ;
+    stat:maxCount      4 ;
+    stat:minCount      4 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre17Shape
+    a                  sh:NodeShape ;
+    stat:count         10 ;
+    stat:distinctCount 10 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre17ShapeProperty ;
+    sh:targetClass     wsdbm:Genre17 .
+
+shape:tagGenre17ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         32 ;
+    stat:distinctCount 30 ;
+    stat:maxCount      30 ;
+    stat:minCount      30 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre18Shape
+    a                  sh:NodeShape ;
+    stat:count         8 ;
+    stat:distinctCount 8 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre18ShapeProperty ;
+    sh:targetClass     wsdbm:Genre18 .
+
+shape:tagGenre18ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         22 ;
+    stat:distinctCount 20 ;
+    stat:maxCount      20 ;
+    stat:minCount      20 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre19Shape
+    a                  sh:NodeShape ;
+    stat:count         10 ;
+    stat:distinctCount 10 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre19ShapeProperty ;
+    sh:targetClass     wsdbm:Genre19 .
+
+shape:tagGenre19ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         28 ;
+    stat:distinctCount 28 ;
+    stat:maxCount      28 ;
+    stat:minCount      28 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre1Shape
+    a                  sh:NodeShape ;
+    stat:count         4 ;
+    stat:distinctCount 4 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre1ShapeProperty ;
+    sh:targetClass     wsdbm:Genre1 .
+
+shape:tagGenre1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         14 ;
+    stat:distinctCount 14 ;
+    stat:maxCount      14 ;
+    stat:minCount      14 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre20Shape
+    a                  sh:NodeShape ;
+    stat:count         6 ;
+    stat:distinctCount 6 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre20ShapeProperty ;
+    sh:targetClass     wsdbm:Genre20 .
+
+shape:tagGenre20ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         18 ;
+    stat:distinctCount 16 ;
+    stat:maxCount      16 ;
+    stat:minCount      16 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre2Shape
+    a                  sh:NodeShape ;
+    stat:count         3 ;
+    stat:distinctCount 3 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre2ShapeProperty ;
+    sh:targetClass     wsdbm:Genre2 .
+
+shape:tagGenre2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7 ;
+    stat:distinctCount 7 ;
+    stat:maxCount      7 ;
+    stat:minCount      7 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre3Shape
+    a                  sh:NodeShape ;
+    stat:count         14 ;
+    stat:distinctCount 14 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre3ShapeProperty ;
+    sh:targetClass     wsdbm:Genre3 .
+
+shape:tagGenre3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38 ;
+    stat:distinctCount 33 ;
+    stat:maxCount      33 ;
+    stat:minCount      33 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre4Shape
+    a                  sh:NodeShape ;
+    stat:count         6 ;
+    stat:distinctCount 6 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre4ShapeProperty ;
+    sh:targetClass     wsdbm:Genre4 .
+
+shape:tagGenre4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16 ;
+    stat:distinctCount 15 ;
+    stat:maxCount      15 ;
+    stat:minCount      15 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre5Shape
+    a                  sh:NodeShape ;
+    stat:count         8 ;
+    stat:distinctCount 8 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre5ShapeProperty ;
+    sh:targetClass     wsdbm:Genre5 .
+
+shape:tagGenre5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         26 ;
+    stat:distinctCount 23 ;
+    stat:maxCount      23 ;
+    stat:minCount      23 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre6Shape
+    a                  sh:NodeShape ;
+    stat:count         6 ;
+    stat:distinctCount 6 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre6ShapeProperty ;
+    sh:targetClass     wsdbm:Genre6 .
+
+shape:tagGenre6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         26 ;
+    stat:distinctCount 26 ;
+    stat:maxCount      26 ;
+    stat:minCount      26 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre7Shape
+    a                  sh:NodeShape ;
+    stat:count         3 ;
+    stat:distinctCount 3 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre7ShapeProperty ;
+    sh:targetClass     wsdbm:Genre7 .
+
+shape:tagGenre7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3 ;
+    stat:distinctCount 3 ;
+    stat:maxCount      3 ;
+    stat:minCount      3 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre8Shape
+    a                  sh:NodeShape ;
+    stat:count         6 ;
+    stat:distinctCount 6 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre8ShapeProperty ;
+    sh:targetClass     wsdbm:Genre8 .
+
+shape:tagGenre8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16 ;
+    stat:distinctCount 16 ;
+    stat:maxCount      16 ;
+    stat:minCount      16 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:Genre9Shape
+    a                  sh:NodeShape ;
+    stat:count         3 ;
+    stat:distinctCount 3 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:tagGenre9ShapeProperty ;
+    sh:targetClass     wsdbm:Genre9 .
+
+shape:tagGenre9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7 ;
+    stat:distinctCount 7 ;
+    stat:maxCount      7 ;
+    stat:minCount      7 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:ProductCategory0Shape
+    a                  sh:NodeShape ;
+    stat:count         8327 ;
+    stat:distinctCount 8327 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory0ShapeProperty, shape:composerProductCategory0ShapeProperty,
+                       shape:conductorProductCategory0ShapeProperty, shape:contentRatingProductCategory0ShapeProperty,
+                       shape:contentSizeProductCategory0ShapeProperty, shape:descriptionProductCategory0ShapeProperty,
+                       shape:expiresProductCategory0ShapeProperty, shape:hasGenreProductCategory0ShapeProperty,
+                       shape:hasReviewProductCategory0ShapeProperty, shape:homepageProductCategory0ShapeProperty,
+                       shape:keywordsProductCategory0ShapeProperty, shape:movementProductCategory0ShapeProperty,
+                       shape:opusProductCategory0ShapeProperty, shape:performed_inProductCategory0ShapeProperty,
+                       shape:performerProductCategory0ShapeProperty, shape:tagProductCategory0ShapeProperty,
+                       shape:textProductCategory0ShapeProperty, shape:titleProductCategory0ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory0 .
+
+shape:captionProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         878 ;
+    stat:distinctCount 878 ;
+    stat:maxCount      878 ;
+    stat:minCount      878 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:composerProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4223 ;
+    stat:distinctCount 1606 ;
+    stat:maxCount      1606 ;
+    stat:minCount      1606 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            wsdbm:composer .
+
+shape:conductorProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4189 ;
+    stat:distinctCount 4164 ;
+    stat:maxCount      4164 ;
+    stat:minCount      4164 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            mo:conductor .
+
+shape:contentRatingProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2485 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         860 ;
+    stat:distinctCount 826 ;
+    stat:maxCount      826 ;
+    stat:minCount      826 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5110 ;
+    stat:distinctCount 5109 ;
+    stat:maxCount      5109 ;
+    stat:minCount      5109 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         421 ;
+    stat:distinctCount 381 ;
+    stat:maxCount      381 ;
+    stat:minCount      381 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         19382 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         47281 ;
+    stat:distinctCount 47281 ;
+    stat:maxCount      47281 ;
+    stat:minCount      47281 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2098 ;
+    stat:distinctCount 2050 ;
+    stat:maxCount      2050 ;
+    stat:minCount      2050 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2463 ;
+    stat:distinctCount 2463 ;
+    stat:maxCount      2463 ;
+    stat:minCount      2463 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:movementProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         6604 ;
+    stat:distinctCount 10 ;
+    stat:maxCount      10 ;
+    stat:minCount      10 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:movement .
+
+shape:opusProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         6604 ;
+    stat:distinctCount 997 ;
+    stat:maxCount      997 ;
+    stat:minCount      997 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:opus .
+
+shape:performed_inProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4125 ;
+    stat:distinctCount 236 ;
+    stat:maxCount      236 ;
+    stat:minCount      236 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            mo:performed_in .
+
+shape:performerProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4214 ;
+    stat:distinctCount 4212 ;
+    stat:maxCount      4212 ;
+    stat:minCount      4212 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:performer .
+
+shape:tagProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         48694 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2487 ;
+    stat:distinctCount 2487 ;
+    stat:maxCount      2487 ;
+    stat:minCount      2487 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8327 ;
+    stat:distinctCount 8326 ;
+    stat:maxCount      8326 ;
+    stat:minCount      8326 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory10Shape
+    a                  sh:NodeShape ;
+    stat:count         16632 ;
+    stat:distinctCount 16632 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory10ShapeProperty, shape:contentRatingProductCategory10ShapeProperty,
+                       shape:contentSizeProductCategory10ShapeProperty, shape:descriptionProductCategory10ShapeProperty,
+                       shape:expiresProductCategory10ShapeProperty, shape:hasGenreProductCategory10ShapeProperty,
+                       shape:hasReviewProductCategory10ShapeProperty, shape:homepageProductCategory10ShapeProperty,
+                       shape:keywordsProductCategory10ShapeProperty, shape:tagProductCategory10ShapeProperty,
+                       shape:textProductCategory10ShapeProperty, shape:titleProductCategory10ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory10 .
+
+shape:captionProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1676 ;
+    stat:distinctCount 1676 ;
+    stat:maxCount      1676 ;
+    stat:minCount      1676 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4992 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1683 ;
+    stat:distinctCount 1557 ;
+    stat:maxCount      1557 ;
+    stat:minCount      1557 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9985 ;
+    stat:distinctCount 9984 ;
+    stat:maxCount      9984 ;
+    stat:minCount      9984 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         867 ;
+    stat:distinctCount 714 ;
+    stat:maxCount      714 ;
+    stat:minCount      714 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38956 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98834 ;
+    stat:distinctCount 98834 ;
+    stat:maxCount      98834 ;
+    stat:minCount      98834 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4153 ;
+    stat:distinctCount 4003 ;
+    stat:maxCount      4003 ;
+    stat:minCount      4003 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4900 ;
+    stat:distinctCount 4900 ;
+    stat:maxCount      4900 ;
+    stat:minCount      4900 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97992 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5020 ;
+    stat:distinctCount 5020 ;
+    stat:maxCount      5020 ;
+    stat:minCount      5020 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory10ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16632 ;
+    stat:distinctCount 16629 ;
+    stat:maxCount      16629 ;
+    stat:minCount      16629 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory11Shape
+    a                  sh:NodeShape ;
+    stat:count         16591 ;
+    stat:distinctCount 16591 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory11ShapeProperty, shape:contentRatingProductCategory11ShapeProperty,
+                       shape:contentSizeProductCategory11ShapeProperty, shape:descriptionProductCategory11ShapeProperty,
+                       shape:expiresProductCategory11ShapeProperty, shape:hasGenreProductCategory11ShapeProperty,
+                       shape:hasReviewProductCategory11ShapeProperty, shape:homepageProductCategory11ShapeProperty,
+                       shape:keywordsProductCategory11ShapeProperty, shape:tagProductCategory11ShapeProperty,
+                       shape:textProductCategory11ShapeProperty, shape:titleProductCategory11ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory11 .
+
+shape:captionProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1613 ;
+    stat:distinctCount 1613 ;
+    stat:maxCount      1613 ;
+    stat:minCount      1613 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5082 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1612 ;
+    stat:distinctCount 1477 ;
+    stat:maxCount      1477 ;
+    stat:minCount      1477 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9825 ;
+    stat:distinctCount 9824 ;
+    stat:maxCount      9824 ;
+    stat:minCount      9824 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         845 ;
+    stat:distinctCount 701 ;
+    stat:maxCount      701 ;
+    stat:minCount      701 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38872 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         100364 ;
+    stat:distinctCount 100364 ;
+    stat:maxCount      100364 ;
+    stat:minCount      100364 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4177 ;
+    stat:distinctCount 4024 ;
+    stat:maxCount      4024 ;
+    stat:minCount      4024 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5003 ;
+    stat:distinctCount 5003 ;
+    stat:maxCount      5003 ;
+    stat:minCount      5003 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         96302 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4975 ;
+    stat:distinctCount 4975 ;
+    stat:maxCount      4975 ;
+    stat:minCount      4975 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory11ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16591 ;
+    stat:distinctCount 16589 ;
+    stat:maxCount      16589 ;
+    stat:minCount      16589 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory12Shape
+    a                  sh:NodeShape ;
+    stat:count         16619 ;
+    stat:distinctCount 16619 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory12ShapeProperty, shape:contentRatingProductCategory12ShapeProperty,
+                       shape:contentSizeProductCategory12ShapeProperty, shape:descriptionProductCategory12ShapeProperty,
+                       shape:expiresProductCategory12ShapeProperty, shape:hasGenreProductCategory12ShapeProperty,
+                       shape:hasReviewProductCategory12ShapeProperty, shape:homepageProductCategory12ShapeProperty,
+                       shape:keywordsProductCategory12ShapeProperty, shape:tagProductCategory12ShapeProperty,
+                       shape:textProductCategory12ShapeProperty, shape:titleProductCategory12ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory12 .
+
+shape:captionProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1659 ;
+    stat:distinctCount 1659 ;
+    stat:maxCount      1659 ;
+    stat:minCount      1659 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4928 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1705 ;
+    stat:distinctCount 1566 ;
+    stat:maxCount      1566 ;
+    stat:minCount      1566 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10065 ;
+    stat:distinctCount 10064 ;
+    stat:maxCount      10064 ;
+    stat:minCount      10064 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         863 ;
+    stat:distinctCount 714 ;
+    stat:maxCount      714 ;
+    stat:minCount      714 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39053 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98291 ;
+    stat:distinctCount 98291 ;
+    stat:maxCount      98291 ;
+    stat:minCount      98291 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4210 ;
+    stat:distinctCount 4049 ;
+    stat:maxCount      4049 ;
+    stat:minCount      4049 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4947 ;
+    stat:distinctCount 4947 ;
+    stat:maxCount      4947 ;
+    stat:minCount      4947 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97123 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4938 ;
+    stat:distinctCount 4938 ;
+    stat:maxCount      4938 ;
+    stat:minCount      4938 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory12ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16619 ;
+    stat:distinctCount 16616 ;
+    stat:maxCount      16616 ;
+    stat:minCount      16616 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory13Shape
+    a                  sh:NodeShape ;
+    stat:count         16618 ;
+    stat:distinctCount 16618 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory13ShapeProperty, shape:contentRatingProductCategory13ShapeProperty,
+                       shape:contentSizeProductCategory13ShapeProperty, shape:descriptionProductCategory13ShapeProperty,
+                       shape:expiresProductCategory13ShapeProperty, shape:hasGenreProductCategory13ShapeProperty,
+                       shape:hasReviewProductCategory13ShapeProperty, shape:homepageProductCategory13ShapeProperty,
+                       shape:keywordsProductCategory13ShapeProperty, shape:tagProductCategory13ShapeProperty,
+                       shape:textProductCategory13ShapeProperty, shape:titleProductCategory13ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory13 .
+
+shape:captionProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1657 ;
+    stat:distinctCount 1657 ;
+    stat:maxCount      1657 ;
+    stat:minCount      1657 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4988 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1620 ;
+    stat:distinctCount 1493 ;
+    stat:maxCount      1493 ;
+    stat:minCount      1493 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9881 ;
+    stat:distinctCount 9879 ;
+    stat:maxCount      9879 ;
+    stat:minCount      9879 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         884 ;
+    stat:distinctCount 725 ;
+    stat:maxCount      725 ;
+    stat:minCount      725 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38965 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         100923 ;
+    stat:distinctCount 100923 ;
+    stat:maxCount      100923 ;
+    stat:minCount      100923 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4091 ;
+    stat:distinctCount 3938 ;
+    stat:maxCount      3938 ;
+    stat:minCount      3938 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5046 ;
+    stat:distinctCount 5046 ;
+    stat:maxCount      5046 ;
+    stat:minCount      5046 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97454 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5047 ;
+    stat:distinctCount 5046 ;
+    stat:maxCount      5046 ;
+    stat:minCount      5046 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory13ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16618 ;
+    stat:distinctCount 16616 ;
+    stat:maxCount      16616 ;
+    stat:minCount      16616 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory14Shape
+    a                  sh:NodeShape ;
+    stat:count         24970 ;
+    stat:distinctCount 24970 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory14ShapeProperty, shape:contentRatingProductCategory14ShapeProperty,
+                       shape:contentSizeProductCategory14ShapeProperty, shape:descriptionProductCategory14ShapeProperty,
+                       shape:expiresProductCategory14ShapeProperty, shape:hasGenreProductCategory14ShapeProperty,
+                       shape:hasReviewProductCategory14ShapeProperty, shape:homepageProductCategory14ShapeProperty,
+                       shape:keywordsProductCategory14ShapeProperty, shape:tagProductCategory14ShapeProperty,
+                       shape:textProductCategory14ShapeProperty, shape:titleProductCategory14ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory14 .
+
+shape:captionProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2567 ;
+    stat:distinctCount 2567 ;
+    stat:maxCount      2567 ;
+    stat:minCount      2567 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7480 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2451 ;
+    stat:distinctCount 2178 ;
+    stat:maxCount      2178 ;
+    stat:minCount      2178 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         14898 ;
+    stat:distinctCount 14896 ;
+    stat:maxCount      14896 ;
+    stat:minCount      14896 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1285 ;
+    stat:distinctCount 972 ;
+    stat:maxCount      972 ;
+    stat:minCount      972 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         58757 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         148251 ;
+    stat:distinctCount 148251 ;
+    stat:maxCount      148251 ;
+    stat:minCount      148251 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         6273 ;
+    stat:distinctCount 5897 ;
+    stat:maxCount      5897 ;
+    stat:minCount      5897 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7595 ;
+    stat:distinctCount 7595 ;
+    stat:maxCount      7595 ;
+    stat:minCount      7595 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         146996 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         7507 ;
+    stat:distinctCount 7507 ;
+    stat:maxCount      7507 ;
+    stat:minCount      7507 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory14ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         24970 ;
+    stat:distinctCount 24962 ;
+    stat:maxCount      24962 ;
+    stat:minCount      24962 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory1Shape
+    a                  sh:NodeShape ;
+    stat:count         16728 ;
+    stat:distinctCount 16728 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:artistProductCategory1ShapeProperty, shape:captionProductCategory1ShapeProperty,
+                       shape:contentRatingProductCategory1ShapeProperty, shape:contentSizeProductCategory1ShapeProperty,
+                       shape:descriptionProductCategory1ShapeProperty, shape:expiresProductCategory1ShapeProperty,
+                       shape:hasGenreProductCategory1ShapeProperty, shape:hasReviewProductCategory1ShapeProperty,
+                       shape:homepageProductCategory1ShapeProperty, shape:keywordsProductCategory1ShapeProperty,
+                       shape:producerProductCategory1ShapeProperty, shape:record_numberProductCategory1ShapeProperty,
+                       shape:releaseProductCategory1ShapeProperty, shape:tagProductCategory1ShapeProperty,
+                       shape:textProductCategory1ShapeProperty, shape:titleProductCategory1ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory1 .
+
+shape:artistProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         13309 ;
+    stat:distinctCount 5942 ;
+    stat:maxCount      5942 ;
+    stat:minCount      5942 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            mo:artist .
+
+shape:captionProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1728 ;
+    stat:distinctCount 1728 ;
+    stat:maxCount      1728 ;
+    stat:minCount      1728 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5032 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1686 ;
+    stat:distinctCount 1568 ;
+    stat:maxCount      1568 ;
+    stat:minCount      1568 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10030 ;
+    stat:distinctCount 10030 ;
+    stat:maxCount      10030 ;
+    stat:minCount      10030 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         850 ;
+    stat:distinctCount 705 ;
+    stat:maxCount      705 ;
+    stat:minCount      705 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39296 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98213 ;
+    stat:distinctCount 98213 ;
+    stat:maxCount      98213 ;
+    stat:minCount      98213 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4066 ;
+    stat:distinctCount 3914 ;
+    stat:maxCount      3914 ;
+    stat:minCount      3914 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5003 ;
+    stat:distinctCount 5002 ;
+    stat:maxCount      5002 ;
+    stat:minCount      5002 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:producerProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8326 ;
+    stat:distinctCount 8326 ;
+    stat:maxCount      8326 ;
+    stat:minCount      8326 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:producer .
+
+shape:record_numberProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8436 ;
+    stat:distinctCount 1000 ;
+    stat:maxCount      1000 ;
+    stat:minCount      1000 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:record_number .
+
+shape:releaseProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8336 ;
+    stat:distinctCount 6466 ;
+    stat:maxCount      6466 ;
+    stat:minCount      6466 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            mo:release .
+
+shape:tagProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98014 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4969 ;
+    stat:distinctCount 4969 ;
+    stat:maxCount      4969 ;
+    stat:minCount      4969 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16728 ;
+    stat:distinctCount 16726 ;
+    stat:maxCount      16726 ;
+    stat:minCount      16726 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory2Shape
+    a                  sh:NodeShape ;
+    stat:count         16705 ;
+    stat:distinctCount 16705 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:actorProductCategory2ShapeProperty, shape:awardProductCategory2ShapeProperty,
+                       shape:captionProductCategory2ShapeProperty, shape:contentRatingProductCategory2ShapeProperty,
+                       shape:contentSizeProductCategory2ShapeProperty, shape:descriptionProductCategory2ShapeProperty,
+                       shape:directorProductCategory2ShapeProperty, shape:durationProductCategory2ShapeProperty,
+                       shape:expiresProductCategory2ShapeProperty, shape:hasGenreProductCategory2ShapeProperty,
+                       shape:hasReviewProductCategory2ShapeProperty, shape:homepageProductCategory2ShapeProperty,
+                       shape:keywordsProductCategory2ShapeProperty, shape:languageProductCategory2ShapeProperty,
+                       shape:producerProductCategory2ShapeProperty, shape:tagProductCategory2ShapeProperty,
+                       shape:textProductCategory2ShapeProperty, shape:titleProductCategory2ShapeProperty,
+                       shape:trailerProductCategory2ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory2 .
+
+shape:actorProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         166553 ;
+    stat:distinctCount 115364 ;
+    stat:maxCount      115364 ;
+    stat:minCount      115364 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:actor .
+
+shape:awardProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5002 ;
+    stat:distinctCount 5002 ;
+    stat:maxCount      5002 ;
+    stat:minCount      5002 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:award .
+
+shape:captionProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1699 ;
+    stat:distinctCount 1699 ;
+    stat:maxCount      1699 ;
+    stat:minCount      1699 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5002 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1639 ;
+    stat:distinctCount 1529 ;
+    stat:maxCount      1529 ;
+    stat:minCount      1529 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9936 ;
+    stat:distinctCount 9935 ;
+    stat:maxCount      9935 ;
+    stat:minCount      9935 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:directorProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         13289 ;
+    stat:distinctCount 5902 ;
+    stat:maxCount      5902 ;
+    stat:minCount      5902 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:director .
+
+shape:durationProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5059 ;
+    stat:distinctCount 501 ;
+    stat:maxCount      501 ;
+    stat:minCount      501 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:duration .
+
+shape:expiresProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         825 ;
+    stat:distinctCount 677 ;
+    stat:maxCount      677 ;
+    stat:minCount      677 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39075 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         99200 ;
+    stat:distinctCount 99200 ;
+    stat:maxCount      99200 ;
+    stat:minCount      99200 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4181 ;
+    stat:distinctCount 4012 ;
+    stat:maxCount      4012 ;
+    stat:minCount      4012 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4994 ;
+    stat:distinctCount 4994 ;
+    stat:maxCount      4994 ;
+    stat:minCount      4994 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:languageProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9236 ;
+    stat:distinctCount 35 ;
+    stat:maxCount      35 ;
+    stat:minCount      35 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:language .
+
+shape:producerProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8374 ;
+    stat:distinctCount 8372 ;
+    stat:maxCount      8372 ;
+    stat:minCount      8372 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:producer .
+
+shape:tagProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98624 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4974 ;
+    stat:distinctCount 4974 ;
+    stat:maxCount      4974 ;
+    stat:minCount      4974 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16705 ;
+    stat:distinctCount 16701 ;
+    stat:maxCount      16701 ;
+    stat:minCount      16701 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:trailerProductCategory2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2501 ;
+    stat:distinctCount 2441 ;
+    stat:maxCount      2441 ;
+    stat:minCount      2441 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:trailer .
+
+shape:ProductCategory3Shape
+    a                  sh:NodeShape ;
+    stat:count         16508 ;
+    stat:distinctCount 16508 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:authorProductCategory3ShapeProperty, shape:bookEditionProductCategory3ShapeProperty,
+                       shape:captionProductCategory3ShapeProperty, shape:contentRatingProductCategory3ShapeProperty,
+                       shape:contentSizeProductCategory3ShapeProperty, shape:descriptionProductCategory3ShapeProperty,
+                       shape:editorProductCategory3ShapeProperty, shape:expiresProductCategory3ShapeProperty,
+                       shape:hasGenreProductCategory3ShapeProperty, shape:hasReviewProductCategory3ShapeProperty,
+                       shape:homepageProductCategory3ShapeProperty, shape:isbnProductCategory3ShapeProperty,
+                       shape:keywordsProductCategory3ShapeProperty, shape:languageProductCategory3ShapeProperty,
+                       shape:numberOfPagesProductCategory3ShapeProperty, shape:tagProductCategory3ShapeProperty,
+                       shape:textProductCategory3ShapeProperty, shape:titleProductCategory3ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory3 .
+
+shape:authorProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         26589 ;
+    stat:distinctCount 25004 ;
+    stat:maxCount      25004 ;
+    stat:minCount      25004 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:author .
+
+shape:bookEditionProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         8266 ;
+    stat:distinctCount 6 ;
+    stat:maxCount      6 ;
+    stat:minCount      6 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:bookEdition .
+
+shape:captionProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1637 ;
+    stat:distinctCount 1637 ;
+    stat:maxCount      1637 ;
+    stat:minCount      1637 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4976 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1697 ;
+    stat:distinctCount 1558 ;
+    stat:maxCount      1558 ;
+    stat:minCount      1558 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9913 ;
+    stat:distinctCount 9913 ;
+    stat:maxCount      9913 ;
+    stat:minCount      9913 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:editorProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         12922 ;
+    stat:distinctCount 12555 ;
+    stat:maxCount      12555 ;
+    stat:minCount      12555 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:editor .
+
+shape:expiresProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         843 ;
+    stat:distinctCount 697 ;
+    stat:maxCount      697 ;
+    stat:minCount      697 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38826 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97991 ;
+    stat:distinctCount 97991 ;
+    stat:maxCount      97991 ;
+    stat:minCount      97991 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4098 ;
+    stat:distinctCount 3944 ;
+    stat:maxCount      3944 ;
+    stat:minCount      3944 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:isbnProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16508 ;
+    stat:distinctCount 14586 ;
+    stat:maxCount      14586 ;
+    stat:minCount      14586 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:isbn .
+
+shape:keywordsProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4916 ;
+    stat:distinctCount 4916 ;
+    stat:maxCount      4916 ;
+    stat:minCount      4916 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:languageProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3339 ;
+    stat:distinctCount 35 ;
+    stat:maxCount      35 ;
+    stat:minCount      35 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:language .
+
+shape:numberOfPagesProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4223 ;
+    stat:distinctCount 786 ;
+    stat:maxCount      786 ;
+    stat:minCount      786 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:numberOfPages .
+
+shape:tagProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         96763 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4956 ;
+    stat:distinctCount 4956 ;
+    stat:maxCount      4956 ;
+    stat:minCount      4956 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory3ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16508 ;
+    stat:distinctCount 16506 ;
+    stat:maxCount      16506 ;
+    stat:minCount      16506 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory4Shape
+    a                  sh:NodeShape ;
+    stat:count         16740 ;
+    stat:distinctCount 16740 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:authorProductCategory4ShapeProperty, shape:captionProductCategory4ShapeProperty,
+                       shape:contentRatingProductCategory4ShapeProperty, shape:contentSizeProductCategory4ShapeProperty,
+                       shape:datePublishedProductCategory4ShapeProperty, shape:descriptionProductCategory4ShapeProperty,
+                       shape:editorProductCategory4ShapeProperty, shape:expiresProductCategory4ShapeProperty,
+                       shape:hasGenreProductCategory4ShapeProperty, shape:hasReviewProductCategory4ShapeProperty,
+                       shape:homepageProductCategory4ShapeProperty, shape:keywordsProductCategory4ShapeProperty,
+                       shape:printColumnProductCategory4ShapeProperty, shape:printEditionProductCategory4ShapeProperty,
+                       shape:printPageProductCategory4ShapeProperty, shape:printSectionProductCategory4ShapeProperty,
+                       shape:publisherProductCategory4ShapeProperty, shape:tagProductCategory4ShapeProperty,
+                       shape:textProductCategory4ShapeProperty, shape:titleProductCategory4ShapeProperty,
+                       shape:wordCountProductCategory4ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory4 .
+
+shape:authorProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         13406 ;
+    stat:distinctCount 13326 ;
+    stat:maxCount      13326 ;
+    stat:minCount      13326 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:author .
+
+shape:captionProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1675 ;
+    stat:distinctCount 1675 ;
+    stat:maxCount      1675 ;
+    stat:minCount      1675 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5087 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1687 ;
+    stat:distinctCount 1549 ;
+    stat:maxCount      1549 ;
+    stat:minCount      1549 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:datePublishedProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         11720 ;
+    stat:distinctCount 8304 ;
+    stat:maxCount      8304 ;
+    stat:minCount      8304 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:datePublished .
+
+shape:descriptionProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10111 ;
+    stat:distinctCount 10110 ;
+    stat:maxCount      10110 ;
+    stat:minCount      10110 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:editorProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         2507 ;
+    stat:distinctCount 2503 ;
+    stat:maxCount      2503 ;
+    stat:minCount      2503 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:editor .
+
+shape:expiresProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         805 ;
+    stat:distinctCount 675 ;
+    stat:maxCount      675 ;
+    stat:minCount      675 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39501 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97682 ;
+    stat:distinctCount 97682 ;
+    stat:maxCount      97682 ;
+    stat:minCount      97682 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4205 ;
+    stat:distinctCount 4060 ;
+    stat:maxCount      4060 ;
+    stat:minCount      4060 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5025 ;
+    stat:distinctCount 5024 ;
+    stat:maxCount      5024 ;
+    stat:minCount      5024 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:printColumnProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3376 ;
+    stat:distinctCount 44 ;
+    stat:maxCount      44 ;
+    stat:minCount      44 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:printColumn .
+
+shape:printEditionProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3376 ;
+    stat:distinctCount 36 ;
+    stat:maxCount      36 ;
+    stat:minCount      36 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:printEdition .
+
+shape:printPageProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3367 ;
+    stat:distinctCount 966 ;
+    stat:maxCount      966 ;
+    stat:minCount      966 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:printPage .
+
+shape:printSectionProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3367 ;
+    stat:distinctCount 9 ;
+    stat:maxCount      9 ;
+    stat:minCount      9 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:printSection .
+
+shape:publisherProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         13421 ;
+    stat:distinctCount 13420 ;
+    stat:maxCount      13420 ;
+    stat:minCount      13420 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:publisher .
+
+shape:tagProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98756 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5070 ;
+    stat:distinctCount 5070 ;
+    stat:maxCount      5070 ;
+    stat:minCount      5070 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16740 ;
+    stat:distinctCount 16738 ;
+    stat:maxCount      16738 ;
+    stat:minCount      16738 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:wordCountProductCategory4ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         3397 ;
+    stat:distinctCount 2601 ;
+    stat:maxCount      2601 ;
+    stat:minCount      2601 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:wordCount .
+
+shape:ProductCategory5Shape
+    a                  sh:NodeShape ;
+    stat:count         16496 ;
+    stat:distinctCount 16496 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory5ShapeProperty, shape:contentRatingProductCategory5ShapeProperty,
+                       shape:contentSizeProductCategory5ShapeProperty, shape:descriptionProductCategory5ShapeProperty,
+                       shape:expiresProductCategory5ShapeProperty, shape:hasGenreProductCategory5ShapeProperty,
+                       shape:hasReviewProductCategory5ShapeProperty, shape:homepageProductCategory5ShapeProperty,
+                       shape:keywordsProductCategory5ShapeProperty, shape:tagProductCategory5ShapeProperty,
+                       shape:textProductCategory5ShapeProperty, shape:titleProductCategory5ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory5 .
+
+shape:captionProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1703 ;
+    stat:distinctCount 1703 ;
+    stat:maxCount      1703 ;
+    stat:minCount      1703 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4921 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1680 ;
+    stat:distinctCount 1537 ;
+    stat:maxCount      1537 ;
+    stat:minCount      1537 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9893 ;
+    stat:distinctCount 9893 ;
+    stat:maxCount      9893 ;
+    stat:minCount      9893 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         803 ;
+    stat:distinctCount 674 ;
+    stat:maxCount      674 ;
+    stat:minCount      674 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38910 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97159 ;
+    stat:distinctCount 97159 ;
+    stat:maxCount      97159 ;
+    stat:minCount      97159 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4000 ;
+    stat:distinctCount 3833 ;
+    stat:maxCount      3833 ;
+    stat:minCount      3833 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5012 ;
+    stat:distinctCount 5012 ;
+    stat:maxCount      5012 ;
+    stat:minCount      5012 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97273 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4908 ;
+    stat:distinctCount 4907 ;
+    stat:maxCount      4907 ;
+    stat:minCount      4907 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory5ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16496 ;
+    stat:distinctCount 16496 ;
+    stat:maxCount      16496 ;
+    stat:minCount      16496 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory6Shape
+    a                  sh:NodeShape ;
+    stat:count         16872 ;
+    stat:distinctCount 16872 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory6ShapeProperty, shape:contentRatingProductCategory6ShapeProperty,
+                       shape:contentSizeProductCategory6ShapeProperty, shape:descriptionProductCategory6ShapeProperty,
+                       shape:expiresProductCategory6ShapeProperty, shape:hasGenreProductCategory6ShapeProperty,
+                       shape:hasReviewProductCategory6ShapeProperty, shape:homepageProductCategory6ShapeProperty,
+                       shape:keywordsProductCategory6ShapeProperty, shape:tagProductCategory6ShapeProperty,
+                       shape:textProductCategory6ShapeProperty, shape:titleProductCategory6ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory6 .
+
+shape:captionProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1603 ;
+    stat:distinctCount 1603 ;
+    stat:maxCount      1603 ;
+    stat:minCount      1603 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5049 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1662 ;
+    stat:distinctCount 1554 ;
+    stat:maxCount      1554 ;
+    stat:minCount      1554 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10151 ;
+    stat:distinctCount 10150 ;
+    stat:maxCount      10150 ;
+    stat:minCount      10150 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         849 ;
+    stat:distinctCount 702 ;
+    stat:maxCount      702 ;
+    stat:minCount      702 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39707 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         99571 ;
+    stat:distinctCount 99571 ;
+    stat:maxCount      99571 ;
+    stat:minCount      99571 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4315 ;
+    stat:distinctCount 4154 ;
+    stat:maxCount      4154 ;
+    stat:minCount      4154 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5054 ;
+    stat:distinctCount 5053 ;
+    stat:maxCount      5053 ;
+    stat:minCount      5053 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         99159 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5141 ;
+    stat:distinctCount 5141 ;
+    stat:maxCount      5141 ;
+    stat:minCount      5141 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory6ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16872 ;
+    stat:distinctCount 16872 ;
+    stat:maxCount      16872 ;
+    stat:minCount      16872 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory7Shape
+    a                  sh:NodeShape ;
+    stat:count         16713 ;
+    stat:distinctCount 16713 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory7ShapeProperty, shape:contentRatingProductCategory7ShapeProperty,
+                       shape:contentSizeProductCategory7ShapeProperty, shape:descriptionProductCategory7ShapeProperty,
+                       shape:expiresProductCategory7ShapeProperty, shape:hasGenreProductCategory7ShapeProperty,
+                       shape:hasReviewProductCategory7ShapeProperty, shape:homepageProductCategory7ShapeProperty,
+                       shape:keywordsProductCategory7ShapeProperty, shape:tagProductCategory7ShapeProperty,
+                       shape:textProductCategory7ShapeProperty, shape:titleProductCategory7ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory7 .
+
+shape:captionProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1693 ;
+    stat:distinctCount 1693 ;
+    stat:maxCount      1693 ;
+    stat:minCount      1693 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5018 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1595 ;
+    stat:distinctCount 1469 ;
+    stat:maxCount      1469 ;
+    stat:minCount      1469 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10004 ;
+    stat:distinctCount 10003 ;
+    stat:maxCount      10003 ;
+    stat:minCount      10003 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         849 ;
+    stat:distinctCount 699 ;
+    stat:maxCount      699 ;
+    stat:minCount      699 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39274 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97857 ;
+    stat:distinctCount 97857 ;
+    stat:maxCount      97857 ;
+    stat:minCount      97857 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4325 ;
+    stat:distinctCount 4153 ;
+    stat:maxCount      4153 ;
+    stat:minCount      4153 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4888 ;
+    stat:distinctCount 4888 ;
+    stat:maxCount      4888 ;
+    stat:minCount      4888 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97634 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5024 ;
+    stat:distinctCount 5024 ;
+    stat:maxCount      5024 ;
+    stat:minCount      5024 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory7ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16713 ;
+    stat:distinctCount 16709 ;
+    stat:maxCount      16709 ;
+    stat:minCount      16709 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory8Shape
+    a                  sh:NodeShape ;
+    stat:count         16901 ;
+    stat:distinctCount 16901 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory8ShapeProperty, shape:contentRatingProductCategory8ShapeProperty,
+                       shape:contentSizeProductCategory8ShapeProperty, shape:descriptionProductCategory8ShapeProperty,
+                       shape:expiresProductCategory8ShapeProperty, shape:hasGenreProductCategory8ShapeProperty,
+                       shape:hasReviewProductCategory8ShapeProperty, shape:homepageProductCategory8ShapeProperty,
+                       shape:keywordsProductCategory8ShapeProperty, shape:tagProductCategory8ShapeProperty,
+                       shape:textProductCategory8ShapeProperty, shape:titleProductCategory8ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory8 .
+
+shape:captionProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1736 ;
+    stat:distinctCount 1736 ;
+    stat:maxCount      1736 ;
+    stat:minCount      1736 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5008 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1626 ;
+    stat:distinctCount 1494 ;
+    stat:maxCount      1494 ;
+    stat:minCount      1494 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10239 ;
+    stat:distinctCount 10237 ;
+    stat:maxCount      10237 ;
+    stat:minCount      10237 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         818 ;
+    stat:distinctCount 682 ;
+    stat:maxCount      682 ;
+    stat:minCount      682 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         39583 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         101223 ;
+    stat:distinctCount 101223 ;
+    stat:maxCount      101223 ;
+    stat:minCount      101223 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4221 ;
+    stat:distinctCount 4055 ;
+    stat:maxCount      4055 ;
+    stat:minCount      4055 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5036 ;
+    stat:distinctCount 5036 ;
+    stat:maxCount      5036 ;
+    stat:minCount      5036 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         98483 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5079 ;
+    stat:distinctCount 5078 ;
+    stat:maxCount      5078 ;
+    stat:minCount      5078 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory8ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16901 ;
+    stat:distinctCount 16897 ;
+    stat:maxCount      16897 ;
+    stat:minCount      16897 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:ProductCategory9Shape
+    a                  sh:NodeShape ;
+    stat:count         16580 ;
+    stat:distinctCount 16580 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:captionProductCategory9ShapeProperty, shape:contentRatingProductCategory9ShapeProperty,
+                       shape:contentSizeProductCategory9ShapeProperty, shape:descriptionProductCategory9ShapeProperty,
+                       shape:expiresProductCategory9ShapeProperty, shape:hasGenreProductCategory9ShapeProperty,
+                       shape:hasReviewProductCategory9ShapeProperty, shape:homepageProductCategory9ShapeProperty,
+                       shape:keywordsProductCategory9ShapeProperty, shape:tagProductCategory9ShapeProperty,
+                       shape:textProductCategory9ShapeProperty, shape:titleProductCategory9ShapeProperty ;
+    sh:targetClass     wsdbm:ProductCategory9 .
+
+shape:captionProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1636 ;
+    stat:distinctCount 1636 ;
+    stat:maxCount      1636 ;
+    stat:minCount      1636 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:caption .
+
+shape:contentRatingProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4841 ;
+    stat:distinctCount 13 ;
+    stat:maxCount      13 ;
+    stat:minCount      13 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentRating .
+
+shape:contentSizeProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1598 ;
+    stat:distinctCount 1464 ;
+    stat:maxCount      1464 ;
+    stat:minCount      1464 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:contentSize .
+
+shape:descriptionProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9874 ;
+    stat:distinctCount 9873 ;
+    stat:maxCount      9873 ;
+    stat:minCount      9873 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:description .
+
+shape:expiresProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         823 ;
+    stat:distinctCount 674 ;
+    stat:maxCount      674 ;
+    stat:minCount      674 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:expires .
+
+shape:hasGenreProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         38962 ;
+    stat:distinctCount 145 ;
+    stat:maxCount      145 ;
+    stat:minCount      145 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:hasGenre .
+
+shape:hasReviewProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97670 ;
+    stat:distinctCount 97670 ;
+    stat:maxCount      97670 ;
+    stat:minCount      97670 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            rev:hasReview .
+
+shape:homepageProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4095 ;
+    stat:distinctCount 3936 ;
+    stat:maxCount      3936 ;
+    stat:minCount      3936 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:keywordsProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         5048 ;
+    stat:distinctCount 5048 ;
+    stat:maxCount      5048 ;
+    stat:minCount      5048 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:keywords .
+
+shape:tagProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         97273 ;
+    stat:distinctCount 250 ;
+    stat:maxCount      250 ;
+    stat:minCount      250 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            ogp:tag .
+
+shape:textProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         4936 ;
+    stat:distinctCount 4936 ;
+    stat:maxCount      4936 ;
+    stat:minCount      4936 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:text .
+
+shape:titleProductCategory9ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         16580 ;
+    stat:distinctCount 16578 ;
+    stat:maxCount      16578 ;
+    stat:minCount      16578 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            ogp:title .
+
+shape:Role0Shape
+    a                  sh:NodeShape ;
+    stat:count         585839 ;
+    stat:distinctCount 585839 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:LocationRole0ShapeProperty, shape:ageRole0ShapeProperty, shape:birthDateRole0ShapeProperty,
+                       shape:emailRole0ShapeProperty, shape:familyNameRole0ShapeProperty,
+                       shape:followsRole0ShapeProperty, shape:friendOfRole0ShapeProperty,
+                       shape:genderRole0ShapeProperty, shape:givenNameRole0ShapeProperty,
+                       shape:homepageRole0ShapeProperty, shape:jobTitleRole0ShapeProperty,
+                       shape:likesRole0ShapeProperty, shape:makesPurchaseRole0ShapeProperty,
+                       shape:nationalityRole0ShapeProperty, shape:subscribesRole0ShapeProperty,
+                       shape:telephoneRole0ShapeProperty, shape:userIdRole0ShapeProperty ;
+    sh:targetClass     wsdbm:Role0 .
+
+shape:LocationRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         234086 ;
+    stat:distinctCount 240 ;
+    stat:maxCount      240 ;
+    stat:minCount      240 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            dc:Location .
+
+shape:ageRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         293199 ;
+    stat:distinctCount 9 ;
+    stat:maxCount      9 ;
+    stat:minCount      9 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:age .
+
+shape:birthDateRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         116846 ;
+    stat:distinctCount 10955 ;
+    stat:maxCount      10955 ;
+    stat:minCount      10955 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:birthDate .
+
+shape:emailRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         527169 ;
+    stat:distinctCount 525130 ;
+    stat:maxCount      525130 ;
+    stat:minCount      525130 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:email .
+
+shape:familyNameRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         409831 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:familyName .
+
+shape:followsRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         19188045 ;
+    stat:distinctCount 881245 ;
+    stat:maxCount      881245 ;
+    stat:minCount      881245 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:follows .
+
+shape:friendOfRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         26300921 ;
+    stat:distinctCount 1000000 ;
+    stat:maxCount      1000000 ;
+    stat:minCount      1000000 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:friendOf .
+
+shape:genderRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         351640 ;
+    stat:distinctCount 2 ;
+    stat:maxCount      2 ;
+    stat:minCount      2 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:gender .
+
+shape:givenNameRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         409831 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:givenName .
+
+shape:homepageRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         29019 ;
+    stat:distinctCount 29019 ;
+    stat:maxCount      29019 ;
+    stat:minCount      29019 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:jobTitleRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         29191 ;
+    stat:distinctCount 29184 ;
+    stat:maxCount      29184 ;
+    stat:minCount      29184 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:jobTitle .
+
+shape:likesRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         656255 ;
+    stat:distinctCount 207141 ;
+    stat:maxCount      207141 ;
+    stat:minCount      207141 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:likes .
+
+shape:makesPurchaseRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         1499995 ;
+    stat:distinctCount 1499995 ;
+    stat:maxCount      1499995 ;
+    stat:minCount      1499995 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:makesPurchase .
+
+shape:nationalityRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         117092 ;
+    stat:distinctCount 25 ;
+    stat:maxCount      25 ;
+    stat:minCount      25 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:nationality .
+
+shape:subscribesRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         879734 ;
+    stat:distinctCount 50000 ;
+    stat:maxCount      50000 ;
+    stat:minCount      50000 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:subscribes .
+
+shape:telephoneRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         29104 ;
+    stat:distinctCount 29069 ;
+    stat:maxCount      29069 ;
+    stat:minCount      29069 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:telephone .
+
+shape:userIdRole0ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         585839 ;
+    stat:distinctCount 567068 ;
+    stat:maxCount      567068 ;
+    stat:minCount      567068 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            wsdbm:userId .
+
+shape:Role1Shape
+    a                  sh:NodeShape ;
+    stat:count         310654 ;
+    stat:distinctCount 310654 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:LocationRole1ShapeProperty, shape:ageRole1ShapeProperty, shape:birthDateRole1ShapeProperty,
+                       shape:emailRole1ShapeProperty, shape:familyNameRole1ShapeProperty,
+                       shape:followsRole1ShapeProperty, shape:friendOfRole1ShapeProperty,
+                       shape:genderRole1ShapeProperty, shape:givenNameRole1ShapeProperty,
+                       shape:homepageRole1ShapeProperty, shape:jobTitleRole1ShapeProperty,
+                       shape:likesRole1ShapeProperty, shape:makesPurchaseRole1ShapeProperty,
+                       shape:nationalityRole1ShapeProperty, shape:subscribesRole1ShapeProperty,
+                       shape:telephoneRole1ShapeProperty, shape:userIdRole1ShapeProperty ;
+    sh:targetClass     wsdbm:Role1 .
+
+shape:LocationRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         124558 ;
+    stat:distinctCount 240 ;
+    stat:maxCount      240 ;
+    stat:minCount      240 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            dc:Location .
+
+shape:ageRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         155860 ;
+    stat:distinctCount 9 ;
+    stat:maxCount      9 ;
+    stat:minCount      9 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:age .
+
+shape:birthDateRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         62129 ;
+    stat:distinctCount 10915 ;
+    stat:maxCount      10915 ;
+    stat:minCount      10915 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:birthDate .
+
+shape:emailRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         279469 ;
+    stat:distinctCount 278870 ;
+    stat:maxCount      278870 ;
+    stat:minCount      278870 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:email .
+
+shape:familyNameRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         216977 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:familyName .
+
+shape:followsRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10165150 ;
+    stat:distinctCount 841753 ;
+    stat:maxCount      841753 ;
+    stat:minCount      841753 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:follows .
+
+shape:friendOfRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         13939437 ;
+    stat:distinctCount 999998 ;
+    stat:maxCount      999998 ;
+    stat:minCount      999998 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:friendOf .
+
+shape:genderRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         186596 ;
+    stat:distinctCount 2 ;
+    stat:maxCount      2 ;
+    stat:minCount      2 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:gender .
+
+shape:givenNameRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         216977 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:givenName .
+
+shape:homepageRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         15213 ;
+    stat:distinctCount 15213 ;
+    stat:maxCount      15213 ;
+    stat:minCount      15213 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:jobTitleRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         15367 ;
+    stat:distinctCount 15365 ;
+    stat:maxCount      15365 ;
+    stat:minCount      15365 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:jobTitle .
+
+shape:likesRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         346788 ;
+    stat:distinctCount 153614 ;
+    stat:maxCount      153614 ;
+    stat:minCount      153614 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:likes .
+
+shape:makesPurchaseRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         151735 ;
+    stat:distinctCount 151735 ;
+    stat:maxCount      151735 ;
+    stat:minCount      151735 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:makesPurchase .
+
+shape:nationalityRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         62105 ;
+    stat:distinctCount 25 ;
+    stat:maxCount      25 ;
+    stat:minCount      25 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:nationality .
+
+shape:subscribesRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         464666 ;
+    stat:distinctCount 49998 ;
+    stat:maxCount      49998 ;
+    stat:minCount      49998 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:subscribes .
+
+shape:telephoneRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         15511 ;
+    stat:distinctCount 15500 ;
+    stat:maxCount      15500 ;
+    stat:minCount      15500 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:telephone .
+
+shape:userIdRole1ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         310654 ;
+    stat:distinctCount 305361 ;
+    stat:maxCount      305361 ;
+    stat:minCount      305361 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            wsdbm:userId .
+
+shape:Role2Shape
+    a                  sh:NodeShape ;
+    stat:count         212624 ;
+    stat:distinctCount 212624 ;
+    sh:nodeKind        sh:BlankNodeOrIRI ;
+    sh:property        shape:LocationRole2ShapeProperty, shape:ageRole2ShapeProperty, shape:birthDateRole2ShapeProperty,
+                       shape:emailRole2ShapeProperty, shape:familyNameRole2ShapeProperty,
+                       shape:followsRole2ShapeProperty, shape:friendOfRole2ShapeProperty,
+                       shape:genderRole2ShapeProperty, shape:givenNameRole2ShapeProperty,
+                       shape:homepageRole2ShapeProperty, shape:jobTitleRole2ShapeProperty,
+                       shape:likesRole2ShapeProperty, shape:makesPurchaseRole2ShapeProperty,
+                       shape:nationalityRole2ShapeProperty, shape:subscribesRole2ShapeProperty,
+                       shape:telephoneRole2ShapeProperty, shape:userIdRole2ShapeProperty ;
+    sh:targetClass     wsdbm:Role2 .
+
+shape:LocationRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         85214 ;
+    stat:distinctCount 240 ;
+    stat:maxCount      240 ;
+    stat:minCount      240 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            dc:Location .
+
+shape:ageRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         106250 ;
+    stat:distinctCount 9 ;
+    stat:maxCount      9 ;
+    stat:minCount      9 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:age .
+
+shape:birthDateRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         42508 ;
+    stat:distinctCount 10740 ;
+    stat:maxCount      10740 ;
+    stat:minCount      10740 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:birthDate .
+
+shape:emailRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         191180 ;
+    stat:distinctCount 190903 ;
+    stat:maxCount      190903 ;
+    stat:minCount      190903 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:email .
+
+shape:familyNameRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         148732 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:familyName .
+
+shape:followsRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         6969305 ;
+    stat:distinctCount 807489 ;
+    stat:maxCount      807489 ;
+    stat:minCount      807489 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:follows .
+
+shape:friendOfRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         9537358 ;
+    stat:distinctCount 999921 ;
+    stat:maxCount      999921 ;
+    stat:minCount      999921 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:friendOf .
+
+shape:genderRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         127313 ;
+    stat:distinctCount 2 ;
+    stat:maxCount      2 ;
+    stat:minCount      2 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:gender .
+
+shape:givenNameRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         148732 ;
+    stat:distinctCount 1780 ;
+    stat:maxCount      1780 ;
+    stat:minCount      1780 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            foaf:givenName .
+
+shape:homepageRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10423 ;
+    stat:distinctCount 10423 ;
+    stat:maxCount      10423 ;
+    stat:minCount      10423 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            foaf:homepage .
+
+shape:jobTitleRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10585 ;
+    stat:distinctCount 10585 ;
+    stat:maxCount      10585 ;
+    stat:minCount      10585 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:jobTitle .
+
+shape:likesRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         239391 ;
+    stat:distinctCount 121963 ;
+    stat:maxCount      121963 ;
+    stat:minCount      121963 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:likes .
+
+shape:makesPurchaseRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         110047 ;
+    stat:distinctCount 110047 ;
+    stat:maxCount      110047 ;
+    stat:minCount      110047 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:makesPurchase .
+
+shape:nationalityRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         42461 ;
+    stat:distinctCount 25 ;
+    stat:maxCount      25 ;
+    stat:minCount      25 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            schema:nationality .
+
+shape:subscribesRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         316818 ;
+    stat:distinctCount 49917 ;
+    stat:maxCount      49917 ;
+    stat:minCount      49917 ;
+    sh:nodeKind        sh:IRI ;
+    sh:path            wsdbm:subscribes .
+
+shape:telephoneRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         10603 ;
+    stat:distinctCount 10601 ;
+    stat:maxCount      10601 ;
+    stat:minCount      10601 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            schema:telephone .
+
+shape:userIdRole2ShapeProperty
+    a                  sh:PropertyShape ;
+    stat:count         212624 ;
+    stat:distinctCount 210080 ;
+    stat:maxCount      210080 ;
+    stat:minCount      210080 ;
+    sh:nodeKind        sh:Literal ;
+    sh:path            wsdbm:userId .

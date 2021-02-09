@@ -1,0 +1,9 @@
+SELECT  *
+WHERE
+  { ?f   <http://schema.org/hasPart>  ?v0 .
+    ?v0  <http://schema.org/productionCompany>  ?v4 ;
+         <http://schema.org/isPartOf>  ?v1 ;
+         <http://schema.org/actor>  ?v3 .
+    ?v1  <http://schema.org/alternateName>  ?v5
+  }
+

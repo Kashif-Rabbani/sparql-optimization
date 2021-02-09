@@ -1,0 +1,7 @@
+SELECT * WHERE {
+?v0 <http://schema.org/nationality> ?n .
+?v0 <http://purl.org/dc/terms/Location> ?v1 .
+?v0 <http://db.uwaterloo.ca/~galuc/wsdbm/gender> ?v3 .
+?v0 rdf:type <http://db.uwaterloo.ca/~galuc/wsdbm/Role2> .
+
+}

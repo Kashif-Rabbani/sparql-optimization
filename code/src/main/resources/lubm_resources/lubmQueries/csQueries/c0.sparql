@@ -1,0 +1,19 @@
+SELECT  *
+WHERE
+  {
+      { { { { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#degreeFrom>  ?U .
+              { ?X  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#advisor>  ?A .}
+            }
+            { ?X  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> .}
+          }
+          { ?Y  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateStudent> .
+            { ?Y  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#takesCourse>  ?C .}
+          }
+        }
+        { { ?A  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#teacherOf>  ?C .
+            { ?A  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#FullProfessor> .}
+          }
+          { ?C  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://swat.cse.lehigh.edu/onto/univ-bench.owl#GraduateCourse> .}
+        }
+      }
+  }

@@ -1,0 +1,13 @@
+SELECT  ?v0 ?v6 ?v5 ?v8 ?v9 ?v1 ?v4 ?v7 ?v3
+WHERE
+  { ?v0  <http://schema.org/knowsLanguage>  ?v7 ;
+         <http://schema.org/birthDate>  ?v4 ;
+         <http://schema.org/alumniOf>  ?v6 ;
+         <http://schema.org/alumniOf>  ?v9 ;
+         <http://schema.org/givenName>  ?v5 ;
+         <http://schema.org/hasOccupation>  ?v3 ;
+         <http://schema.org/nationality>  ?v8 ;
+         a                     <http://schema.org/Person> ;
+         <http://schema.org/alternateName>  ?v1
+  }
+

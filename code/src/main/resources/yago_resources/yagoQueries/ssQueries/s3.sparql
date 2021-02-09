@@ -1,0 +1,8 @@
+SELECT  ?v0 ?v4 ?v2 ?v3
+WHERE
+  { ?v0  <http://schema.org/producer>  ?v4 ;
+         a                     <http://schema.org/Movie> ;
+         <http://schema.org/genre>  ?v3 ;
+         <http://schema.org/actor>  ?v2
+  }
+

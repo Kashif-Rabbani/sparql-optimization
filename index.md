@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+## Optimizing SPARQL Queries using Shape Statistics
 
-You can use the [editor on GitHub](https://github.com/Kashif-Rabbani/sparql-optimization/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Cardinality estimates are essential for finding a good join order to improve query performance. In order to access the impact of having shapes statistics of RDF graphs on cardinality estimation, we have performed these experiments. We have generated global and shapes statistics and proposed a join ordering technique to make use of these statistics and estimate cardinalities to propose efficient query plans. We used synthetic (LUBM, WATDIV) and a real dataset (i.e., YAGO-4). We compared against the query plans proposed by Jena ARQ query engine, GraphDB, Characteristics Sets, and SumRDF approach. At this page we present technical details of our experiments such as how to generate these statistics, how to run the experiments, the links to the datasets, and finally the results.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Persistent URI & Licence:
+All of the data and results presented in our experimental study are available at
+[https://github.com/Kashif-Rabbani/sparql-optimization/](https://github.com/Kashif-Rabbani/sparql-optimization/) under [Apache License 2.0](https://github.com/Kashif-Rabbani/sparql-optimization/blob/main/LICENSE) .
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Datasets, Queries and the Statistics used:
+We used the following datasets, queries, and the statistics: 
 
-# Header 1
-## Header 2
-### Header 3
+Dataset | RDF Dump | Queries | Stats
+------------ | ------------- | -------------| -------------
+[LUBM](http://swat.cse.lehigh.edu/projects/lubm/)|[Download](http://130.226.98.152/datasets/lubm.n3)| [See LUBM Queries](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/queries/lubmQueries) | [Global and Shapes Statistics](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/globalAndShapesStats/lubmStats)
+[YAGO-4](http://swat.cse.lehigh.edu/projects/lubm/)|[Download](http://130.226.98.152/datasets/lubm.n3)| [See YAGO-4 Queries](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/queries/yago-4Queries) | [Global and Shapes Statistics](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/globalAndShapesStats/yagoStats)
+[WATDIV-100M](https://link.springer.com/chapter/10.1007/978-3-319-11964-9_13)|[Download](http://dsg.uwaterloo.ca/watdiv/watdiv.100M.tar.bz2) | [See WATDIV Queries](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/queries/watdivQueries)| [Global and Shapes Statistics](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/globalAndShapesStats/watdivStats)
+[WATDIV-1Billion](https://link.springer.com/chapter/10.1007/978-3-319-11964-9_13)|[Download](https://hobbitdata.informatik.uni-leipzig.de/intelligent-SPARQL-interface/) | [See WATDIV Queries](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/queries/watdivQueries)| [Global and Shapes Statistics](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/globalAndShapesStats/watdivStats)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### How does it work?
 
-**Bold** and _Italic_ and `Code` text
+#### 1. Generating SHACL Shapes Graph:
+      Given an RDF graph, we used shaclgen https://pypi.org/project/shaclgen/ library to generate its SHACL shapes graph.
 
-[Link](url) and ![Image](src)
-```
+#### 2. Generating Shapes Statistics:
+      We use Shapes Annotator component to extend SHACL shapes graph with the statistics of the RDF graph. E.g., for YAGO-4 dataset, we use the https://github.com/Kashif-Rabbani/sparql-optimization/blob/main/code/yagoConfig.properties file by setting the generateStatistics=true.
+  
+#### 3. Running Experiments:
+   We loaded all datasets in Jena TDB, bundled the code in a Jar and created a config file to run each type of experiment. For example we used the following pattern fo run experiments using:
+  
+  * ###### 1. Shapes Statistics
+        > Set the appropriate paths for the Jena TDB and the directory containing queries in the config files, e.g., for YAGO-4 dataset https://github.com/Kashif-Rabbani/sparql-optimization/blob/main/code/yagoConfig.properties
+        > Set the value fo shapeExec=true , set the number of times the query should run.
+        > Use java -jar code.jar yagoConfig.properties YAGO  &> output.log
+        > Logs will be saved in OUTPUT_QUERY directory as benchmarks.csv and also in output.log file. 
+        > Use these logs to plot the results.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  * ###### 2. Global Statistics
+        > Follow the same steps as mentioned above for Shapes Statistics, except set the value shapeExec=false and globalStatsExec=true.
+        
+  * ###### 3. Jena
+        > Follow the same steps as mentioned above except set the value shapeExec and globalStatsExec as false and jenaExec=true.
+    
+  * ###### 4. GraphDB
+        > We loaded each dataset in GraphDB and used 'onto:explain' feature explained https://graphdb.ontotext.com/documentation/standard/explain-plan.html to see the plans and their cardinalities. 
+        
+  * ###### 5. Characteristics Sets
+        > We used the extended characteristics sets implementation from https://github.com/gmontoya/federatedOptimizer to generate characteristics Sets for each dataset and then gnerated their query plans.
+  
+  * ###### 6. SumRDF Cardinality Estimator (official [link](https://www.cs.ox.ac.uk/isg/tools/SumRDF/))
+        > We implemented our join ordering algorithm using SumRDF cardinality estimator. The code is available in the folder https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/sumRDF 
 
-### Jekyll Themes
+     
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kashif-Rabbani/sparql-optimization/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Evaluation Results:
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Discussed in the paper and available in folder [results_data](https://github.com/Kashif-Rabbani/sparql-optimization/tree/main/results_data)
